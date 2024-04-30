@@ -1512,6 +1512,7 @@ public enum TablerIconToken: String {
     case circleNumber9Filled = "circle-number-9-filled"
     case circleOff = "circle-off"
     case circlePercentage = "circle-percentage"
+    case circlePercentageFilled = "circle-percentage-filled"
     case circlePlus = "circle-plus"
     case circlePlus2 = "circle-plus-2"
     case circleRectangle = "circle-rectangle"
@@ -1654,6 +1655,8 @@ public enum TablerIconToken: String {
     case codeAsterisk = "code-asterisk"
     case codeCircle = "code-circle"
     case codeCircle2 = "code-circle-2"
+    case codeCircle2Filled = "code-circle-2-filled"
+    case codeCircleFilled = "code-circle-filled"
     case codeDots = "code-dots"
     case codeMinus = "code-minus"
     case codeOff = "code-off"
@@ -2868,6 +2871,7 @@ public enum TablerIconToken: String {
     case horseshoe
     case hospital
     case hospitalCircle = "hospital-circle"
+    case hospitalCircleFilled = "hospital-circle-filled"
     case hotelService = "hotel-service"
     case hourglass
     case hourglassEmpty = "hourglass-empty"
@@ -2899,6 +2903,7 @@ public enum TablerIconToken: String {
     case idBadge2 = "id-badge-2"
     case idBadgeOff = "id-badge-off"
     case idOff = "id-off"
+    case ikosaedr
     case imageInPicture = "image-in-picture"
     case inbox
     case inboxOff = "inbox-off"
@@ -3160,6 +3165,7 @@ public enum TablerIconToken: String {
     case listSearch = "list-search"
     case listTree = "list-tree"
     case livePhoto = "live-photo"
+    case livePhotoFilled = "live-photo-filled"
     case livePhotoOff = "live-photo-off"
     case liveView = "live-view"
     case loadBalancer = "load-balancer"
@@ -3419,10 +3425,9 @@ public enum TablerIconToken: String {
     case messageBolt = "message-bolt"
     case messageCancel = "message-cancel"
     case messageChatbot = "message-chatbot"
+    case messageChatbotFilled = "message-chatbot-filled"
     case messageCheck = "message-check"
     case messageCircle = "message-circle"
-    case messageCircle2 = "message-circle-2"
-    case messageCircle2Filled = "message-circle-2-filled"
     case messageCircleBolt = "message-circle-bolt"
     case messageCircleCancel = "message-circle-cancel"
     case messageCircleCheck = "message-circle-check"
@@ -3431,6 +3436,7 @@ public enum TablerIconToken: String {
     case messageCircleDollar = "message-circle-dollar"
     case messageCircleDown = "message-circle-down"
     case messageCircleExclamation = "message-circle-exclamation"
+    case messageCircleFilled = "message-circle-filled"
     case messageCircleHeart = "message-circle-heart"
     case messageCircleMinus = "message-circle-minus"
     case messageCircleOff = "message-circle-off"
@@ -3442,6 +3448,7 @@ public enum TablerIconToken: String {
     case messageCircleShare = "message-circle-share"
     case messageCircleStar = "message-circle-star"
     case messageCircleUp = "message-circle-up"
+    case messageCircleUser = "message-circle-user"
     case messageCircleX = "message-circle-x"
     case messageCode = "message-code"
     case messageCog = "message-cog"
@@ -3449,6 +3456,7 @@ public enum TablerIconToken: String {
     case messageDots = "message-dots"
     case messageDown = "message-down"
     case messageExclamation = "message-exclamation"
+    case messageFilled = "message-filled"
     case messageForward = "message-forward"
     case messageHeart = "message-heart"
     case messageLanguage = "message-language"
@@ -3460,10 +3468,12 @@ public enum TablerIconToken: String {
     case messageQuestion = "message-question"
     case messageReply = "message-reply"
     case messageReport = "message-report"
+    case messageReportFilled = "message-report-filled"
     case messageSearch = "message-search"
     case messageShare = "message-share"
     case messageStar = "message-star"
     case messageUp = "message-up"
+    case messageUser = "message-user"
     case messageX = "message-x"
     case messages
     case messagesOff = "messages-off"
@@ -3734,8 +3744,10 @@ public enum TablerIconToken: String {
     case palette
     case paletteOff = "palette-off"
     case panoramaHorizontal = "panorama-horizontal"
+    case panoramaHorizontalFilled = "panorama-horizontal-filled"
     case panoramaHorizontalOff = "panorama-horizontal-off"
     case panoramaVertical = "panorama-vertical"
+    case panoramaVerticalFilled = "panorama-vertical-filled"
     case panoramaVerticalOff = "panorama-vertical-off"
     case paperBag = "paper-bag"
     case paperBagOff = "paper-bag-off"
@@ -3746,6 +3758,7 @@ public enum TablerIconToken: String {
     case parenthesesOff = "parentheses-off"
     case parking
     case parkingCircle = "parking-circle"
+    case parkingCircleFilled = "parking-circle-filled"
     case parkingOff = "parking-off"
     case password
     case passwordFingerprint = "password-fingerprint"
@@ -3971,6 +3984,7 @@ public enum TablerIconToken: String {
     case polygon
     case polygonOff = "polygon-off"
     case poo
+    case pooFilled = "poo-filled"
     case pool
     case poolOff = "pool-off"
     case power
@@ -4750,6 +4764,7 @@ public enum TablerIconToken: String {
     case sunOff = "sun-off"
     case sunWind = "sun-wind"
     case sunglasses
+    case sunglassesFilled = "sunglasses-filled"
     case sunrise
     case sunset
     case sunset2 = "sunset-2"
@@ -4851,6 +4866,7 @@ public enum TablerIconToken: String {
     case tie
     case tilde
     case tiltShift = "tilt-shift"
+    case tiltShiftFilled = "tilt-shift-filled"
     case tiltShiftOff = "tilt-shift-off"
     case timeDuration0 = "time-duration-0"
     case timeDuration10 = "time-duration-10"
@@ -6804,6 +6820,7 @@ public enum TablerIconToken: String {
         "circle-number-9-filled": "\u{f738}",
         "circle-off": "\u{ee40}",
         "circle-percentage": "\u{fd7b}",
+        "circle-percentage-filled": "\u{fed5}",
         "circle-plus": "\u{ea69}",
         "circle-plus-2": "\u{fc8d}",
         "circle-rectangle": "\u{f010}",
@@ -6946,6 +6963,8 @@ public enum TablerIconToken: String {
         "code-asterisk": "\u{f312}",
         "code-circle": "\u{f4ff}",
         "code-circle-2": "\u{f4fe}",
+        "code-circle-2-filled": "\u{fed4}",
+        "code-circle-filled": "\u{fed3}",
         "code-dots": "\u{f61a}",
         "code-minus": "\u{ee42}",
         "code-off": "\u{f0d0}",
@@ -8160,6 +8179,7 @@ public enum TablerIconToken: String {
         "horseshoe": "\u{fcb7}",
         "hospital": "\u{fd59}",
         "hospital-circle": "\u{fd58}",
+        "hospital-circle-filled": "\u{fed2}",
         "hotel-service": "\u{ef80}",
         "hourglass": "\u{ef93}",
         "hourglass-empty": "\u{f146}",
@@ -8191,6 +8211,7 @@ public enum TablerIconToken: String {
         "id-badge-2": "\u{f076}",
         "id-badge-off": "\u{f3fd}",
         "id-off": "\u{f149}",
+        "ikosaedr": "\u{fec6}",
         "image-in-picture": "\u{fd9f}",
         "inbox": "\u{eac4}",
         "inbox-off": "\u{f14a}",
@@ -8452,6 +8473,7 @@ public enum TablerIconToken: String {
         "list-search": "\u{eea9}",
         "list-tree": "\u{fafa}",
         "live-photo": "\u{eadf}",
+        "live-photo-filled": "\u{fed1}",
         "live-photo-off": "\u{f403}",
         "live-view": "\u{ec6b}",
         "load-balancer": "\u{fa5c}",
@@ -8711,10 +8733,9 @@ public enum TablerIconToken: String {
         "message-bolt": "\u{f96d}",
         "message-cancel": "\u{f96e}",
         "message-chatbot": "\u{f38a}",
+        "message-chatbot-filled": "\u{fed0}",
         "message-check": "\u{f96f}",
         "message-circle": "\u{eaed}",
-        "message-circle-2": "\u{ed3f}",
-        "message-circle-2-filled": "\u{f682}",
         "message-circle-bolt": "\u{f970}",
         "message-circle-cancel": "\u{f971}",
         "message-circle-check": "\u{f972}",
@@ -8723,6 +8744,7 @@ public enum TablerIconToken: String {
         "message-circle-dollar": "\u{f975}",
         "message-circle-down": "\u{f976}",
         "message-circle-exclamation": "\u{f977}",
+        "message-circle-filled": "\u{fecf}",
         "message-circle-heart": "\u{f978}",
         "message-circle-minus": "\u{f979}",
         "message-circle-off": "\u{ed40}",
@@ -8734,6 +8756,7 @@ public enum TablerIconToken: String {
         "message-circle-share": "\u{f97f}",
         "message-circle-star": "\u{f980}",
         "message-circle-up": "\u{f981}",
+        "message-circle-user": "\u{fec5}",
         "message-circle-x": "\u{f982}",
         "message-code": "\u{f013}",
         "message-cog": "\u{f983}",
@@ -8741,6 +8764,7 @@ public enum TablerIconToken: String {
         "message-dots": "\u{eaee}",
         "message-down": "\u{f985}",
         "message-exclamation": "\u{f986}",
+        "message-filled": "\u{fecd}",
         "message-forward": "\u{f28f}",
         "message-heart": "\u{f987}",
         "message-language": "\u{efae}",
@@ -8752,10 +8776,12 @@ public enum TablerIconToken: String {
         "message-question": "\u{f98b}",
         "message-reply": "\u{fd4d}",
         "message-report": "\u{ec9b}",
+        "message-report-filled": "\u{fece}",
         "message-search": "\u{f98c}",
         "message-share": "\u{f078}",
         "message-star": "\u{f98d}",
         "message-up": "\u{f98e}",
+        "message-user": "\u{fec4}",
         "message-x": "\u{f98f}",
         "messages": "\u{eb6c}",
         "messages-off": "\u{ed42}",
@@ -9026,8 +9052,10 @@ public enum TablerIconToken: String {
         "palette": "\u{eb01}",
         "palette-off": "\u{f16e}",
         "panorama-horizontal": "\u{ed33}",
+        "panorama-horizontal-filled": "\u{fecc}",
         "panorama-horizontal-off": "\u{f417}",
         "panorama-vertical": "\u{ed34}",
+        "panorama-vertical-filled": "\u{fecb}",
         "panorama-vertical-off": "\u{f418}",
         "paper-bag": "\u{f02f}",
         "paper-bag-off": "\u{f16f}",
@@ -9038,6 +9066,7 @@ public enum TablerIconToken: String {
         "parentheses-off": "\u{f171}",
         "parking": "\u{eb03}",
         "parking-circle": "\u{fd5a}",
+        "parking-circle-filled": "\u{feca}",
         "parking-off": "\u{f172}",
         "password": "\u{f4ca}",
         "password-fingerprint": "\u{fc7b}",
@@ -9263,6 +9292,7 @@ public enum TablerIconToken: String {
         "polygon": "\u{efd0}",
         "polygon-off": "\u{f182}",
         "poo": "\u{f258}",
+        "poo-filled": "\u{fec9}",
         "pool": "\u{ed91}",
         "pool-off": "\u{f41d}",
         "power": "\u{eb0d}",
@@ -10042,6 +10072,7 @@ public enum TablerIconToken: String {
         "sun-off": "\u{ed63}",
         "sun-wind": "\u{f238}",
         "sunglasses": "\u{f239}",
+        "sunglasses-filled": "\u{fec8}",
         "sunrise": "\u{ef1c}",
         "sunset": "\u{ec31}",
         "sunset-2": "\u{f23a}",
@@ -10143,6 +10174,7 @@ public enum TablerIconToken: String {
         "tie": "\u{f07e}",
         "tilde": "\u{f4a5}",
         "tilt-shift": "\u{eefe}",
+        "tilt-shift-filled": "\u{fec7}",
         "tilt-shift-off": "\u{f1b3}",
         "time-duration-0": "\u{fad4}",
         "time-duration-10": "\u{fad5}",
@@ -10585,6 +10617,6 @@ public enum TablerIconToken: String {
         "square-9": "\u{eeee}",
         "message-circle-2": "\u{eaed}",
         "discount-check-filled": "\u{f746}",
-        "message-circle-2-filled": "\u{#-NOT-FOUND-#}",
+        "message-circle-2-filled": "\u{fecf}",
     ]
 }
