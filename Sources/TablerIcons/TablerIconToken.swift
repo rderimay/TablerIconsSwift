@@ -1,7 +1,7 @@
 // swiftlint:disable file_length type_body_length
 // ATTENTION: This is an auto-generated file. Do not modify it manually.
 
-// Tabler Icons 3.2.0 by tabler - https://tabler.io
+// Tabler Icons 3.3.0 by tabler - https://tabler.io
 
 public enum TablerIconToken: String {
     case aB = "a-b"
@@ -5291,7 +5291,9 @@ public enum TablerIconToken: String {
     case square7 = "square-7" // Alias of square-number-7
     case square8 = "square-8" // Alias of square-number-8
     case square9 = "square-9" // Alias of square-number-9
+    case messageCircle2 = "message-circle-2" // Alias of message-circle
     case discountCheckFilled = "discount-check-filled" // Alias of rosette-discount-check-filled
+    case messageCircle2Filled = "message-circle-2-filled" // Alias of message-circle-filled
     
     public static let iconTokenMap = [
         "a-b": "\u{ec36}",
@@ -10581,6 +10583,8 @@ public enum TablerIconToken: String {
         "square-7": "\u{eeec}",
         "square-8": "\u{eeed}",
         "square-9": "\u{eeee}",
+        "message-circle-2": "\u{eaed}",
         "discount-check-filled": "\u{f746}",
+        "message-circle-2-filled": "\u{#-NOT-FOUND-#}",
     ]
 }
