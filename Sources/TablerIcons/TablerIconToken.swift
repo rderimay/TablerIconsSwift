@@ -1,7 +1,10 @@
 // swiftlint:disable file_length type_body_length
 // ATTENTION: This is an auto-generated file. Do not modify it manually.
 
-// Tabler Icons 3.3.0 by tabler - https://tabler.io
+/*!
+ * Tabler Icons 3.31.0 by tabler - https://tabler.io
+ * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
+ */
 
 public enum TablerIconToken: String {
     case aB = "a-b"
@@ -47,13 +50,17 @@ public enum TablerIconToken: String {
     case adjustmentsQuestion = "adjustments-question"
     case adjustmentsSearch = "adjustments-search"
     case adjustmentsShare = "adjustments-share"
+    case adjustmentsSpark = "adjustments-spark"
     case adjustmentsStar = "adjustments-star"
     case adjustmentsUp = "adjustments-up"
     case adjustmentsX = "adjustments-x"
     case aerialLift = "aerial-lift"
+    case aerialLiftFilled = "aerial-lift-filled"
     case affiliate
     case affiliateFilled = "affiliate-filled"
+    case ai
     case airBalloon = "air-balloon"
+    case airBalloonFilled = "air-balloon-filled"
     case airConditioning = "air-conditioning"
     case airConditioningDisabled = "air-conditioning-disabled"
     case airTrafficControl = "air-traffic-control"
@@ -65,6 +72,7 @@ public enum TablerIconToken: String {
     case alarmOff = "alarm-off"
     case alarmPlus = "alarm-plus"
     case alarmPlusFilled = "alarm-plus-filled"
+    case alarmSmoke = "alarm-smoke"
     case alarmSnooze = "alarm-snooze"
     case alarmSnoozeFilled = "alarm-snooze-filled"
     case album
@@ -123,11 +131,18 @@ public enum TablerIconToken: String {
     case alignCenter = "align-center"
     case alignJustified = "align-justified"
     case alignLeft = "align-left"
+    case alignLeft2 = "align-left-2"
     case alignRight = "align-right"
+    case alignRight2 = "align-right-2"
     case alpha
+    case alphabetArabic = "alphabet-arabic"
+    case alphabetBangla = "alphabet-bangla"
     case alphabetCyrillic = "alphabet-cyrillic"
     case alphabetGreek = "alphabet-greek"
+    case alphabetHebrew = "alphabet-hebrew"
+    case alphabetKorean = "alphabet-korean"
     case alphabetLatin = "alphabet-latin"
+    case alphabetThai = "alphabet-thai"
     case alt
     case ambulance
     case ampersand
@@ -155,6 +170,7 @@ public enum TablerIconToken: String {
     case appWindow = "app-window"
     case appWindowFilled = "app-window-filled"
     case apple
+    case appleFilled = "apple-filled"
     case apps
     case appsFilled = "apps-filled"
     case appsOff = "apps-off"
@@ -169,11 +185,17 @@ public enum TablerIconToken: String {
     case arrowAutofitContent = "arrow-autofit-content"
     case arrowAutofitContentFilled = "arrow-autofit-content-filled"
     case arrowAutofitDown = "arrow-autofit-down"
+    case arrowAutofitDownFilled = "arrow-autofit-down-filled"
     case arrowAutofitHeight = "arrow-autofit-height"
+    case arrowAutofitHeightFilled = "arrow-autofit-height-filled"
     case arrowAutofitLeft = "arrow-autofit-left"
+    case arrowAutofitLeftFilled = "arrow-autofit-left-filled"
     case arrowAutofitRight = "arrow-autofit-right"
+    case arrowAutofitRightFilled = "arrow-autofit-right-filled"
     case arrowAutofitUp = "arrow-autofit-up"
+    case arrowAutofitUpFilled = "arrow-autofit-up-filled"
     case arrowAutofitWidth = "arrow-autofit-width"
+    case arrowAutofitWidthFilled = "arrow-autofit-width-filled"
     case arrowBack = "arrow-back"
     case arrowBackUp = "arrow-back-up"
     case arrowBackUpDouble = "arrow-back-up-double"
@@ -229,13 +251,17 @@ public enum TablerIconToken: String {
     case arrowDown = "arrow-down"
     case arrowDownBar = "arrow-down-bar"
     case arrowDownCircle = "arrow-down-circle"
+    case arrowDownCircleFilled = "arrow-down-circle-filled"
+    case arrowDownDashed = "arrow-down-dashed"
     case arrowDownFromArc = "arrow-down-from-arc"
     case arrowDownLeft = "arrow-down-left"
     case arrowDownLeftCircle = "arrow-down-left-circle"
     case arrowDownRhombus = "arrow-down-rhombus"
+    case arrowDownRhombusFilled = "arrow-down-rhombus-filled"
     case arrowDownRight = "arrow-down-right"
     case arrowDownRightCircle = "arrow-down-right-circle"
     case arrowDownSquare = "arrow-down-square"
+    case arrowDownSquareFilled = "arrow-down-square-filled"
     case arrowDownTail = "arrow-down-tail"
     case arrowDownToArc = "arrow-down-to-arc"
     case arrowElbowLeft = "arrow-elbow-left"
@@ -245,14 +271,19 @@ public enum TablerIconToken: String {
     case arrowForwardUp = "arrow-forward-up"
     case arrowForwardUpDouble = "arrow-forward-up-double"
     case arrowGuide = "arrow-guide"
+    case arrowGuideFilled = "arrow-guide-filled"
     case arrowIteration = "arrow-iteration"
     case arrowLeft = "arrow-left"
     case arrowLeftBar = "arrow-left-bar"
     case arrowLeftCircle = "arrow-left-circle"
+    case arrowLeftCircleFilled = "arrow-left-circle-filled"
+    case arrowLeftDashed = "arrow-left-dashed"
     case arrowLeftFromArc = "arrow-left-from-arc"
     case arrowLeftRhombus = "arrow-left-rhombus"
+    case arrowLeftRhombusFilled = "arrow-left-rhombus-filled"
     case arrowLeftRight = "arrow-left-right"
     case arrowLeftSquare = "arrow-left-square"
+    case arrowLeftSquareFilled = "arrow-left-square-filled"
     case arrowLeftTail = "arrow-left-tail"
     case arrowLeftToArc = "arrow-left-to-arc"
     case arrowLoopLeft = "arrow-loop-left"
@@ -266,13 +297,21 @@ public enum TablerIconToken: String {
     case arrowMergeLeft = "arrow-merge-left"
     case arrowMergeRight = "arrow-merge-right"
     case arrowMoveDown = "arrow-move-down"
+    case arrowMoveDownFilled = "arrow-move-down-filled"
     case arrowMoveLeft = "arrow-move-left"
+    case arrowMoveLeftFilled = "arrow-move-left-filled"
     case arrowMoveRight = "arrow-move-right"
+    case arrowMoveRightFilled = "arrow-move-right-filled"
     case arrowMoveUp = "arrow-move-up"
+    case arrowMoveUpFilled = "arrow-move-up-filled"
     case arrowNarrowDown = "arrow-narrow-down"
+    case arrowNarrowDownDashed = "arrow-narrow-down-dashed"
     case arrowNarrowLeft = "arrow-narrow-left"
+    case arrowNarrowLeftDashed = "arrow-narrow-left-dashed"
     case arrowNarrowRight = "arrow-narrow-right"
+    case arrowNarrowRightDashed = "arrow-narrow-right-dashed"
     case arrowNarrowUp = "arrow-narrow-up"
+    case arrowNarrowUpDashed = "arrow-narrow-up-dashed"
     case arrowRampLeft = "arrow-ramp-left"
     case arrowRampLeft2 = "arrow-ramp-left-2"
     case arrowRampLeft3 = "arrow-ramp-left-3"
@@ -282,9 +321,13 @@ public enum TablerIconToken: String {
     case arrowRight = "arrow-right"
     case arrowRightBar = "arrow-right-bar"
     case arrowRightCircle = "arrow-right-circle"
+    case arrowRightCircleFilled = "arrow-right-circle-filled"
+    case arrowRightDashed = "arrow-right-dashed"
     case arrowRightFromArc = "arrow-right-from-arc"
     case arrowRightRhombus = "arrow-right-rhombus"
+    case arrowRightRhombusFilled = "arrow-right-rhombus-filled"
     case arrowRightSquare = "arrow-right-square"
+    case arrowRightSquareFilled = "arrow-right-square-filled"
     case arrowRightTail = "arrow-right-tail"
     case arrowRightToArc = "arrow-right-to-arc"
     case arrowRotaryFirstLeft = "arrow-rotary-first-left"
@@ -301,13 +344,17 @@ public enum TablerIconToken: String {
     case arrowUp = "arrow-up"
     case arrowUpBar = "arrow-up-bar"
     case arrowUpCircle = "arrow-up-circle"
+    case arrowUpCircleFilled = "arrow-up-circle-filled"
+    case arrowUpDashed = "arrow-up-dashed"
     case arrowUpFromArc = "arrow-up-from-arc"
     case arrowUpLeft = "arrow-up-left"
     case arrowUpLeftCircle = "arrow-up-left-circle"
     case arrowUpRhombus = "arrow-up-rhombus"
+    case arrowUpRhombusFilled = "arrow-up-rhombus-filled"
     case arrowUpRight = "arrow-up-right"
     case arrowUpRightCircle = "arrow-up-right-circle"
     case arrowUpSquare = "arrow-up-square"
+    case arrowUpSquareFilled = "arrow-up-square-filled"
     case arrowUpTail = "arrow-up-tail"
     case arrowUpToArc = "arrow-up-to-arc"
     case arrowWaveLeftDown = "arrow-wave-left-down"
@@ -351,6 +398,7 @@ public enum TablerIconToken: String {
     case arrowsSplit2 = "arrows-split-2"
     case arrowsTransferDown = "arrows-transfer-down"
     case arrowsTransferUp = "arrows-transfer-up"
+    case arrowsTransferUpDown = "arrows-transfer-up-down"
     case arrowsUp = "arrows-up"
     case arrowsUpDown = "arrows-up-down"
     case arrowsUpLeft = "arrows-up-left"
@@ -383,6 +431,8 @@ public enum TablerIconToken: String {
     case augmentedRealityOff = "augmented-reality-off"
     case auth2fa = "auth-2fa"
     case automaticGearbox = "automatic-gearbox"
+    case automaticGearboxFilled = "automatic-gearbox-filled"
+    case automation
     case avocado
     case award
     case awardFilled = "award-filled"
@@ -401,10 +451,13 @@ public enum TablerIconToken: String {
     case backspace
     case backspaceFilled = "backspace-filled"
     case badge
+    case badge2k = "badge-2k"
     case badge3d = "badge-3d"
     case badge3dFilled = "badge-3d-filled"
+    case badge3k = "badge-3k"
     case badge4k = "badge-4k"
     case badge4kFilled = "badge-4k-filled"
+    case badge5k = "badge-5k"
     case badge8k = "badge-8k"
     case badge8kFilled = "badge-8k-filled"
     case badgeAd = "badge-ad"
@@ -502,11 +555,29 @@ public enum TablerIconToken: String {
     case battery4 = "battery-4"
     case battery4Filled = "battery-4-filled"
     case batteryAutomotive = "battery-automotive"
+    case batteryAutomotiveFilled = "battery-automotive-filled"
     case batteryCharging = "battery-charging"
     case batteryCharging2 = "battery-charging-2"
     case batteryEco = "battery-eco"
+    case batteryExclamation = "battery-exclamation"
     case batteryFilled = "battery-filled"
     case batteryOff = "battery-off"
+    case batterySpark = "battery-spark"
+    case batteryVertical = "battery-vertical"
+    case batteryVertical1 = "battery-vertical-1"
+    case batteryVertical1Filled = "battery-vertical-1-filled"
+    case batteryVertical2 = "battery-vertical-2"
+    case batteryVertical2Filled = "battery-vertical-2-filled"
+    case batteryVertical3 = "battery-vertical-3"
+    case batteryVertical3Filled = "battery-vertical-3-filled"
+    case batteryVertical4 = "battery-vertical-4"
+    case batteryVertical4Filled = "battery-vertical-4-filled"
+    case batteryVerticalCharging = "battery-vertical-charging"
+    case batteryVerticalCharging2 = "battery-vertical-charging-2"
+    case batteryVerticalEco = "battery-vertical-eco"
+    case batteryVerticalExclamation = "battery-vertical-exclamation"
+    case batteryVerticalFilled = "battery-vertical-filled"
+    case batteryVerticalOff = "battery-vertical-off"
     case beach
     case beachOff = "beach-off"
     case bed
@@ -552,11 +623,16 @@ public enum TablerIconToken: String {
     case beta
     case bible
     case bike
+    case bikeFilled = "bike-filled"
     case bikeOff = "bike-off"
     case binary
     case binaryOff = "binary-off"
     case binaryTree = "binary-tree"
     case binaryTree2 = "binary-tree-2"
+    case binaryTree2Filled = "binary-tree-2-filled"
+    case binaryTreeFilled = "binary-tree-filled"
+    case binoculars
+    case binocularsFilled = "binoculars-filled"
     case biohazard
     case biohazardFilled = "biohazard-filled"
     case biohazardOff = "biohazard-off"
@@ -568,9 +644,11 @@ public enum TablerIconToken: String {
     case bleachOff = "bleach-off"
     case blendMode = "blend-mode"
     case blender
+    case blenderFilled = "blender-filled"
     case blob
     case blobFilled = "blob-filled"
     case blockquote
+    case blocks
     case bluetooth
     case bluetoothConnected = "bluetooth-connected"
     case bluetoothOff = "bluetooth-off"
@@ -582,6 +660,7 @@ public enum TablerIconToken: String {
     case bold
     case boldOff = "bold-off"
     case bolt
+    case boltFilled = "bolt-filled"
     case boltOff = "bolt-off"
     case bomb
     case bombFilled = "bomb-filled"
@@ -589,6 +668,7 @@ public enum TablerIconToken: String {
     case boneFilled = "bone-filled"
     case boneOff = "bone-off"
     case bong
+    case bongFilled = "bong-filled"
     case bongOff = "bong-off"
     case book
     case book2 = "book-2"
@@ -649,6 +729,7 @@ public enum TablerIconToken: String {
     case bowlFilled = "bowl-filled"
     case bowlSpoon = "bowl-spoon"
     case bowlSpoonFilled = "bowl-spoon-filled"
+    case bowling
     case box
     case boxAlignBottom = "box-align-bottom"
     case boxAlignBottomFilled = "box-align-bottom-filled"
@@ -682,6 +763,7 @@ public enum TablerIconToken: String {
     case boxMultiple7 = "box-multiple-7"
     case boxMultiple8 = "box-multiple-8"
     case boxMultiple9 = "box-multiple-9"
+    case boxMultipleFilled = "box-multiple-filled"
     case boxOff = "box-off"
     case boxPadding = "box-padding"
     case braces
@@ -698,6 +780,12 @@ public enum TablerIconToken: String {
     case brand4chan = "brand-4chan"
     case brandAbstract = "brand-abstract"
     case brandAdobe = "brand-adobe"
+    case brandAdobeAfterEffect = "brand-adobe-after-effect"
+    case brandAdobeIllustrator = "brand-adobe-illustrator"
+    case brandAdobeIndesign = "brand-adobe-indesign"
+    case brandAdobePhotoshop = "brand-adobe-photoshop"
+    case brandAdobePremier = "brand-adobe-premier"
+    case brandAdobeXd = "brand-adobe-xd"
     case brandAdonisJs = "brand-adonis-js"
     case brandAirbnb = "brand-airbnb"
     case brandAirtable = "brand-airtable"
@@ -706,16 +794,19 @@ public enum TablerIconToken: String {
     case brandAlpineJs = "brand-alpine-js"
     case brandAmazon = "brand-amazon"
     case brandAmd = "brand-amd"
+    case brandAmie = "brand-amie"
     case brandAmigo = "brand-amigo"
     case brandAmongUs = "brand-among-us"
     case brandAndroid = "brand-android"
     case brandAngular = "brand-angular"
+    case brandAngularFilled = "brand-angular-filled"
     case brandAnsible = "brand-ansible"
     case brandAo3 = "brand-ao3"
     case brandAppgallery = "brand-appgallery"
     case brandApple = "brand-apple"
     case brandAppleArcade = "brand-apple-arcade"
     case brandAppleFilled = "brand-apple-filled"
+    case brandAppleNews = "brand-apple-news"
     case brandApplePodcast = "brand-apple-podcast"
     case brandAppstore = "brand-appstore"
     case brandArc = "brand-arc"
@@ -730,11 +821,13 @@ public enum TablerIconToken: String {
     case brandBandcamp = "brand-bandcamp"
     case brandBandlab = "brand-bandlab"
     case brandBeats = "brand-beats"
+    case brandBebo = "brand-bebo"
     case brandBehance = "brand-behance"
     case brandBilibili = "brand-bilibili"
     case brandBinance = "brand-binance"
     case brandBing = "brand-bing"
     case brandBitbucket = "brand-bitbucket"
+    case brandBitbucketFilled = "brand-bitbucket-filled"
     case brandBlackberry = "brand-blackberry"
     case brandBlender = "brand-blender"
     case brandBlogger = "brand-blogger"
@@ -847,6 +940,7 @@ public enum TablerIconToken: String {
     case brandGrindr = "brand-grindr"
     case brandGuardian = "brand-guardian"
     case brandGumroad = "brand-gumroad"
+    case brandHackerrank = "brand-hackerrank"
     case brandHbo = "brand-hbo"
     case brandHeadlessui = "brand-headlessui"
     case brandHexo = "brand-hexo"
@@ -854,6 +948,7 @@ public enum TablerIconToken: String {
     case brandHtml5 = "brand-html5"
     case brandInertia = "brand-inertia"
     case brandInstagram = "brand-instagram"
+    case brandInstagramFilled = "brand-instagram-filled"
     case brandIntercom = "brand-intercom"
     case brandItch = "brand-itch"
     case brandJavascript = "brand-javascript"
@@ -861,6 +956,7 @@ public enum TablerIconToken: String {
     case brandKakoTalk = "brand-kako-talk"
     case brandKbin = "brand-kbin"
     case brandKick = "brand-kick"
+    case brandKickFilled = "brand-kick-filled"
     case brandKickstarter = "brand-kickstarter"
     case brandKotlin = "brand-kotlin"
     case brandLaravel = "brand-laravel"
@@ -869,6 +965,7 @@ public enum TablerIconToken: String {
     case brandLetterboxd = "brand-letterboxd"
     case brandLine = "brand-line"
     case brandLinkedin = "brand-linkedin"
+    case brandLinkedinFilled = "brand-linkedin-filled"
     case brandLinktree = "brand-linktree"
     case brandLinqpad = "brand-linqpad"
     case brandLivewire = "brand-livewire"
@@ -883,7 +980,9 @@ public enum TablerIconToken: String {
     case brandMeetup = "brand-meetup"
     case brandMercedes = "brand-mercedes"
     case brandMessenger = "brand-messenger"
+    case brandMessengerFilled = "brand-messenger-filled"
     case brandMeta = "brand-meta"
+    case brandMetabrainz = "brand-metabrainz"
     case brandMinecraft = "brand-minecraft"
     case brandMiniprogram = "brand-miniprogram"
     case brandMixpanel = "brand-mixpanel"
@@ -911,9 +1010,11 @@ public enum TablerIconToken: String {
     case brandOnedrive = "brand-onedrive"
     case brandOnlyfans = "brand-onlyfans"
     case brandOpenSource = "brand-open-source"
+    case brandOpenSourceFilled = "brand-open-source-filled"
     case brandOpenai = "brand-openai"
     case brandOpenvpn = "brand-openvpn"
     case brandOpera = "brand-opera"
+    case brandOperaFilled = "brand-opera-filled"
     case brandPagekit = "brand-pagekit"
     case brandParsinta = "brand-parsinta"
     case brandPatreon = "brand-patreon"
@@ -926,6 +1027,7 @@ public enum TablerIconToken: String {
     case brandPhp = "brand-php"
     case brandPicsart = "brand-picsart"
     case brandPinterest = "brand-pinterest"
+    case brandPinterestFilled = "brand-pinterest-filled"
     case brandPlanetscale = "brand-planetscale"
     case brandPnpm = "brand-pnpm"
     case brandPocket = "brand-pocket"
@@ -956,9 +1058,11 @@ public enum TablerIconToken: String {
     case brandShazam = "brand-shazam"
     case brandShopee = "brand-shopee"
     case brandSketch = "brand-sketch"
+    case brandSketchFilled = "brand-sketch-filled"
     case brandSkype = "brand-skype"
     case brandSlack = "brand-slack"
     case brandSnapchat = "brand-snapchat"
+    case brandSnapchatFilled = "brand-snapchat-filled"
     case brandSnapseed = "brand-snapseed"
     case brandSnowflake = "brand-snowflake"
     case brandSocketIo = "brand-socket-io"
@@ -971,12 +1075,14 @@ public enum TablerIconToken: String {
     case brandStackoverflow = "brand-stackoverflow"
     case brandStackshare = "brand-stackshare"
     case brandSteam = "brand-steam"
+    case brandSteamFilled = "brand-steam-filled"
     case brandStocktwits = "brand-stocktwits"
     case brandStorj = "brand-storj"
     case brandStorybook = "brand-storybook"
     case brandStorytel = "brand-storytel"
     case brandStrava = "brand-strava"
     case brandStripe = "brand-stripe"
+    case brandStripeFilled = "brand-stripe-filled"
     case brandSublimeText = "brand-sublime-text"
     case brandSugarizer = "brand-sugarizer"
     case brandSupabase = "brand-supabase"
@@ -987,12 +1093,14 @@ public enum TablerIconToken: String {
     case brandSwift = "brand-swift"
     case brandSymfony = "brand-symfony"
     case brandTabler = "brand-tabler"
+    case brandTablerFilled = "brand-tabler-filled"
     case brandTailwind = "brand-tailwind"
     case brandTaobao = "brand-taobao"
     case brandTeams = "brand-teams"
     case brandTed = "brand-ted"
     case brandTelegram = "brand-telegram"
     case brandTerraform = "brand-terraform"
+    case brandTesla = "brand-tesla"
     case brandTether = "brand-tether"
     case brandThingiverse = "brand-thingiverse"
     case brandThreads = "brand-threads"
@@ -1001,12 +1109,14 @@ public enum TablerIconToken: String {
     case brandTiktok = "brand-tiktok"
     case brandTiktokFilled = "brand-tiktok-filled"
     case brandTinder = "brand-tinder"
+    case brandTinderFilled = "brand-tinder-filled"
     case brandTopbuzz = "brand-topbuzz"
     case brandTorchain = "brand-torchain"
     case brandToyota = "brand-toyota"
     case brandTrello = "brand-trello"
     case brandTripadvisor = "brand-tripadvisor"
     case brandTumblr = "brand-tumblr"
+    case brandTumblrFilled = "brand-tumblr-filled"
     case brandTwilio = "brand-twilio"
     case brandTwitch = "brand-twitch"
     case brandTwitter = "brand-twitter"
@@ -1019,7 +1129,9 @@ public enum TablerIconToken: String {
     case brandUpwork = "brand-upwork"
     case brandValorant = "brand-valorant"
     case brandVercel = "brand-vercel"
+    case brandVercelFilled = "brand-vercel-filled"
     case brandVimeo = "brand-vimeo"
+    case brandVimeoFilled = "brand-vimeo-filled"
     case brandVinted = "brand-vinted"
     case brandVisa = "brand-visa"
     case brandVisualStudio = "brand-visual-studio"
@@ -1036,9 +1148,12 @@ public enum TablerIconToken: String {
     case brandWebflow = "brand-webflow"
     case brandWechat = "brand-wechat"
     case brandWeibo = "brand-weibo"
+    case brandWeiboFilled = "brand-weibo-filled"
     case brandWhatsapp = "brand-whatsapp"
+    case brandWhatsappFilled = "brand-whatsapp-filled"
     case brandWikipedia = "brand-wikipedia"
     case brandWindows = "brand-windows"
+    case brandWindowsFilled = "brand-windows-filled"
     case brandWindy = "brand-windy"
     case brandWish = "brand-wish"
     case brandWix = "brand-wix"
@@ -1087,8 +1202,11 @@ public enum TablerIconToken: String {
     case broadcastOff = "broadcast-off"
     case browser
     case browserCheck = "browser-check"
+    case browserMaximize = "browser-maximize"
+    case browserMinus = "browser-minus"
     case browserOff = "browser-off"
     case browserPlus = "browser-plus"
+    case browserShare = "browser-share"
     case browserX = "browser-x"
     case brush
     case brushOff = "brush-off"
@@ -1096,7 +1214,10 @@ public enum TablerIconToken: String {
     case bubbleFilled = "bubble-filled"
     case bubbleMinus = "bubble-minus"
     case bubblePlus = "bubble-plus"
+    case bubbleTea = "bubble-tea"
+    case bubbleTea2 = "bubble-tea-2"
     case bubbleText = "bubble-text"
+    case bubbleTextFilled = "bubble-text-filled"
     case bubbleX = "bubble-x"
     case bucket
     case bucketDroplet = "bucket-droplet"
@@ -1105,16 +1226,19 @@ public enum TablerIconToken: String {
     case bugFilled = "bug-filled"
     case bugOff = "bug-off"
     case building
+    case buildingAirport = "building-airport"
     case buildingArch = "building-arch"
     case buildingBank = "building-bank"
     case buildingBridge = "building-bridge"
     case buildingBridge2 = "building-bridge-2"
     case buildingBroadcastTower = "building-broadcast-tower"
     case buildingBroadcastTowerFilled = "building-broadcast-tower-filled"
+    case buildingBurjAlArab = "building-burj-al-arab"
     case buildingCarousel = "building-carousel"
     case buildingCastle = "building-castle"
     case buildingChurch = "building-church"
     case buildingCircus = "building-circus"
+    case buildingCog = "building-cog"
     case buildingCommunity = "building-community"
     case buildingCottage = "building-cottage"
     case buildingEstate = "building-estate"
@@ -1123,30 +1247,37 @@ public enum TablerIconToken: String {
     case buildingFortress = "building-fortress"
     case buildingHospital = "building-hospital"
     case buildingLighthouse = "building-lighthouse"
+    case buildingMinus = "building-minus"
     case buildingMonument = "building-monument"
     case buildingMosque = "building-mosque"
+    case buildingOff = "building-off"
     case buildingPavilion = "building-pavilion"
+    case buildingPlus = "building-plus"
     case buildingSkyscraper = "building-skyscraper"
     case buildingStadium = "building-stadium"
     case buildingStore = "building-store"
     case buildingTunnel = "building-tunnel"
     case buildingWarehouse = "building-warehouse"
     case buildingWindTurbine = "building-wind-turbine"
+    case buildings
     case bulb
     case bulbFilled = "bulb-filled"
     case bulbOff = "bulb-off"
     case bulldozer
     case burger
     case bus
+    case busFilled = "bus-filled"
     case busOff = "bus-off"
     case busStop = "bus-stop"
     case businessplan
     case butterfly
+    case butterflyFilled = "butterfly-filled"
     case cactus
     case cactusFilled = "cactus-filled"
     case cactusOff = "cactus-off"
     case cake
     case cakeOff = "cake-off"
+    case cakeRoll = "cake-roll"
     case calculator
     case calculatorFilled = "calculator-filled"
     case calculatorOff = "calculator-off"
@@ -1162,11 +1293,13 @@ public enum TablerIconToken: String {
     case calendarDown = "calendar-down"
     case calendarDue = "calendar-due"
     case calendarEvent = "calendar-event"
+    case calendarEventFilled = "calendar-event-filled"
     case calendarExclamation = "calendar-exclamation"
     case calendarFilled = "calendar-filled"
     case calendarHeart = "calendar-heart"
     case calendarMinus = "calendar-minus"
     case calendarMonth = "calendar-month"
+    case calendarMonthFilled = "calendar-month-filled"
     case calendarOff = "calendar-off"
     case calendarPause = "calendar-pause"
     case calendarPin = "calendar-pin"
@@ -1183,8 +1316,11 @@ public enum TablerIconToken: String {
     case calendarUp = "calendar-up"
     case calendarUser = "calendar-user"
     case calendarWeek = "calendar-week"
+    case calendarWeekFilled = "calendar-week-filled"
     case calendarX = "calendar-x"
     case camera
+    case cameraAi = "camera-ai"
+    case cameraBitcoin = "camera-bitcoin"
     case cameraBolt = "camera-bolt"
     case cameraCancel = "camera-cancel"
     case cameraCheck = "camera-check"
@@ -1196,6 +1332,7 @@ public enum TablerIconToken: String {
     case cameraFilled = "camera-filled"
     case cameraHeart = "camera-heart"
     case cameraMinus = "camera-minus"
+    case cameraMoon = "camera-moon"
     case cameraOff = "camera-off"
     case cameraPause = "camera-pause"
     case cameraPin = "camera-pin"
@@ -1205,18 +1342,24 @@ public enum TablerIconToken: String {
     case cameraSearch = "camera-search"
     case cameraSelfie = "camera-selfie"
     case cameraShare = "camera-share"
+    case cameraSpark = "camera-spark"
     case cameraStar = "camera-star"
     case cameraUp = "camera-up"
     case cameraX = "camera-x"
     case camper
     case campfire
     case campfireFilled = "campfire-filled"
+    case cancel
     case candle
     case candleFilled = "candle-filled"
     case candy
     case candyOff = "candy-off"
     case cane
     case cannabis
+    case cannabisFilled = "cannabis-filled"
+    case capProjecting = "cap-projecting"
+    case capRounded = "cap-rounded"
+    case capStraight = "cap-straight"
     case capsule
     case capsuleFilled = "capsule-filled"
     case capsuleHorizontal = "capsule-horizontal"
@@ -1226,20 +1369,28 @@ public enum TablerIconToken: String {
     case captureOff = "capture-off"
     case car
     case car4wd = "car-4wd"
+    case car4wdFilled = "car-4wd-filled"
     case carCrane = "car-crane"
+    case carCraneFilled = "car-crane-filled"
     case carCrash = "car-crash"
     case carFan = "car-fan"
     case carFan1 = "car-fan-1"
     case carFan2 = "car-fan-2"
     case carFan3 = "car-fan-3"
     case carFanAuto = "car-fan-auto"
+    case carFanFilled = "car-fan-filled"
+    case carFilled = "car-filled"
     case carGarage = "car-garage"
     case carOff = "car-off"
     case carSuv = "car-suv"
+    case carSuvFilled = "car-suv-filled"
     case carTurbine = "car-turbine"
     case carambola
+    case carambolaFilled = "carambola-filled"
     case caravan
+    case caravanFilled = "caravan-filled"
     case cardboards
+    case cardboardsFilled = "cardboards-filled"
     case cardboardsOff = "cardboards-off"
     case cards
     case cardsFilled = "cards-filled"
@@ -1263,9 +1414,22 @@ public enum TablerIconToken: String {
     case carrotOff = "carrot-off"
     case cash
     case cashBanknote = "cash-banknote"
+    case cashBanknoteEdit = "cash-banknote-edit"
     case cashBanknoteFilled = "cash-banknote-filled"
+    case cashBanknoteHeart = "cash-banknote-heart"
+    case cashBanknoteMinus = "cash-banknote-minus"
+    case cashBanknoteMove = "cash-banknote-move"
+    case cashBanknoteMoveBack = "cash-banknote-move-back"
     case cashBanknoteOff = "cash-banknote-off"
+    case cashBanknotePlus = "cash-banknote-plus"
+    case cashEdit = "cash-edit"
+    case cashHeart = "cash-heart"
+    case cashMinus = "cash-minus"
+    case cashMove = "cash-move"
+    case cashMoveBack = "cash-move-back"
     case cashOff = "cash-off"
+    case cashPlus = "cash-plus"
+    case cashRegister = "cash-register"
     case cast
     case castOff = "cast-off"
     case cat
@@ -1291,6 +1455,7 @@ public enum TablerIconToken: String {
     case chalkboard
     case chalkboardOff = "chalkboard-off"
     case chargingPile = "charging-pile"
+    case chargingPileFilled = "charging-pile-filled"
     case chartArcs = "chart-arcs"
     case chartArcs3 = "chart-arcs-3"
     case chartArea = "chart-area"
@@ -1301,11 +1466,15 @@ public enum TablerIconToken: String {
     case chartArrowsVertical = "chart-arrows-vertical"
     case chartBar = "chart-bar"
     case chartBarOff = "chart-bar-off"
+    case chartBarPopular = "chart-bar-popular"
     case chartBubble = "chart-bubble"
     case chartBubbleFilled = "chart-bubble-filled"
     case chartCandle = "chart-candle"
     case chartCandleFilled = "chart-candle-filled"
     case chartCircles = "chart-circles"
+    case chartCohort = "chart-cohort"
+    case chartColumn = "chart-column"
+    case chartCovariate = "chart-covariate"
     case chartDonut = "chart-donut"
     case chartDonut2 = "chart-donut-2"
     case chartDonut3 = "chart-donut-3"
@@ -1313,8 +1482,12 @@ public enum TablerIconToken: String {
     case chartDonutFilled = "chart-donut-filled"
     case chartDots = "chart-dots"
     case chartDots2 = "chart-dots-2"
+    case chartDots2Filled = "chart-dots-2-filled"
     case chartDots3 = "chart-dots-3"
+    case chartDots3Filled = "chart-dots-3-filled"
     case chartDotsFilled = "chart-dots-filled"
+    case chartFunnel = "chart-funnel"
+    case chartFunnelFilled = "chart-funnel-filled"
     case chartGridDots = "chart-grid-dots"
     case chartGridDotsFilled = "chart-grid-dots-filled"
     case chartHistogram = "chart-histogram"
@@ -1322,8 +1495,11 @@ public enum TablerIconToken: String {
     case chartLine = "chart-line"
     case chartPie = "chart-pie"
     case chartPie2 = "chart-pie-2"
+    case chartPie2Filled = "chart-pie-2-filled"
     case chartPie3 = "chart-pie-3"
+    case chartPie3Filled = "chart-pie-3-filled"
     case chartPie4 = "chart-pie-4"
+    case chartPie4Filled = "chart-pie-4-filled"
     case chartPieFilled = "chart-pie-filled"
     case chartPieOff = "chart-pie-off"
     case chartPpf = "chart-ppf"
@@ -1339,6 +1515,7 @@ public enum TablerIconToken: String {
     case checkupList = "checkup-list"
     case cheese
     case chefHat = "chef-hat"
+    case chefHatFilled = "chef-hat-filled"
     case chefHatOff = "chef-hat-off"
     case cherry
     case cherryFilled = "cherry-filled"
@@ -1379,6 +1556,7 @@ public enum TablerIconToken: String {
     case chisel
     case christmasBall = "christmas-ball"
     case christmasTree = "christmas-tree"
+    case christmasTreeFilled = "christmas-tree-filled"
     case christmasTreeOff = "christmas-tree-off"
     case circle
     case circleArrowDown = "circle-arrow-down"
@@ -1398,21 +1576,59 @@ public enum TablerIconToken: String {
     case circleArrowUpRight = "circle-arrow-up-right"
     case circleArrowUpRightFilled = "circle-arrow-up-right-filled"
     case circleCaretDown = "circle-caret-down"
+    case circleCaretDownFilled = "circle-caret-down-filled"
     case circleCaretLeft = "circle-caret-left"
+    case circleCaretLeftFilled = "circle-caret-left-filled"
     case circleCaretRight = "circle-caret-right"
+    case circleCaretRightFilled = "circle-caret-right-filled"
     case circleCaretUp = "circle-caret-up"
+    case circleCaretUpFilled = "circle-caret-up-filled"
     case circleCheck = "circle-check"
     case circleCheckFilled = "circle-check-filled"
     case circleChevronDown = "circle-chevron-down"
+    case circleChevronDownFilled = "circle-chevron-down-filled"
     case circleChevronLeft = "circle-chevron-left"
+    case circleChevronLeftFilled = "circle-chevron-left-filled"
     case circleChevronRight = "circle-chevron-right"
+    case circleChevronRightFilled = "circle-chevron-right-filled"
     case circleChevronUp = "circle-chevron-up"
+    case circleChevronUpFilled = "circle-chevron-up-filled"
     case circleChevronsDown = "circle-chevrons-down"
+    case circleChevronsDownFilled = "circle-chevrons-down-filled"
     case circleChevronsLeft = "circle-chevrons-left"
+    case circleChevronsLeftFilled = "circle-chevrons-left-filled"
     case circleChevronsRight = "circle-chevrons-right"
+    case circleChevronsRightFilled = "circle-chevrons-right-filled"
     case circleChevronsUp = "circle-chevrons-up"
+    case circleChevronsUpFilled = "circle-chevrons-up-filled"
     case circleDashed = "circle-dashed"
     case circleDashedCheck = "circle-dashed-check"
+    case circleDashedLetterA = "circle-dashed-letter-a"
+    case circleDashedLetterB = "circle-dashed-letter-b"
+    case circleDashedLetterC = "circle-dashed-letter-c"
+    case circleDashedLetterD = "circle-dashed-letter-d"
+    case circleDashedLetterE = "circle-dashed-letter-e"
+    case circleDashedLetterF = "circle-dashed-letter-f"
+    case circleDashedLetterG = "circle-dashed-letter-g"
+    case circleDashedLetterH = "circle-dashed-letter-h"
+    case circleDashedLetterI = "circle-dashed-letter-i"
+    case circleDashedLetterJ = "circle-dashed-letter-j"
+    case circleDashedLetterK = "circle-dashed-letter-k"
+    case circleDashedLetterL = "circle-dashed-letter-l"
+    case circleDashedLetterM = "circle-dashed-letter-m"
+    case circleDashedLetterN = "circle-dashed-letter-n"
+    case circleDashedLetterO = "circle-dashed-letter-o"
+    case circleDashedLetterP = "circle-dashed-letter-p"
+    case circleDashedLetterQ = "circle-dashed-letter-q"
+    case circleDashedLetterR = "circle-dashed-letter-r"
+    case circleDashedLetterS = "circle-dashed-letter-s"
+    case circleDashedLetterT = "circle-dashed-letter-t"
+    case circleDashedLetterU = "circle-dashed-letter-u"
+    case circleDashedLetterV = "circle-dashed-letter-v"
+    case circleDashedLetterW = "circle-dashed-letter-w"
+    case circleDashedLetterX = "circle-dashed-letter-x"
+    case circleDashedLetterY = "circle-dashed-letter-y"
+    case circleDashedLetterZ = "circle-dashed-letter-z"
     case circleDashedMinus = "circle-dashed-minus"
     case circleDashedNumber0 = "circle-dashed-number-0"
     case circleDashedNumber1 = "circle-dashed-number-1"
@@ -1430,6 +1646,32 @@ public enum TablerIconToken: String {
     case circleDot = "circle-dot"
     case circleDotFilled = "circle-dot-filled"
     case circleDotted = "circle-dotted"
+    case circleDottedLetterA = "circle-dotted-letter-a"
+    case circleDottedLetterB = "circle-dotted-letter-b"
+    case circleDottedLetterC = "circle-dotted-letter-c"
+    case circleDottedLetterD = "circle-dotted-letter-d"
+    case circleDottedLetterE = "circle-dotted-letter-e"
+    case circleDottedLetterF = "circle-dotted-letter-f"
+    case circleDottedLetterG = "circle-dotted-letter-g"
+    case circleDottedLetterH = "circle-dotted-letter-h"
+    case circleDottedLetterI = "circle-dotted-letter-i"
+    case circleDottedLetterJ = "circle-dotted-letter-j"
+    case circleDottedLetterK = "circle-dotted-letter-k"
+    case circleDottedLetterL = "circle-dotted-letter-l"
+    case circleDottedLetterM = "circle-dotted-letter-m"
+    case circleDottedLetterN = "circle-dotted-letter-n"
+    case circleDottedLetterO = "circle-dotted-letter-o"
+    case circleDottedLetterP = "circle-dotted-letter-p"
+    case circleDottedLetterQ = "circle-dotted-letter-q"
+    case circleDottedLetterR = "circle-dotted-letter-r"
+    case circleDottedLetterS = "circle-dotted-letter-s"
+    case circleDottedLetterT = "circle-dotted-letter-t"
+    case circleDottedLetterU = "circle-dotted-letter-u"
+    case circleDottedLetterV = "circle-dotted-letter-v"
+    case circleDottedLetterW = "circle-dotted-letter-w"
+    case circleDottedLetterX = "circle-dotted-letter-x"
+    case circleDottedLetterY = "circle-dotted-letter-y"
+    case circleDottedLetterZ = "circle-dotted-letter-z"
     case circleFilled = "circle-filled"
     case circleHalf = "circle-half"
     case circleHalf2 = "circle-half-2"
@@ -1515,7 +1757,9 @@ public enum TablerIconToken: String {
     case circlePercentageFilled = "circle-percentage-filled"
     case circlePlus = "circle-plus"
     case circlePlus2 = "circle-plus-2"
+    case circlePlusFilled = "circle-plus-filled"
     case circleRectangle = "circle-rectangle"
+    case circleRectangleFilled = "circle-rectangle-filled"
     case circleRectangleOff = "circle-rectangle-off"
     case circleSquare = "circle-square"
     case circleTriangle = "circle-triangle"
@@ -1546,22 +1790,32 @@ public enum TablerIconToken: String {
     case clearAll = "clear-all"
     case clearFormatting = "clear-formatting"
     case click
+    case cliffJumping = "cliff-jumping"
     case clipboard
     case clipboardCheck = "clipboard-check"
+    case clipboardCheckFilled = "clipboard-check-filled"
     case clipboardCopy = "clipboard-copy"
     case clipboardData = "clipboard-data"
+    case clipboardDataFilled = "clipboard-data-filled"
+    case clipboardFilled = "clipboard-filled"
     case clipboardHeart = "clipboard-heart"
     case clipboardList = "clipboard-list"
+    case clipboardListFilled = "clipboard-list-filled"
     case clipboardOff = "clipboard-off"
     case clipboardPlus = "clipboard-plus"
+    case clipboardSearch = "clipboard-search"
     case clipboardSmile = "clipboard-smile"
     case clipboardText = "clipboard-text"
+    case clipboardTextFilled = "clipboard-text-filled"
     case clipboardTypography = "clipboard-typography"
+    case clipboardTypographyFilled = "clipboard-typography-filled"
     case clipboardX = "clipboard-x"
+    case clipboardXFilled = "clipboard-x-filled"
     case clock
     case clock12 = "clock-12"
     case clock2 = "clock-2"
     case clock24 = "clock-24"
+    case clockBitcoin = "clock-bitcoin"
     case clockBolt = "clock-bolt"
     case clockCancel = "clock-cancel"
     case clockCheck = "clock-check"
@@ -1615,13 +1869,16 @@ public enum TablerIconToken: String {
     case clothesRack = "clothes-rack"
     case clothesRackOff = "clothes-rack-off"
     case cloud
+    case cloudBitcoin = "cloud-bitcoin"
     case cloudBolt = "cloud-bolt"
     case cloudCancel = "cloud-cancel"
     case cloudCheck = "cloud-check"
     case cloudCode = "cloud-code"
     case cloudCog = "cloud-cog"
     case cloudComputing = "cloud-computing"
+    case cloudComputingFilled = "cloud-computing-filled"
     case cloudDataConnection = "cloud-data-connection"
+    case cloudDataConnectionFilled = "cloud-data-connection-filled"
     case cloudDollar = "cloud-dollar"
     case cloudDown = "cloud-down"
     case cloudDownload = "cloud-download"
@@ -1649,6 +1906,7 @@ public enum TablerIconToken: String {
     case cloudX = "cloud-x"
     case clover
     case clover2 = "clover-2"
+    case cloverFilled = "clover-filled"
     case clubs
     case clubsFilled = "clubs-filled"
     case code
@@ -1661,6 +1919,9 @@ public enum TablerIconToken: String {
     case codeMinus = "code-minus"
     case codeOff = "code-off"
     case codePlus = "code-plus"
+    case codeVariable = "code-variable"
+    case codeVariableMinus = "code-variable-minus"
+    case codeVariablePlus = "code-variable-plus"
     case coffee
     case coffeeOff = "coffee-off"
     case coffin
@@ -1714,8 +1975,10 @@ public enum TablerIconToken: String {
     case confetti
     case confettiOff = "confetti-off"
     case confucius
+    case congruentTo = "congruent-to"
     case container
     case containerOff = "container-off"
+    case contract
     case contrast
     case contrast2 = "contrast-2"
     case contrast2Filled = "contrast-2-filled"
@@ -1809,6 +2072,7 @@ public enum TablerIconToken: String {
     case cubeOff = "cube-off"
     case cubePlus = "cube-plus"
     case cubeSend = "cube-send"
+    case cubeSpark = "cube-spark"
     case cubeUnfolded = "cube-unfolded"
     case cup
     case cupOff = "cup-off"
@@ -1882,6 +2146,7 @@ public enum TablerIconToken: String {
     case currencyYuan = "currency-yuan"
     case currencyZloty = "currency-zloty"
     case currentLocation = "current-location"
+    case currentLocationFilled = "current-location-filled"
     case currentLocationOff = "current-location-off"
     case cursorOff = "cursor-off"
     case cursorText = "cursor-text"
@@ -1890,6 +2155,7 @@ public enum TablerIconToken: String {
     case cylinderOff = "cylinder-off"
     case cylinderPlus = "cylinder-plus"
     case dashboard
+    case dashboardFilled = "dashboard-filled"
     case dashboardOff = "dashboard-off"
     case database
     case databaseCog = "database-cog"
@@ -1925,6 +2191,7 @@ public enum TablerIconToken: String {
     case deviceAudioTape = "device-audio-tape"
     case deviceCameraPhone = "device-camera-phone"
     case deviceCctv = "device-cctv"
+    case deviceCctvFilled = "device-cctv-filled"
     case deviceCctvOff = "device-cctv-off"
     case deviceComputerCamera = "device-computer-camera"
     case deviceComputerCameraOff = "device-computer-camera-off"
@@ -1938,6 +2205,7 @@ public enum TablerIconToken: String {
     case deviceDesktopDollar = "device-desktop-dollar"
     case deviceDesktopDown = "device-desktop-down"
     case deviceDesktopExclamation = "device-desktop-exclamation"
+    case deviceDesktopFilled = "device-desktop-filled"
     case deviceDesktopHeart = "device-desktop-heart"
     case deviceDesktopMinus = "device-desktop-minus"
     case deviceDesktopOff = "device-desktop-off"
@@ -1954,6 +2222,7 @@ public enum TablerIconToken: String {
     case deviceGamepad = "device-gamepad"
     case deviceGamepad2 = "device-gamepad-2"
     case deviceGamepad3 = "device-gamepad-3"
+    case deviceGamepad3Filled = "device-gamepad-3-filled"
     case deviceHeartMonitor = "device-heart-monitor"
     case deviceHeartMonitorFilled = "device-heart-monitor-filled"
     case deviceImac = "device-imac"
@@ -1965,6 +2234,7 @@ public enum TablerIconToken: String {
     case deviceImacDollar = "device-imac-dollar"
     case deviceImacDown = "device-imac-down"
     case deviceImacExclamation = "device-imac-exclamation"
+    case deviceImacFilled = "device-imac-filled"
     case deviceImacHeart = "device-imac-heart"
     case deviceImacMinus = "device-imac-minus"
     case deviceImacOff = "device-imac-off"
@@ -1986,6 +2256,7 @@ public enum TablerIconToken: String {
     case deviceIpadDollar = "device-ipad-dollar"
     case deviceIpadDown = "device-ipad-down"
     case deviceIpadExclamation = "device-ipad-exclamation"
+    case deviceIpadFilled = "device-ipad-filled"
     case deviceIpadHeart = "device-ipad-heart"
     case deviceIpadHorizontal = "device-ipad-horizontal"
     case deviceIpadHorizontalBolt = "device-ipad-horizontal-bolt"
@@ -2052,12 +2323,14 @@ public enum TablerIconToken: String {
     case deviceNintendoOff = "device-nintendo-off"
     case deviceProjector = "device-projector"
     case deviceRemote = "device-remote"
+    case deviceRemoteFilled = "device-remote-filled"
     case deviceSdCard = "device-sd-card"
     case deviceSim = "device-sim"
     case deviceSim1 = "device-sim-1"
     case deviceSim2 = "device-sim-2"
     case deviceSim3 = "device-sim-3"
     case deviceSpeaker = "device-speaker"
+    case deviceSpeakerFilled = "device-speaker-filled"
     case deviceSpeakerOff = "device-speaker-off"
     case deviceTablet = "device-tablet"
     case deviceTabletBolt = "device-tablet-bolt"
@@ -2082,10 +2355,16 @@ public enum TablerIconToken: String {
     case deviceTabletUp = "device-tablet-up"
     case deviceTabletX = "device-tablet-x"
     case deviceTv = "device-tv"
+    case deviceTvFilled = "device-tv-filled"
     case deviceTvOff = "device-tv-off"
     case deviceTvOld = "device-tv-old"
+    case deviceTvOldFilled = "device-tv-old-filled"
+    case deviceUnknown = "device-unknown"
+    case deviceUnknownFilled = "device-unknown-filled"
     case deviceUsb = "device-usb"
+    case deviceUsbFilled = "device-usb-filled"
     case deviceVisionPro = "device-vision-pro"
+    case deviceVisionProFilled = "device-vision-pro-filled"
     case deviceWatch = "device-watch"
     case deviceWatchBolt = "device-watch-bolt"
     case deviceWatchCancel = "device-watch-cancel"
@@ -2095,6 +2374,7 @@ public enum TablerIconToken: String {
     case deviceWatchDollar = "device-watch-dollar"
     case deviceWatchDown = "device-watch-down"
     case deviceWatchExclamation = "device-watch-exclamation"
+    case deviceWatchFilled = "device-watch-filled"
     case deviceWatchHeart = "device-watch-heart"
     case deviceWatchMinus = "device-watch-minus"
     case deviceWatchOff = "device-watch-off"
@@ -2144,6 +2424,7 @@ public enum TablerIconToken: String {
     case diamondOff = "diamond-off"
     case diamonds
     case diamondsFilled = "diamonds-filled"
+    case diaper
     case dice
     case dice1 = "dice-1"
     case dice1Filled = "dice-1-filled"
@@ -2161,19 +2442,23 @@ public enum TablerIconToken: String {
     case dimensions
     case direction
     case directionArrows = "direction-arrows"
+    case directionArrowsFilled = "direction-arrows-filled"
     case directionHorizontal = "direction-horizontal"
     case directionSign = "direction-sign"
     case directionSignFilled = "direction-sign-filled"
     case directionSignOff = "direction-sign-off"
     case directions
+    case directionsFilled = "directions-filled"
     case directionsOff = "directions-off"
     case disabled
     case disabled2 = "disabled-2"
     case disabledOff = "disabled-off"
     case disc
+    case discFilled = "disc-filled"
     case discGolf = "disc-golf"
     case discOff = "disc-off"
     case discount
+    case discountFilled = "discount-filled"
     case discountOff = "discount-off"
     case divide
     case dna
@@ -2198,6 +2483,7 @@ public enum TablerIconToken: String {
     case drone
     case droneOff = "drone-off"
     case dropCircle = "drop-circle"
+    case dropCircleFilled = "drop-circle-filled"
     case droplet
     case dropletBolt = "droplet-bolt"
     case dropletCancel = "droplet-cancel"
@@ -2225,8 +2511,11 @@ public enum TablerIconToken: String {
     case dropletUp = "droplet-up"
     case dropletX = "droplet-x"
     case droplets
+    case dropletsFilled = "droplets-filled"
     case dualScreen = "dual-screen"
+    case dualScreenFilled = "dual-screen-filled"
     case dumpling
+    case dumplingFilled = "dumpling-filled"
     case ePassport = "e-passport"
     case ear
     case earOff = "ear-off"
@@ -2243,17 +2532,21 @@ public enum TablerIconToken: String {
     case editOff = "edit-off"
     case egg
     case eggCracked = "egg-cracked"
+    case eggCrackedFilled = "egg-cracked-filled"
     case eggFilled = "egg-filled"
     case eggFried = "egg-fried"
+    case eggFriedFilled = "egg-fried-filled"
     case eggOff = "egg-off"
     case eggs
     case elevator
+    case elevatorFilled = "elevator-filled"
     case elevatorOff = "elevator-off"
     case emergencyBed = "emergency-bed"
     case empathize
     case empathizeOff = "empathize-off"
     case emphasis
     case engine
+    case engineFilled = "engine-filled"
     case engineOff = "engine-off"
     case equal
     case equalDouble = "equal-double"
@@ -2264,16 +2557,23 @@ public enum TablerIconToken: String {
     case error404Off = "error-404-off"
     case escalator
     case escalatorDown = "escalator-down"
+    case escalatorDownFilled = "escalator-down-filled"
+    case escalatorFilled = "escalator-filled"
     case escalatorUp = "escalator-up"
+    case escalatorUpFilled = "escalator-up-filled"
     case exchange
+    case exchangeFilled = "exchange-filled"
     case exchangeOff = "exchange-off"
     case exclamationCircle = "exclamation-circle"
+    case exclamationCircleFilled = "exclamation-circle-filled"
     case exclamationMark = "exclamation-mark"
     case exclamationMarkOff = "exclamation-mark-off"
     case explicit
+    case explicitFilled = "explicit-filled"
     case explicitOff = "explicit-off"
     case exposure
     case exposure0 = "exposure-0"
+    case exposureFilled = "exposure-filled"
     case exposureMinus1 = "exposure-minus-1"
     case exposureMinus2 = "exposure-minus-2"
     case exposureOff = "exposure-off"
@@ -2282,6 +2582,7 @@ public enum TablerIconToken: String {
     case externalLink = "external-link"
     case externalLinkOff = "external-link-off"
     case eye
+    case eyeBitcoin = "eye-bitcoin"
     case eyeBolt = "eye-bolt"
     case eyeCancel = "eye-cancel"
     case eyeCheck = "eye-check"
@@ -2304,84 +2605,121 @@ public enum TablerIconToken: String {
     case eyeQuestion = "eye-question"
     case eyeSearch = "eye-search"
     case eyeShare = "eye-share"
+    case eyeSpark = "eye-spark"
     case eyeStar = "eye-star"
     case eyeTable = "eye-table"
+    case eyeTableFilled = "eye-table-filled"
     case eyeUp = "eye-up"
     case eyeX = "eye-x"
     case eyeglass
     case eyeglass2 = "eyeglass-2"
+    case eyeglass2Filled = "eyeglass-2-filled"
+    case eyeglassFilled = "eyeglass-filled"
     case eyeglassOff = "eyeglass-off"
     case faceId = "face-id"
     case faceIdError = "face-id-error"
     case faceMask = "face-mask"
+    case faceMaskFilled = "face-mask-filled"
     case faceMaskOff = "face-mask-off"
     case fall
     case favicon
+    case faviconFilled = "favicon-filled"
     case feather
+    case featherFilled = "feather-filled"
     case featherOff = "feather-off"
     case fence
+    case fenceFilled = "fence-filled"
     case fenceOff = "fence-off"
+    case ferry
+    case ferryFilled = "ferry-filled"
     case fidgetSpinner = "fidget-spinner"
+    case fidgetSpinnerFilled = "fidget-spinner-filled"
     case file
     case file3d = "file-3d"
+    case fileAi = "file-ai"
     case fileAlert = "file-alert"
     case fileAnalytics = "file-analytics"
     case fileArrowLeft = "file-arrow-left"
     case fileArrowRight = "file-arrow-right"
     case fileBarcode = "file-barcode"
+    case fileBitcoin = "file-bitcoin"
     case fileBroken = "file-broken"
     case fileCertificate = "file-certificate"
     case fileChart = "file-chart"
     case fileCheck = "file-check"
+    case fileCheckFilled = "file-check-filled"
     case fileCode = "file-code"
     case fileCode2 = "file-code-2"
+    case fileCode2Filled = "file-code-2-filled"
     case fileCv = "file-cv"
+    case fileCvFilled = "file-cv-filled"
     case fileDatabase = "file-database"
     case fileDelta = "file-delta"
+    case fileDeltaFilled = "file-delta-filled"
     case fileDescription = "file-description"
+    case fileDescriptionFilled = "file-description-filled"
     case fileDiff = "file-diff"
     case fileDigit = "file-digit"
+    case fileDigitFilled = "file-digit-filled"
     case fileDislike = "file-dislike"
     case fileDollar = "file-dollar"
     case fileDots = "file-dots"
     case fileDownload = "file-download"
+    case fileDownloadFilled = "file-download-filled"
     case fileEuro = "file-euro"
+    case fileExcel = "file-excel"
     case fileExport = "file-export"
     case fileFilled = "file-filled"
     case fileFunction = "file-function"
     case fileHorizontal = "file-horizontal"
+    case fileHorizontalFilled = "file-horizontal-filled"
     case fileImport = "file-import"
     case fileInfinity = "file-infinity"
     case fileInfo = "file-info"
     case fileInvoice = "file-invoice"
+    case fileInvoiceFilled = "file-invoice-filled"
     case fileIsr = "file-isr"
     case fileLambda = "file-lambda"
+    case fileLambdaFilled = "file-lambda-filled"
     case fileLike = "file-like"
     case fileMinus = "file-minus"
+    case fileMinusFilled = "file-minus-filled"
     case fileMusic = "file-music"
     case fileNeutral = "file-neutral"
+    case fileNeutralFilled = "file-neutral-filled"
     case fileOff = "file-off"
     case fileOrientation = "file-orientation"
     case filePencil = "file-pencil"
     case filePercent = "file-percent"
+    case filePercentFilled = "file-percent-filled"
     case filePhone = "file-phone"
+    case filePhoneFilled = "file-phone-filled"
     case filePlus = "file-plus"
     case filePower = "file-power"
+    case filePowerFilled = "file-power-filled"
     case fileReport = "file-report"
     case fileRss = "file-rss"
+    case fileRssFilled = "file-rss-filled"
     case fileSad = "file-sad"
+    case fileSadFilled = "file-sad-filled"
     case fileScissors = "file-scissors"
     case fileSearch = "file-search"
     case fileSettings = "file-settings"
     case fileShredder = "file-shredder"
     case fileSignal = "file-signal"
     case fileSmile = "file-smile"
+    case fileSmileFilled = "file-smile-filled"
+    case fileSpark = "file-spark"
     case fileSpreadsheet = "file-spreadsheet"
     case fileStack = "file-stack"
     case fileStar = "file-star"
+    case fileStarFilled = "file-star-filled"
     case fileSymlink = "file-symlink"
     case fileText = "file-text"
     case fileTextAi = "file-text-ai"
+    case fileTextFilled = "file-text-filled"
+    case fileTextShield = "file-text-shield"
+    case fileTextSpark = "file-text-spark"
     case fileTime = "file-time"
     case fileTypeBmp = "file-type-bmp"
     case fileTypeCss = "file-type-css"
@@ -2410,6 +2748,7 @@ public enum TablerIconToken: String {
     case fileUnknown = "file-unknown"
     case fileUpload = "file-upload"
     case fileVector = "file-vector"
+    case fileWord = "file-word"
     case fileX = "file-x"
     case fileXFilled = "file-x-filled"
     case fileZip = "file-zip"
@@ -2440,6 +2779,7 @@ public enum TablerIconToken: String {
     case filterUp = "filter-up"
     case filterX = "filter-x"
     case filters
+    case filtersFilled = "filters-filled"
     case fingerprint
     case fingerprintOff = "fingerprint-off"
     case fingerprintScan = "fingerprint-scan"
@@ -2451,6 +2791,7 @@ public enum TablerIconToken: String {
     case firstAidKitOff = "first-aid-kit-off"
     case fish
     case fishBone = "fish-bone"
+    case fishBoneFilled = "fish-bone-filled"
     case fishChristianity = "fish-christianity"
     case fishHook = "fish-hook"
     case fishHookOff = "fish-hook-off"
@@ -2461,6 +2802,7 @@ public enum TablerIconToken: String {
     case flag2Off = "flag-2-off"
     case flag3 = "flag-3"
     case flag3Filled = "flag-3-filled"
+    case flagBitcoin = "flag-bitcoin"
     case flagBolt = "flag-bolt"
     case flagCancel = "flag-cancel"
     case flagCheck = "flag-check"
@@ -2480,12 +2822,15 @@ public enum TablerIconToken: String {
     case flagQuestion = "flag-question"
     case flagSearch = "flag-search"
     case flagShare = "flag-share"
+    case flagSpark = "flag-spark"
     case flagStar = "flag-star"
     case flagUp = "flag-up"
     case flagX = "flag-x"
     case flame
+    case flameFilled = "flame-filled"
     case flameOff = "flame-off"
     case flare
+    case flareFilled = "flare-filled"
     case flask
     case flask2 = "flask-2"
     case flask2Filled = "flask-2-filled"
@@ -2500,6 +2845,7 @@ public enum TablerIconToken: String {
     case floatNone = "float-none"
     case floatRight = "float-right"
     case flower
+    case flowerFilled = "flower-filled"
     case flowerOff = "flower-off"
     case focus
     case focus2 = "focus-2"
@@ -2534,6 +2880,7 @@ public enum TablerIconToken: String {
     case folderUp = "folder-up"
     case folderX = "folder-x"
     case folders
+    case foldersFilled = "folders-filled"
     case foldersOff = "folders-off"
     case forbid
     case forbid2 = "forbid-2"
@@ -2562,8 +2909,10 @@ public enum TablerIconToken: String {
     case functionOff = "function-off"
     case galaxy
     case gardenCart = "garden-cart"
+    case gardenCartFilled = "garden-cart-filled"
     case gardenCartOff = "garden-cart-off"
     case gasStation = "gas-station"
+    case gasStationFilled = "gas-station-filled"
     case gasStationOff = "gas-station-off"
     case gauge
     case gaugeFilled = "gauge-filled"
@@ -2592,6 +2941,7 @@ public enum TablerIconToken: String {
     case ghost2 = "ghost-2"
     case ghost2Filled = "ghost-2-filled"
     case ghost3 = "ghost-3"
+    case ghost3Filled = "ghost-3-filled"
     case ghostFilled = "ghost-filled"
     case ghostOff = "ghost-off"
     case gif
@@ -2614,6 +2964,7 @@ public enum TablerIconToken: String {
     case glass
     case glassChampagne = "glass-champagne"
     case glassCocktail = "glass-cocktail"
+    case glassFilled = "glass-filled"
     case glassFull = "glass-full"
     case glassFullFilled = "glass-full-filled"
     case glassGin = "glass-gin"
@@ -2623,6 +2974,7 @@ public enum TablerIconToken: String {
     case globeOff = "globe-off"
     case goGame = "go-game"
     case golf
+    case golfFilled = "golf-filled"
     case golfOff = "golf-off"
     case gps
     case gpsFilled = "gps-filled"
@@ -2638,6 +2990,7 @@ public enum TablerIconToken: String {
     case gridDots = "grid-dots"
     case gridGoldenratio = "grid-goldenratio"
     case gridPattern = "grid-pattern"
+    case gridPatternFilled = "grid-pattern-filled"
     case gridScan = "grid-scan"
     case grill
     case grillFork = "grill-fork"
@@ -2658,8 +3011,12 @@ public enum TablerIconToken: String {
     case hammer
     case hammerOff = "hammer-off"
     case handClick = "hand-click"
+    case handClickOff = "hand-click-off"
     case handFinger = "hand-finger"
+    case handFingerDown = "hand-finger-down"
+    case handFingerLeft = "hand-finger-left"
     case handFingerOff = "hand-finger-off"
+    case handFingerRight = "hand-finger-right"
     case handGrab = "hand-grab"
     case handLittleFinger = "hand-little-finger"
     case handLoveYou = "hand-love-you"
@@ -2673,6 +3030,7 @@ public enum TablerIconToken: String {
     case handTwoFingers = "hand-two-fingers"
     case hanger
     case hanger2 = "hanger-2"
+    case hanger2Filled = "hanger-2-filled"
     case hangerOff = "hanger-off"
     case hash
     case haze
@@ -2687,6 +3045,7 @@ public enum TablerIconToken: String {
     case headsetOff = "headset-off"
     case healthRecognition = "health-recognition"
     case heart
+    case heartBitcoin = "heart-bitcoin"
     case heartBolt = "heart-bolt"
     case heartBroken = "heart-broken"
     case heartCancel = "heart-cancel"
@@ -2708,6 +3067,7 @@ public enum TablerIconToken: String {
     case heartRateMonitor = "heart-rate-monitor"
     case heartSearch = "heart-search"
     case heartShare = "heart-share"
+    case heartSpark = "heart-spark"
     case heartStar = "heart-star"
     case heartUp = "heart-up"
     case heartX = "heart-x"
@@ -2715,7 +3075,9 @@ public enum TablerIconToken: String {
     case hearts
     case heartsOff = "hearts-off"
     case helicopter
+    case helicopterFilled = "helicopter-filled"
     case helicopterLanding = "helicopter-landing"
+    case helicopterLandingFilled = "helicopter-landing-filled"
     case helmet
     case helmetOff = "helmet-off"
     case help
@@ -2837,6 +3199,7 @@ public enum TablerIconToken: String {
     case historyToggle = "history-toggle"
     case home
     case home2 = "home-2"
+    case homeBitcoin = "home-bitcoin"
     case homeBolt = "home-bolt"
     case homeCancel = "home-cancel"
     case homeCheck = "home-check"
@@ -2862,6 +3225,7 @@ public enum TablerIconToken: String {
     case homeShare = "home-share"
     case homeShield = "home-shield"
     case homeSignal = "home-signal"
+    case homeSpark = "home-spark"
     case homeStar = "home-star"
     case homeStats = "home-stats"
     case homeUp = "home-up"
@@ -2883,20 +3247,31 @@ public enum TablerIconToken: String {
     case hours24 = "hours-24"
     case html
     case httpConnect = "http-connect"
+    case httpConnectOff = "http-connect-off"
     case httpDelete = "http-delete"
+    case httpDeleteOff = "http-delete-off"
     case httpGet = "http-get"
+    case httpGetOff = "http-get-off"
     case httpHead = "http-head"
+    case httpHeadOff = "http-head-off"
     case httpOptions = "http-options"
+    case httpOptionsOff = "http-options-off"
     case httpPatch = "http-patch"
+    case httpPatchOff = "http-patch-off"
     case httpPost = "http-post"
+    case httpPostOff = "http-post-off"
     case httpPut = "http-put"
+    case httpPutOff = "http-put-off"
     case httpQue = "http-que"
+    case httpQueOff = "http-que-off"
     case httpTrace = "http-trace"
+    case httpTraceOff = "http-trace-off"
     case iceCream = "ice-cream"
     case iceCream2 = "ice-cream-2"
     case iceCreamOff = "ice-cream-off"
     case iceSkating = "ice-skating"
     case icons
+    case iconsFilled = "icons-filled"
     case iconsOff = "icons-off"
     case id
     case idBadge = "id-badge"
@@ -2943,15 +3318,20 @@ public enum TablerIconToken: String {
     case inputAi = "input-ai"
     case inputCheck = "input-check"
     case inputSearch = "input-search"
+    case inputSpark = "input-spark"
     case inputX = "input-x"
     case invoice
     case ironing
     case ironing1 = "ironing-1"
+    case ironing1Filled = "ironing-1-filled"
     case ironing2 = "ironing-2"
+    case ironing2Filled = "ironing-2-filled"
     case ironing3 = "ironing-3"
+    case ironing3Filled = "ironing-3-filled"
     case ironingFilled = "ironing-filled"
     case ironingOff = "ironing-off"
     case ironingSteam = "ironing-steam"
+    case ironingSteamFilled = "ironing-steam-filled"
     case ironingSteamOff = "ironing-steam-off"
     case irregularPolyhedron = "irregular-polyhedron"
     case irregularPolyhedronOff = "irregular-polyhedron-off"
@@ -2962,6 +3342,10 @@ public enum TablerIconToken: String {
     case jetpackFilled = "jetpack-filled"
     case jewishStar = "jewish-star"
     case jewishStarFilled = "jewish-star-filled"
+    case joinBevel = "join-bevel"
+    case joinRound = "join-round"
+    case joinStraight = "join-straight"
+    case joker
     case jpg
     case json
     case jumpRope = "jump-rope"
@@ -2972,6 +3356,7 @@ public enum TablerIconToken: String {
     case keyFilled = "key-filled"
     case keyOff = "key-off"
     case keyboard
+    case keyboardFilled = "keyboard-filled"
     case keyboardHide = "keyboard-hide"
     case keyboardOff = "keyboard-off"
     case keyboardShow = "keyboard-show"
@@ -2985,6 +3370,11 @@ public enum TablerIconToken: String {
     case keyframeFilled = "keyframe-filled"
     case keyframes
     case keyframesFilled = "keyframes-filled"
+    case label
+    case labelFilled = "label-filled"
+    case labelImportant = "label-important"
+    case labelImportantFilled = "label-important-filled"
+    case labelOff = "label-off"
     case ladder
     case ladderOff = "ladder-off"
     case ladle
@@ -3000,6 +3390,12 @@ public enum TablerIconToken: String {
     case lasso
     case lassoOff = "lasso-off"
     case lassoPolygon = "lasso-polygon"
+    case lassoPolygonFilled = "lasso-polygon-filled"
+    case laurelWreath = "laurel-wreath"
+    case laurelWreath1 = "laurel-wreath-1"
+    case laurelWreath2 = "laurel-wreath-2"
+    case laurelWreath3 = "laurel-wreath-3"
+    case laurelWreathFilled = "laurel-wreath-filled"
     case layersDifference = "layers-difference"
     case layersIntersect = "layers-intersect"
     case layersIntersect2 = "layers-intersect-2"
@@ -3076,12 +3472,14 @@ public enum TablerIconToken: String {
     case layoutSidebarRightFilled = "layout-sidebar-right-filled"
     case layoutSidebarRightInactive = "layout-sidebar-right-inactive"
     case leaf
+    case leaf2 = "leaf-2"
     case leafOff = "leaf-off"
     case lego
     case legoFilled = "lego-filled"
     case legoOff = "lego-off"
     case lemon
     case lemon2 = "lemon-2"
+    case lemon2Filled = "lemon-2-filled"
     case letterA = "letter-a"
     case letterASmall = "letter-a-small"
     case letterB = "letter-b"
@@ -3146,6 +3544,7 @@ public enum TablerIconToken: String {
     case license
     case licenseOff = "license-off"
     case lifebuoy
+    case lifebuoyFilled = "lifebuoy-filled"
     case lifebuoyOff = "lifebuoy-off"
     case lighter
     case line
@@ -3168,6 +3567,7 @@ public enum TablerIconToken: String {
     case livePhotoFilled = "live-photo-filled"
     case livePhotoOff = "live-photo-off"
     case liveView = "live-view"
+    case liveViewFilled = "live-view-filled"
     case loadBalancer = "load-balancer"
     case loader
     case loader2 = "loader-2"
@@ -3200,6 +3600,7 @@ public enum TablerIconToken: String {
     case lock
     case lockAccess = "lock-access"
     case lockAccessOff = "lock-access-off"
+    case lockBitcoin = "lock-bitcoin"
     case lockBolt = "lock-bolt"
     case lockCancel = "lock-cancel"
     case lockCheck = "lock-check"
@@ -3215,6 +3616,7 @@ public enum TablerIconToken: String {
     case lockOpen = "lock-open"
     case lockOpen2 = "lock-open-2"
     case lockOpenOff = "lock-open-off"
+    case lockPassword = "lock-password"
     case lockPause = "lock-pause"
     case lockPin = "lock-pin"
     case lockPlus = "lock-plus"
@@ -3256,6 +3658,7 @@ public enum TablerIconToken: String {
     case magnetic
     case mail
     case mailAi = "mail-ai"
+    case mailBitcoin = "mail-bitcoin"
     case mailBolt = "mail-bolt"
     case mailCancel = "mail-cancel"
     case mailCheck = "mail-check"
@@ -3278,6 +3681,7 @@ public enum TablerIconToken: String {
     case mailQuestion = "mail-question"
     case mailSearch = "mail-search"
     case mailShare = "mail-share"
+    case mailSpark = "mail-spark"
     case mailStar = "mail-star"
     case mailUp = "mail-up"
     case mailX = "mail-x"
@@ -3354,6 +3758,8 @@ public enum TablerIconToken: String {
     case math1Divide2 = "math-1-divide-2"
     case math1Divide3 = "math-1-divide-3"
     case mathAvg = "math-avg"
+    case mathCos = "math-cos"
+    case mathCtg = "math-ctg"
     case mathEqualGreater = "math-equal-greater"
     case mathEqualLower = "math-equal-lower"
     case mathFunction = "math-function"
@@ -3371,10 +3777,14 @@ public enum TablerIconToken: String {
     case mathOff = "math-off"
     case mathPi = "math-pi"
     case mathPiDivide2 = "math-pi-divide-2"
+    case mathSec = "math-sec"
+    case mathSin = "math-sin"
     case mathSymbols = "math-symbols"
+    case mathTg = "math-tg"
     case mathXDivide2 = "math-x-divide-2"
     case mathXDivideY = "math-x-divide-y"
     case mathXDivideY2 = "math-x-divide-y-2"
+    case mathXFloorDivideY = "math-x-floor-divide-y"
     case mathXMinusX = "math-x-minus-x"
     case mathXMinusY = "math-x-minus-y"
     case mathXPlusX = "math-x-plus-x"
@@ -3382,6 +3792,7 @@ public enum TablerIconToken: String {
     case mathXy = "math-xy"
     case mathYMinusY = "math-y-minus-y"
     case mathYPlusY = "math-y-plus-y"
+    case matrix
     case maximize
     case maximizeOff = "maximize-off"
     case meat
@@ -3394,10 +3805,14 @@ public enum TablerIconToken: String {
     case medicalCrossOff = "medical-cross-off"
     case medicineSyrup = "medicine-syrup"
     case meeple
+    case meepleFilled = "meeple-filled"
     case melon
+    case melonFilled = "melon-filled"
     case menorah
     case menu
     case menu2 = "menu-2"
+    case menu3 = "menu-3"
+    case menu4 = "menu-4"
     case menuDeep = "menu-deep"
     case menuOrder = "menu-order"
     case message
@@ -3410,6 +3825,7 @@ public enum TablerIconToken: String {
     case message2Dollar = "message-2-dollar"
     case message2Down = "message-2-down"
     case message2Exclamation = "message-2-exclamation"
+    case message2Filled = "message-2-filled"
     case message2Heart = "message-2-heart"
     case message2Minus = "message-2-minus"
     case message2Off = "message-2-off"
@@ -3478,12 +3894,14 @@ public enum TablerIconToken: String {
     case messages
     case messagesOff = "messages-off"
     case meteor
+    case meteorFilled = "meteor-filled"
     case meteorOff = "meteor-off"
     case meterCube = "meter-cube"
     case meterSquare = "meter-square"
     case metronome
     case michelinBibGourmand = "michelin-bib-gourmand"
     case michelinStar = "michelin-star"
+    case michelinStarFilled = "michelin-star-filled"
     case michelinStarGreen = "michelin-star-green"
     case mickey
     case mickeyFilled = "mickey-filled"
@@ -3499,7 +3917,9 @@ public enum TablerIconToken: String {
     case microwaveOff = "microwave-off"
     case militaryAward = "military-award"
     case militaryRank = "military-rank"
+    case militaryRankFilled = "military-rank-filled"
     case milk
+    case milkFilled = "milk-filled"
     case milkOff = "milk-off"
     case milkshake
     case minimize
@@ -3510,16 +3930,25 @@ public enum TablerIconToken: String {
     case mobiledata
     case mobiledataOff = "mobiledata-off"
     case moneybag
+    case moneybagEdit = "moneybag-edit"
+    case moneybagHeart = "moneybag-heart"
+    case moneybagMinus = "moneybag-minus"
+    case moneybagMove = "moneybag-move"
+    case moneybagMoveBack = "moneybag-move-back"
+    case moneybagPlus = "moneybag-plus"
     case monkeybar
     case moodAngry = "mood-angry"
+    case moodAngryFilled = "mood-angry-filled"
     case moodAnnoyed = "mood-annoyed"
     case moodAnnoyed2 = "mood-annoyed-2"
+    case moodBitcoin = "mood-bitcoin"
     case moodBoy = "mood-boy"
     case moodCheck = "mood-check"
     case moodCog = "mood-cog"
     case moodConfuzed = "mood-confuzed"
     case moodConfuzedFilled = "mood-confuzed-filled"
     case moodCrazyHappy = "mood-crazy-happy"
+    case moodCrazyHappyFilled = "mood-crazy-happy-filled"
     case moodCry = "mood-cry"
     case moodDollar = "mood-dollar"
     case moodEdit = "mood-edit"
@@ -3557,7 +3986,8 @@ public enum TablerIconToken: String {
     case moodSmileBeam = "mood-smile-beam"
     case moodSmileDizzy = "mood-smile-dizzy"
     case moodSmileFilled = "mood-smile-filled"
-    case moodSuprised = "mood-suprised"
+    case moodSpark = "mood-spark"
+    case moodSurprised = "mood-surprised"
     case moodTongue = "mood-tongue"
     case moodTongueWink = "mood-tongue-wink"
     case moodTongueWink2 = "mood-tongue-wink-2"
@@ -3566,6 +3996,7 @@ public enum TablerIconToken: String {
     case moodWink = "mood-wink"
     case moodWink2 = "mood-wink-2"
     case moodWrrr = "mood-wrrr"
+    case moodWrrrFilled = "mood-wrrr-filled"
     case moodX = "mood-x"
     case moodXd = "mood-xd"
     case moon
@@ -3575,7 +4006,9 @@ public enum TablerIconToken: String {
     case moonStars = "moon-stars"
     case moped
     case motorbike
+    case motorbikeFilled = "motorbike-filled"
     case mountain
+    case mountainFilled = "mountain-filled"
     case mountainOff = "mountain-off"
     case mouse
     case mouse2 = "mouse-2"
@@ -3585,6 +4018,7 @@ public enum TablerIconToken: String {
     case movie
     case movieOff = "movie-off"
     case mug
+    case mugFilled = "mug-filled"
     case mugOff = "mug-off"
     case multiplier05x = "multiplier-0-5x"
     case multiplier15x = "multiplier-1-5x"
@@ -3669,7 +4103,10 @@ public enum TablerIconToken: String {
     case number0Small = "number-0-small"
     case number1 = "number-1"
     case number1Small = "number-1-small"
+    case number10 = "number-10"
     case number10Small = "number-10-small"
+    case number100Small = "number-100-small"
+    case number11 = "number-11"
     case number11Small = "number-11-small"
     case number12Small = "number-12-small"
     case number123 = "number-123"
@@ -3694,21 +4131,93 @@ public enum TablerIconToken: String {
     case number29Small = "number-29-small"
     case number3 = "number-3"
     case number3Small = "number-3-small"
+    case number30Small = "number-30-small"
+    case number31Small = "number-31-small"
+    case number32Small = "number-32-small"
+    case number33Small = "number-33-small"
+    case number34Small = "number-34-small"
+    case number35Small = "number-35-small"
+    case number36Small = "number-36-small"
+    case number37Small = "number-37-small"
+    case number38Small = "number-38-small"
+    case number39Small = "number-39-small"
     case number4 = "number-4"
     case number4Small = "number-4-small"
+    case number40Small = "number-40-small"
+    case number41Small = "number-41-small"
+    case number42Small = "number-42-small"
+    case number43Small = "number-43-small"
+    case number44Small = "number-44-small"
+    case number45Small = "number-45-small"
+    case number46Small = "number-46-small"
+    case number47Small = "number-47-small"
+    case number48Small = "number-48-small"
+    case number49Small = "number-49-small"
     case number5 = "number-5"
     case number5Small = "number-5-small"
+    case number50Small = "number-50-small"
+    case number51Small = "number-51-small"
+    case number52Small = "number-52-small"
+    case number53Small = "number-53-small"
+    case number54Small = "number-54-small"
+    case number55Small = "number-55-small"
+    case number56Small = "number-56-small"
+    case number57Small = "number-57-small"
+    case number58Small = "number-58-small"
+    case number59Small = "number-59-small"
     case number6 = "number-6"
     case number6Small = "number-6-small"
+    case number60Small = "number-60-small"
+    case number61Small = "number-61-small"
+    case number62Small = "number-62-small"
+    case number63Small = "number-63-small"
+    case number64Small = "number-64-small"
+    case number65Small = "number-65-small"
+    case number66Small = "number-66-small"
+    case number67Small = "number-67-small"
+    case number68Small = "number-68-small"
+    case number69Small = "number-69-small"
     case number7 = "number-7"
     case number7Small = "number-7-small"
+    case number70Small = "number-70-small"
+    case number71Small = "number-71-small"
+    case number72Small = "number-72-small"
+    case number73Small = "number-73-small"
+    case number74Small = "number-74-small"
+    case number75Small = "number-75-small"
+    case number76Small = "number-76-small"
+    case number77Small = "number-77-small"
+    case number78Small = "number-78-small"
+    case number79Small = "number-79-small"
     case number8 = "number-8"
     case number8Small = "number-8-small"
+    case number80Small = "number-80-small"
+    case number81Small = "number-81-small"
+    case number82Small = "number-82-small"
+    case number83Small = "number-83-small"
+    case number84Small = "number-84-small"
+    case number85Small = "number-85-small"
+    case number86Small = "number-86-small"
+    case number87Small = "number-87-small"
+    case number88Small = "number-88-small"
+    case number89Small = "number-89-small"
     case number9 = "number-9"
     case number9Small = "number-9-small"
+    case number90Small = "number-90-small"
+    case number91Small = "number-91-small"
+    case number92Small = "number-92-small"
+    case number93Small = "number-93-small"
+    case number94Small = "number-94-small"
+    case number95Small = "number-95-small"
+    case number96Small = "number-96-small"
+    case number97Small = "number-97-small"
+    case number98Small = "number-98-small"
+    case number99Small = "number-99-small"
     case numbers
     case nurse
+    case nurseFilled = "nurse-filled"
     case nut
+    case objectScan = "object-scan"
     case octagon
     case octagonFilled = "octagon-filled"
     case octagonMinus = "octagon-minus"
@@ -3742,6 +4251,7 @@ public enum TablerIconToken: String {
     case paintFilled = "paint-filled"
     case paintOff = "paint-off"
     case palette
+    case paletteFilled = "palette-filled"
     case paletteOff = "palette-off"
     case panoramaHorizontal = "panorama-horizontal"
     case panoramaHorizontalFilled = "panorama-horizontal-filled"
@@ -3817,6 +4327,21 @@ public enum TablerIconToken: String {
     case pepper
     case pepperOff = "pepper-off"
     case percentage
+    case percentage0 = "percentage-0"
+    case percentage10 = "percentage-10"
+    case percentage100 = "percentage-100"
+    case percentage20 = "percentage-20"
+    case percentage25 = "percentage-25"
+    case percentage30 = "percentage-30"
+    case percentage33 = "percentage-33"
+    case percentage40 = "percentage-40"
+    case percentage50 = "percentage-50"
+    case percentage60 = "percentage-60"
+    case percentage66 = "percentage-66"
+    case percentage70 = "percentage-70"
+    case percentage75 = "percentage-75"
+    case percentage80 = "percentage-80"
+    case percentage90 = "percentage-90"
     case perfume
     case perspective
     case perspectiveOff = "perspective-off"
@@ -3824,15 +4349,20 @@ public enum TablerIconToken: String {
     case phoneCall = "phone-call"
     case phoneCalling = "phone-calling"
     case phoneCheck = "phone-check"
+    case phoneDone = "phone-done"
+    case phoneEnd = "phone-end"
     case phoneFilled = "phone-filled"
     case phoneIncoming = "phone-incoming"
     case phoneOff = "phone-off"
     case phoneOutgoing = "phone-outgoing"
     case phonePause = "phone-pause"
     case phonePlus = "phone-plus"
+    case phoneRinging = "phone-ringing"
+    case phoneSpark = "phone-spark"
     case phoneX = "phone-x"
     case photo
     case photoAi = "photo-ai"
+    case photoBitcoin = "photo-bitcoin"
     case photoBolt = "photo-bolt"
     case photoCancel = "photo-cancel"
     case photoCheck = "photo-check"
@@ -3862,6 +4392,7 @@ public enum TablerIconToken: String {
     case photoSensor3 = "photo-sensor-3"
     case photoShare = "photo-share"
     case photoShield = "photo-shield"
+    case photoSpark = "photo-spark"
     case photoSquareRounded = "photo-square-rounded"
     case photoStar = "photo-star"
     case photoUp = "photo-up"
@@ -3870,6 +4401,7 @@ public enum TablerIconToken: String {
     case physotherapist
     case piano
     case pick
+    case picnicTable = "picnic-table"
     case pictureInPicture = "picture-in-picture"
     case pictureInPictureFilled = "picture-in-picture-filled"
     case pictureInPictureOff = "picture-in-picture-off"
@@ -3877,12 +4409,14 @@ public enum TablerIconToken: String {
     case pictureInPictureTop = "picture-in-picture-top"
     case pictureInPictureTopFilled = "picture-in-picture-top-filled"
     case pig
+    case pigFilled = "pig-filled"
     case pigMoney = "pig-money"
     case pigOff = "pig-off"
     case pilcrow
     case pilcrowLeft = "pilcrow-left"
     case pilcrowRight = "pilcrow-right"
     case pill
+    case pillFilled = "pill-filled"
     case pillOff = "pill-off"
     case pills
     case pin
@@ -3894,6 +4428,7 @@ public enum TablerIconToken: String {
     case pinnedFilled = "pinned-filled"
     case pinnedOff = "pinned-off"
     case pizza
+    case pizzaFilled = "pizza-filled"
     case pizzaOff = "pizza-off"
     case placeholder
     case plane
@@ -3910,7 +4445,37 @@ public enum TablerIconToken: String {
     case plantOff = "plant-off"
     case playBasketball = "play-basketball"
     case playCard = "play-card"
+    case playCard1 = "play-card-1"
+    case playCard1Filled = "play-card-1-filled"
+    case playCard10 = "play-card-10"
+    case playCard10Filled = "play-card-10-filled"
+    case playCard2 = "play-card-2"
+    case playCard2Filled = "play-card-2-filled"
+    case playCard3 = "play-card-3"
+    case playCard3Filled = "play-card-3-filled"
+    case playCard4 = "play-card-4"
+    case playCard4Filled = "play-card-4-filled"
+    case playCard5 = "play-card-5"
+    case playCard5Filled = "play-card-5-filled"
+    case playCard6 = "play-card-6"
+    case playCard6Filled = "play-card-6-filled"
+    case playCard7 = "play-card-7"
+    case playCard7Filled = "play-card-7-filled"
+    case playCard8 = "play-card-8"
+    case playCard8Filled = "play-card-8-filled"
+    case playCard9 = "play-card-9"
+    case playCard9Filled = "play-card-9-filled"
+    case playCardA = "play-card-a"
+    case playCardAFilled = "play-card-a-filled"
+    case playCardJ = "play-card-j"
+    case playCardJFilled = "play-card-j-filled"
+    case playCardK = "play-card-k"
+    case playCardKFilled = "play-card-k-filled"
     case playCardOff = "play-card-off"
+    case playCardQ = "play-card-q"
+    case playCardQFilled = "play-card-q-filled"
+    case playCardStar = "play-card-star"
+    case playCardStarFilled = "play-card-star-filled"
     case playFootball = "play-football"
     case playHandball = "play-handball"
     case playVolleyball = "play-volleyball"
@@ -3993,6 +4558,8 @@ public enum TablerIconToken: String {
     case prescription
     case presentation
     case presentationAnalytics = "presentation-analytics"
+    case presentationAnalyticsFilled = "presentation-analytics-filled"
+    case presentationFilled = "presentation-filled"
     case presentationOff = "presentation-off"
     case printer
     case printerOff = "printer-off"
@@ -4025,6 +4592,7 @@ public enum TablerIconToken: String {
     case qrcodeOff = "qrcode-off"
     case questionMark = "question-mark"
     case quote
+    case quoteFilled = "quote-filled"
     case quoteOff = "quote-off"
     case quotes
     case radar
@@ -4054,6 +4622,7 @@ public enum TablerIconToken: String {
     case receiptBitcoin = "receipt-bitcoin"
     case receiptDollar = "receipt-dollar"
     case receiptEuro = "receipt-euro"
+    case receiptFilled = "receipt-filled"
     case receiptOff = "receipt-off"
     case receiptPound = "receipt-pound"
     case receiptRefund = "receipt-refund"
@@ -4096,6 +4665,7 @@ public enum TablerIconToken: String {
     case replace
     case replaceFilled = "replace-filled"
     case replaceOff = "replace-off"
+    case replaceUser = "replace-user"
     case report
     case reportAnalytics = "report-analytics"
     case reportMedical = "report-medical"
@@ -4135,11 +4705,14 @@ public enum TablerIconToken: String {
     case rocketOff = "rocket-off"
     case rollerSkating = "roller-skating"
     case rollercoaster
+    case rollercoasterFilled = "rollercoaster-filled"
     case rollercoasterOff = "rollercoaster-off"
     case rosette
     case rosetteDiscount = "rosette-discount"
     case rosetteDiscountCheck = "rosette-discount-check"
     case rosetteDiscountCheckFilled = "rosette-discount-check-filled"
+    case rosetteDiscountCheckOff = "rosette-discount-check-off"
+    case rosetteDiscountFilled = "rosette-discount-filled"
     case rosetteDiscountOff = "rosette-discount-off"
     case rosetteFilled = "rosette-filled"
     case rosetteNumber0 = "rosette-number-0"
@@ -4183,6 +4756,7 @@ public enum TablerIconToken: String {
     case ruler2Off = "ruler-2-off"
     case ruler3 = "ruler-3"
     case rulerMeasure = "ruler-measure"
+    case rulerMeasure2 = "ruler-measure-2"
     case rulerOff = "ruler-off"
     case run
     case rvTruck = "rv-truck"
@@ -4194,6 +4768,7 @@ public enum TablerIconToken: String {
     case sailboat2 = "sailboat-2"
     case sailboatOff = "sailboat-off"
     case salad
+    case saladFilled = "salad-filled"
     case salt
     case sandbox
     case satellite
@@ -4226,6 +4801,8 @@ public enum TablerIconToken: String {
     case scriptPlus = "script-plus"
     case scriptX = "script-x"
     case scubaDiving = "scuba-diving"
+    case scubaDivingTank = "scuba-diving-tank"
+    case scubaDivingTankFilled = "scuba-diving-tank-filled"
     case scubaMask = "scuba-mask"
     case scubaMaskOff = "scuba-mask-off"
     case sdk
@@ -4234,8 +4811,9 @@ public enum TablerIconToken: String {
     case section
     case sectionFilled = "section-filled"
     case sectionSign = "section-sign"
-    case seeding
-    case seedingOff = "seeding-off"
+    case seedling
+    case seedlingFilled = "seedling-filled"
+    case seedlingOff = "seedling-off"
     case select
     case selectAll = "select-all"
     case selector
@@ -4251,6 +4829,7 @@ public enum TablerIconToken: String {
     case serverBolt = "server-bolt"
     case serverCog = "server-cog"
     case serverOff = "server-off"
+    case serverSpark = "server-spark"
     case servicemark
     case settings
     case settings2 = "settings-2"
@@ -4273,6 +4852,7 @@ public enum TablerIconToken: String {
     case settingsQuestion = "settings-question"
     case settingsSearch = "settings-search"
     case settingsShare = "settings-share"
+    case settingsSpark = "settings-spark"
     case settingsStar = "settings-star"
     case settingsUp = "settings-up"
     case settingsX = "settings-x"
@@ -4380,6 +4960,7 @@ public enum TablerIconToken: String {
     case signature
     case signatureOff = "signature-off"
     case sitemap
+    case sitemapFilled = "sitemap-filled"
     case sitemapOff = "sitemap-off"
     case skateboard
     case skateboardOff = "skateboard-off"
@@ -4415,15 +4996,19 @@ public enum TablerIconToken: String {
     case sortAZ = "sort-a-z"
     case sortAscending = "sort-ascending"
     case sortAscending2 = "sort-ascending-2"
+    case sortAscending2Filled = "sort-ascending-2-filled"
     case sortAscendingLetters = "sort-ascending-letters"
     case sortAscendingNumbers = "sort-ascending-numbers"
     case sortAscendingShapes = "sort-ascending-shapes"
+    case sortAscendingShapesFilled = "sort-ascending-shapes-filled"
     case sortAscendingSmallBig = "sort-ascending-small-big"
     case sortDescending = "sort-descending"
     case sortDescending2 = "sort-descending-2"
+    case sortDescending2Filled = "sort-descending-2-filled"
     case sortDescendingLetters = "sort-descending-letters"
     case sortDescendingNumbers = "sort-descending-numbers"
     case sortDescendingShapes = "sort-descending-shapes"
+    case sortDescendingShapesFilled = "sort-descending-shapes-filled"
     case sortDescendingSmallBig = "sort-descending-small-big"
     case sortZA = "sort-z-a"
     case sos
@@ -4441,10 +5026,12 @@ public enum TablerIconToken: String {
     case sparkles
     case speakerphone
     case speedboat
+    case speedboatFilled = "speedboat-filled"
     case sphere
     case sphereOff = "sphere-off"
     case spherePlus = "sphere-plus"
     case spider
+    case spiderFilled = "spider-filled"
     case spiral
     case spiralOff = "spiral-off"
     case sportBillard = "sport-billard"
@@ -4481,6 +5068,7 @@ public enum TablerIconToken: String {
     case squareChevronsRightFilled = "square-chevrons-right-filled"
     case squareChevronsUp = "square-chevrons-up"
     case squareChevronsUpFilled = "square-chevrons-up-filled"
+    case squareDashed = "square-dashed"
     case squareDot = "square-dot"
     case squareDotFilled = "square-dot-filled"
     case squareF0 = "square-f0"
@@ -4737,6 +5325,7 @@ public enum TablerIconToken: String {
     case statusChange = "status-change"
     case steam
     case steeringWheel = "steering-wheel"
+    case steeringWheelFilled = "steering-wheel-filled"
     case steeringWheelOff = "steering-wheel-off"
     case stepInto = "step-into"
     case stepOut = "step-out"
@@ -4745,6 +5334,7 @@ public enum TablerIconToken: String {
     case stethoscopeOff = "stethoscope-off"
     case sticker
     case sticker2 = "sticker-2"
+    case stopwatch
     case storm
     case stormOff = "storm-off"
     case stretching
@@ -4759,23 +5349,32 @@ public enum TablerIconToken: String {
     case sunElectricity = "sun-electricity"
     case sunFilled = "sun-filled"
     case sunHigh = "sun-high"
+    case sunHighFilled = "sun-high-filled"
     case sunLow = "sun-low"
+    case sunLowFilled = "sun-low-filled"
     case sunMoon = "sun-moon"
     case sunOff = "sun-off"
     case sunWind = "sun-wind"
     case sunglasses
     case sunglassesFilled = "sunglasses-filled"
     case sunrise
+    case sunriseFilled = "sunrise-filled"
     case sunset
     case sunset2 = "sunset-2"
+    case sunset2Filled = "sunset-2-filled"
+    case sunsetFilled = "sunset-filled"
     case superscript
     case svg
     case swimming
     case swipe
     case swipeDown = "swipe-down"
+    case swipeDownFilled = "swipe-down-filled"
     case swipeLeft = "swipe-left"
+    case swipeLeftFilled = "swipe-left-filled"
     case swipeRight = "swipe-right"
+    case swipeRightFilled = "swipe-right-filled"
     case swipeUp = "swipe-up"
+    case swipeUpFilled = "swipe-up-filled"
     case `switch`
     case switch2 = "switch-2"
     case switch3 = "switch-3"
@@ -4787,6 +5386,7 @@ public enum TablerIconToken: String {
     case table
     case tableAlias = "table-alias"
     case tableColumn = "table-column"
+    case tableDashed = "table-dashed"
     case tableDown = "table-down"
     case tableExport = "table-export"
     case tableFilled = "table-filled"
@@ -4799,10 +5399,15 @@ public enum TablerIconToken: String {
     case tableRow = "table-row"
     case tableShare = "table-share"
     case tableShortcut = "table-shortcut"
+    case tableSpark = "table-spark"
     case tag
+    case tagFilled = "tag-filled"
+    case tagMinus = "tag-minus"
     case tagOff = "tag-off"
+    case tagPlus = "tag-plus"
     case tagStarred = "tag-starred"
     case tags
+    case tagsFilled = "tags-filled"
     case tagsOff = "tags-off"
     case tallymark1 = "tallymark-1"
     case tallymark2 = "tallymark-2"
@@ -4813,6 +5418,9 @@ public enum TablerIconToken: String {
     case target
     case targetArrow = "target-arrow"
     case targetOff = "target-off"
+    case tax
+    case taxEuro = "tax-euro"
+    case taxPound = "tax-pound"
     case teapot
     case telescope
     case telescopeOff = "telescope-off"
@@ -4820,8 +5428,10 @@ public enum TablerIconToken: String {
     case temperatureCelsius = "temperature-celsius"
     case temperatureFahrenheit = "temperature-fahrenheit"
     case temperatureMinus = "temperature-minus"
+    case temperatureMinusFilled = "temperature-minus-filled"
     case temperatureOff = "temperature-off"
     case temperaturePlus = "temperature-plus"
+    case temperaturePlusFilled = "temperature-plus-filled"
     case temperatureSnow = "temperature-snow"
     case temperatureSun = "temperature-sun"
     case template
@@ -4832,6 +5442,7 @@ public enum TablerIconToken: String {
     case terminal2 = "terminal-2"
     case testPipe = "test-pipe"
     case testPipe2 = "test-pipe-2"
+    case testPipe2Filled = "test-pipe-2-filled"
     case testPipeOff = "test-pipe-off"
     case tex
     case textCaption = "text-caption"
@@ -4885,6 +5496,10 @@ public enum TablerIconToken: String {
     case timelineEventPlus = "timeline-event-plus"
     case timelineEventText = "timeline-event-text"
     case timelineEventX = "timeline-event-x"
+    case timezone
+    case tipJar = "tip-jar"
+    case tipJarEuro = "tip-jar-euro"
+    case tipJarPound = "tip-jar-pound"
     case tir
     case toggleLeft = "toggle-left"
     case toggleLeftFilled = "toggle-left-filled"
@@ -4928,6 +5543,7 @@ public enum TablerIconToken: String {
     case trafficLights = "traffic-lights"
     case trafficLightsOff = "traffic-lights-off"
     case train
+    case trainFilled = "train-filled"
     case transactionBitcoin = "transaction-bitcoin"
     case transactionDollar = "transaction-dollar"
     case transactionEuro = "transaction-euro"
@@ -4983,12 +5599,14 @@ public enum TablerIconToken: String {
     case triangles
     case trident
     case trolley
+    case trolleyFilled = "trolley-filled"
     case trophy
     case trophyFilled = "trophy-filled"
     case trophyOff = "trophy-off"
     case trowel
     case truck
     case truckDelivery = "truck-delivery"
+    case truckFilled = "truck-filled"
     case truckLoading = "truck-loading"
     case truckOff = "truck-off"
     case truckReturn = "truck-return"
@@ -5000,7 +5618,11 @@ public enum TablerIconToken: String {
     case uTurnRight = "u-turn-right"
     case ufo
     case ufoOff = "ufo-off"
+    case uhd
     case umbrella
+    case umbrella2 = "umbrella-2"
+    case umbrellaClosed = "umbrella-closed"
+    case umbrellaClosed2 = "umbrella-closed-2"
     case umbrellaFilled = "umbrella-filled"
     case umbrellaOff = "umbrella-off"
     case underline
@@ -5010,6 +5632,7 @@ public enum TablerIconToken: String {
     case urgent
     case usb
     case user
+    case userBitcoin = "user-bitcoin"
     case userBolt = "user-bolt"
     case userCancel = "user-cancel"
     case userCheck = "user-check"
@@ -5069,6 +5692,7 @@ public enum TablerIconToken: String {
     case versionsFilled = "versions-filled"
     case versionsOff = "versions-off"
     case video
+    case videoFilled = "video-filled"
     case videoMinus = "video-minus"
     case videoOff = "video-off"
     case videoPlus = "video-plus"
@@ -5079,6 +5703,8 @@ public enum TablerIconToken: String {
     case viewfinder
     case viewfinderOff = "viewfinder-off"
     case viewportNarrow = "viewport-narrow"
+    case viewportShort = "viewport-short"
+    case viewportTall = "viewport-tall"
     case viewportWide = "viewport-wide"
     case vinyl
     case vip
@@ -5141,6 +5767,8 @@ public enum TablerIconToken: String {
     case webhook
     case webhookOff = "webhook-off"
     case weight
+    case wheat
+    case wheatOff = "wheat-off"
     case wheel
     case wheelchair
     case wheelchairOff = "wheelchair-off"
@@ -5161,6 +5789,7 @@ public enum TablerIconToken: String {
     case windowMinimize = "window-minimize"
     case windowOff = "window-off"
     case windsock
+    case windsockFilled = "windsock-filled"
     case wiper
     case wiperWash = "wiper-wash"
     case woman
@@ -5198,6 +5827,7 @@ public enum TablerIconToken: String {
     case writingSign = "writing-sign"
     case writingSignOff = "writing-sign-off"
     case x
+    case xPowerY = "x-power-y"
     case xboxA = "xbox-a"
     case xboxAFilled = "xbox-a-filled"
     case xboxB = "xbox-b"
@@ -5259,6 +5889,7 @@ public enum TablerIconToken: String {
     case zzzOff = "zzz-off"
     
     // Aliases
+    
     case oneTwoThree // Alias of number-123
     case threeSixty // Alias of view-360-arrow
     case codeAsterix = "code-asterix" // Alias of code-asterisk
@@ -5308,8 +5939,13 @@ public enum TablerIconToken: String {
     case square8 = "square-8" // Alias of square-number-8
     case square9 = "square-9" // Alias of square-number-9
     case messageCircle2 = "message-circle-2" // Alias of message-circle
+    case moodSuprised = "mood-suprised" // Alias of mood-surprised
+    case circleDashedLetterLetterV = "circle-dashed-letter-letter-v" // Alias of circle-dashed-letter-v
+    case seeding // Alias of seedling
+    case seedingOff = "seeding-off" // Alias of seedling-off
     case discountCheckFilled = "discount-check-filled" // Alias of rosette-discount-check-filled
     case messageCircle2Filled = "message-circle-2-filled" // Alias of message-circle-filled
+    case seedingFilled = "seeding-filled" // Alias of seedling-filled
     
     public static let iconTokenMap = [
         "a-b": "\u{ec36}",
@@ -5355,13 +5991,17 @@ public enum TablerIconToken: String {
         "adjustments-question": "\u{f808}",
         "adjustments-search": "\u{f809}",
         "adjustments-share": "\u{f80a}",
+        "adjustments-spark": "\u{ffbe}",
         "adjustments-star": "\u{f80b}",
         "adjustments-up": "\u{f80c}",
         "adjustments-x": "\u{f80d}",
         "aerial-lift": "\u{edfe}",
+        "aerial-lift-filled": "\u{10101}",
         "affiliate": "\u{edff}",
         "affiliate-filled": "\u{f6ed}",
+        "ai": "\u{fee7}",
         "air-balloon": "\u{f4a6}",
+        "air-balloon-filled": "\u{10100}",
         "air-conditioning": "\u{f3a2}",
         "air-conditioning-disabled": "\u{f542}",
         "air-traffic-control": "\u{fb01}",
@@ -5373,6 +6013,7 @@ public enum TablerIconToken: String {
         "alarm-off": "\u{f0a9}",
         "alarm-plus": "\u{f631}",
         "alarm-plus-filled": "\u{f70b}",
+        "alarm-smoke": "\u{100b6}",
         "alarm-snooze": "\u{f632}",
         "alarm-snooze-filled": "\u{f70c}",
         "album": "\u{f022}",
@@ -5431,11 +6072,18 @@ public enum TablerIconToken: String {
         "align-center": "\u{ea07}",
         "align-justified": "\u{ea08}",
         "align-left": "\u{ea09}",
+        "align-left-2": "\u{ff00}",
         "align-right": "\u{ea0a}",
+        "align-right-2": "\u{feff}",
         "alpha": "\u{f543}",
+        "alphabet-arabic": "\u{ff2f}",
+        "alphabet-bangla": "\u{ff2e}",
         "alphabet-cyrillic": "\u{f1df}",
         "alphabet-greek": "\u{f1e0}",
+        "alphabet-hebrew": "\u{ff2d}",
+        "alphabet-korean": "\u{ff2c}",
         "alphabet-latin": "\u{f1e1}",
+        "alphabet-thai": "\u{ff2b}",
         "alt": "\u{fc54}",
         "ambulance": "\u{ebf5}",
         "ampersand": "\u{f229}",
@@ -5463,6 +6111,7 @@ public enum TablerIconToken: String {
         "app-window": "\u{efe6}",
         "app-window-filled": "\u{f71a}",
         "apple": "\u{ef21}",
+        "apple-filled": "\u{10017}",
         "apps": "\u{ebb6}",
         "apps-filled": "\u{f6f1}",
         "apps-off": "\u{f0ac}",
@@ -5477,11 +6126,17 @@ public enum TablerIconToken: String {
         "arrow-autofit-content": "\u{ef31}",
         "arrow-autofit-content-filled": "\u{f6f2}",
         "arrow-autofit-down": "\u{ef32}",
+        "arrow-autofit-down-filled": "\u{10113}",
         "arrow-autofit-height": "\u{ef33}",
+        "arrow-autofit-height-filled": "\u{10112}",
         "arrow-autofit-left": "\u{ef34}",
+        "arrow-autofit-left-filled": "\u{10111}",
         "arrow-autofit-right": "\u{ef35}",
+        "arrow-autofit-right-filled": "\u{10110}",
         "arrow-autofit-up": "\u{ef36}",
+        "arrow-autofit-up-filled": "\u{1010f}",
         "arrow-autofit-width": "\u{ef37}",
+        "arrow-autofit-width-filled": "\u{1010e}",
         "arrow-back": "\u{ea0c}",
         "arrow-back-up": "\u{eb77}",
         "arrow-back-up-double": "\u{f9ec}",
@@ -5537,13 +6192,17 @@ public enum TablerIconToken: String {
         "arrow-down": "\u{ea16}",
         "arrow-down-bar": "\u{ed98}",
         "arrow-down-circle": "\u{ea11}",
+        "arrow-down-circle-filled": "\u{1003b}",
+        "arrow-down-dashed": "\u{1006a}",
         "arrow-down-from-arc": "\u{fd86}",
         "arrow-down-left": "\u{ea13}",
         "arrow-down-left-circle": "\u{ea12}",
         "arrow-down-rhombus": "\u{f61d}",
+        "arrow-down-rhombus-filled": "\u{1003a}",
         "arrow-down-right": "\u{ea15}",
         "arrow-down-right-circle": "\u{ea14}",
         "arrow-down-square": "\u{ed9a}",
+        "arrow-down-square-filled": "\u{10039}",
         "arrow-down-tail": "\u{ed9b}",
         "arrow-down-to-arc": "\u{fd87}",
         "arrow-elbow-left": "\u{f9ed}",
@@ -5553,14 +6212,19 @@ public enum TablerIconToken: String {
         "arrow-forward-up": "\u{eb78}",
         "arrow-forward-up-double": "\u{f9ef}",
         "arrow-guide": "\u{f22a}",
+        "arrow-guide-filled": "\u{10038}",
         "arrow-iteration": "\u{f578}",
         "arrow-left": "\u{ea19}",
         "arrow-left-bar": "\u{ed9c}",
         "arrow-left-circle": "\u{ea18}",
+        "arrow-left-circle-filled": "\u{10037}",
+        "arrow-left-dashed": "\u{10069}",
         "arrow-left-from-arc": "\u{fd88}",
         "arrow-left-rhombus": "\u{f61e}",
+        "arrow-left-rhombus-filled": "\u{10036}",
         "arrow-left-right": "\u{f04b}",
         "arrow-left-square": "\u{ed9d}",
+        "arrow-left-square-filled": "\u{10035}",
         "arrow-left-tail": "\u{ed9e}",
         "arrow-left-to-arc": "\u{fd89}",
         "arrow-loop-left": "\u{ed9f}",
@@ -5574,13 +6238,21 @@ public enum TablerIconToken: String {
         "arrow-merge-left": "\u{f23c}",
         "arrow-merge-right": "\u{f23d}",
         "arrow-move-down": "\u{f2ba}",
+        "arrow-move-down-filled": "\u{10034}",
         "arrow-move-left": "\u{f2bb}",
+        "arrow-move-left-filled": "\u{10033}",
         "arrow-move-right": "\u{f2bc}",
+        "arrow-move-right-filled": "\u{10032}",
         "arrow-move-up": "\u{f2bd}",
+        "arrow-move-up-filled": "\u{10031}",
         "arrow-narrow-down": "\u{ea1a}",
+        "arrow-narrow-down-dashed": "\u{10068}",
         "arrow-narrow-left": "\u{ea1b}",
+        "arrow-narrow-left-dashed": "\u{10067}",
         "arrow-narrow-right": "\u{ea1c}",
+        "arrow-narrow-right-dashed": "\u{10066}",
         "arrow-narrow-up": "\u{ea1d}",
+        "arrow-narrow-up-dashed": "\u{10065}",
         "arrow-ramp-left": "\u{ed3c}",
         "arrow-ramp-left-2": "\u{f04f}",
         "arrow-ramp-left-3": "\u{f050}",
@@ -5590,9 +6262,13 @@ public enum TablerIconToken: String {
         "arrow-right": "\u{ea1f}",
         "arrow-right-bar": "\u{eda1}",
         "arrow-right-circle": "\u{ea1e}",
+        "arrow-right-circle-filled": "\u{10030}",
+        "arrow-right-dashed": "\u{10064}",
         "arrow-right-from-arc": "\u{fd8a}",
         "arrow-right-rhombus": "\u{f61f}",
+        "arrow-right-rhombus-filled": "\u{1002f}",
         "arrow-right-square": "\u{eda2}",
+        "arrow-right-square-filled": "\u{1002e}",
         "arrow-right-tail": "\u{eda3}",
         "arrow-right-to-arc": "\u{fd8b}",
         "arrow-rotary-first-left": "\u{f053}",
@@ -5609,13 +6285,17 @@ public enum TablerIconToken: String {
         "arrow-up": "\u{ea25}",
         "arrow-up-bar": "\u{eda4}",
         "arrow-up-circle": "\u{ea20}",
+        "arrow-up-circle-filled": "\u{1002d}",
+        "arrow-up-dashed": "\u{10063}",
         "arrow-up-from-arc": "\u{fd8c}",
         "arrow-up-left": "\u{ea22}",
         "arrow-up-left-circle": "\u{ea21}",
         "arrow-up-rhombus": "\u{f620}",
+        "arrow-up-rhombus-filled": "\u{1002c}",
         "arrow-up-right": "\u{ea24}",
         "arrow-up-right-circle": "\u{ea23}",
         "arrow-up-square": "\u{eda6}",
+        "arrow-up-square-filled": "\u{1002b}",
         "arrow-up-tail": "\u{eda7}",
         "arrow-up-to-arc": "\u{fd8d}",
         "arrow-wave-left-down": "\u{eda8}",
@@ -5659,6 +6339,7 @@ public enum TablerIconToken: String {
         "arrows-split-2": "\u{edb4}",
         "arrows-transfer-down": "\u{f2cc}",
         "arrows-transfer-up": "\u{f2cd}",
+        "arrows-transfer-up-down": "\u{ffac}",
         "arrows-up": "\u{edb7}",
         "arrows-up-down": "\u{edb6}",
         "arrows-up-left": "\u{ee02}",
@@ -5691,6 +6372,8 @@ public enum TablerIconToken: String {
         "augmented-reality-off": "\u{f3c1}",
         "auth-2fa": "\u{eca0}",
         "automatic-gearbox": "\u{fc89}",
+        "automatic-gearbox-filled": "\u{1002a}",
+        "automation": "\u{fef8}",
         "avocado": "\u{fd8e}",
         "award": "\u{ea2c}",
         "award-filled": "\u{f71c}",
@@ -5709,10 +6392,13 @@ public enum TablerIconToken: String {
         "backspace": "\u{ea2d}",
         "backspace-filled": "\u{f7dc}",
         "badge": "\u{efc2}",
+        "badge-2k": "\u{100b5}",
         "badge-3d": "\u{f555}",
         "badge-3d-filled": "\u{fe9b}",
+        "badge-3k": "\u{100b4}",
         "badge-4k": "\u{f556}",
         "badge-4k-filled": "\u{fe9a}",
+        "badge-5k": "\u{100b3}",
         "badge-8k": "\u{f557}",
         "badge-8k-filled": "\u{fe99}",
         "badge-ad": "\u{f558}",
@@ -5810,11 +6496,29 @@ public enum TablerIconToken: String {
         "battery-4": "\u{ea32}",
         "battery-4-filled": "\u{f721}",
         "battery-automotive": "\u{ee07}",
+        "battery-automotive-filled": "\u{10029}",
         "battery-charging": "\u{ea33}",
         "battery-charging-2": "\u{ef3b}",
         "battery-eco": "\u{ef3c}",
+        "battery-exclamation": "\u{ff1d}",
         "battery-filled": "\u{f668}",
         "battery-off": "\u{ed1c}",
+        "battery-spark": "\u{ffbd}",
+        "battery-vertical": "\u{ff13}",
+        "battery-vertical-1": "\u{ff1c}",
+        "battery-vertical-1-filled": "\u{10028}",
+        "battery-vertical-2": "\u{ff1b}",
+        "battery-vertical-2-filled": "\u{10027}",
+        "battery-vertical-3": "\u{ff1a}",
+        "battery-vertical-3-filled": "\u{10026}",
+        "battery-vertical-4": "\u{ff19}",
+        "battery-vertical-4-filled": "\u{10025}",
+        "battery-vertical-charging": "\u{ff17}",
+        "battery-vertical-charging-2": "\u{ff18}",
+        "battery-vertical-eco": "\u{ff16}",
+        "battery-vertical-exclamation": "\u{ff15}",
+        "battery-vertical-filled": "\u{10024}",
+        "battery-vertical-off": "\u{ff14}",
         "beach": "\u{ef3d}",
         "beach-off": "\u{f0b7}",
         "bed": "\u{eb5c}",
@@ -5860,11 +6564,16 @@ public enum TablerIconToken: String {
         "beta": "\u{f544}",
         "bible": "\u{efc4}",
         "bike": "\u{ea36}",
+        "bike-filled": "\u{10023}",
         "bike-off": "\u{f0b8}",
         "binary": "\u{ee08}",
         "binary-off": "\u{f3c5}",
         "binary-tree": "\u{f5d4}",
         "binary-tree-2": "\u{f5d3}",
+        "binary-tree-2-filled": "\u{ff65}",
+        "binary-tree-filled": "\u{ff64}",
+        "binoculars": "\u{fefe}",
+        "binoculars-filled": "\u{ff0b}",
         "biohazard": "\u{ecb8}",
         "biohazard-filled": "\u{fe8c}",
         "biohazard-off": "\u{f0b9}",
@@ -5876,9 +6585,11 @@ public enum TablerIconToken: String {
         "bleach-off": "\u{f2f2}",
         "blend-mode": "\u{feb0}",
         "blender": "\u{fca2}",
+        "blender-filled": "\u{10022}",
         "blob": "\u{feaf}",
         "blob-filled": "\u{feb1}",
         "blockquote": "\u{ee09}",
+        "blocks": "\u{100b2}",
         "bluetooth": "\u{ea37}",
         "bluetooth-connected": "\u{ecea}",
         "bluetooth-off": "\u{eceb}",
@@ -5890,6 +6601,7 @@ public enum TablerIconToken: String {
         "bold": "\u{eb7b}",
         "bold-off": "\u{f0ba}",
         "bolt": "\u{ea38}",
+        "bolt-filled": "\u{10021}",
         "bolt-off": "\u{ecec}",
         "bomb": "\u{f59c}",
         "bomb-filled": "\u{fa86}",
@@ -5897,6 +6609,7 @@ public enum TablerIconToken: String {
         "bone-filled": "\u{fe8b}",
         "bone-off": "\u{f0bb}",
         "bong": "\u{f3a7}",
+        "bong-filled": "\u{10020}",
         "bong-off": "\u{f3c7}",
         "book": "\u{ea39}",
         "book-2": "\u{efc5}",
@@ -5957,6 +6670,7 @@ public enum TablerIconToken: String {
         "bowl-filled": "\u{fb22}",
         "bowl-spoon": "\u{fd91}",
         "bowl-spoon-filled": "\u{fe87}",
+        "bowling": "\u{100b1}",
         "box": "\u{ea45}",
         "box-align-bottom": "\u{f2a8}",
         "box-align-bottom-filled": "\u{fa8a}",
@@ -5990,6 +6704,7 @@ public enum TablerIconToken: String {
         "box-multiple-7": "\u{ee14}",
         "box-multiple-8": "\u{ee15}",
         "box-multiple-9": "\u{ee16}",
+        "box-multiple-filled": "\u{1001f}",
         "box-off": "\u{f102}",
         "box-padding": "\u{ee18}",
         "braces": "\u{ebcc}",
@@ -6006,6 +6721,12 @@ public enum TablerIconToken: String {
         "brand-4chan": "\u{f494}",
         "brand-abstract": "\u{f495}",
         "brand-adobe": "\u{f0dc}",
+        "brand-adobe-after-effect": "\u{ff2a}",
+        "brand-adobe-illustrator": "\u{ff29}",
+        "brand-adobe-indesign": "\u{ff28}",
+        "brand-adobe-photoshop": "\u{ff27}",
+        "brand-adobe-premier": "\u{ff26}",
+        "brand-adobe-xd": "\u{ff25}",
         "brand-adonis-js": "\u{f496}",
         "brand-airbnb": "\u{ed68}",
         "brand-airtable": "\u{ef6a}",
@@ -6014,16 +6735,19 @@ public enum TablerIconToken: String {
         "brand-alpine-js": "\u{f324}",
         "brand-amazon": "\u{f230}",
         "brand-amd": "\u{f653}",
+        "brand-amie": "\u{ffab}",
         "brand-amigo": "\u{f5f9}",
         "brand-among-us": "\u{f205}",
         "brand-android": "\u{ec16}",
         "brand-angular": "\u{ef6b}",
+        "brand-angular-filled": "\u{10095}",
         "brand-ansible": "\u{fa70}",
         "brand-ao3": "\u{f5e8}",
         "brand-appgallery": "\u{f231}",
         "brand-apple": "\u{ec17}",
         "brand-apple-arcade": "\u{ed69}",
         "brand-apple-filled": "\u{fd74}",
+        "brand-apple-news": "\u{ff24}",
         "brand-apple-podcast": "\u{f1e6}",
         "brand-appstore": "\u{ed24}",
         "brand-arc": "\u{feae}",
@@ -6038,11 +6762,13 @@ public enum TablerIconToken: String {
         "brand-bandcamp": "\u{f207}",
         "brand-bandlab": "\u{f5fa}",
         "brand-beats": "\u{f208}",
+        "brand-bebo": "\u{ffaa}",
         "brand-behance": "\u{ec6e}",
         "brand-bilibili": "\u{f6d2}",
         "brand-binance": "\u{f5a0}",
         "brand-bing": "\u{edc6}",
         "brand-bitbucket": "\u{edc7}",
+        "brand-bitbucket-filled": "\u{100cb}",
         "brand-blackberry": "\u{f568}",
         "brand-blender": "\u{f326}",
         "brand-blogger": "\u{f35a}",
@@ -6155,6 +6881,7 @@ public enum TablerIconToken: String {
         "brand-grindr": "\u{f20d}",
         "brand-guardian": "\u{f4fb}",
         "brand-gumroad": "\u{f5d6}",
+        "brand-hackerrank": "\u{ff23}",
         "brand-hbo": "\u{f657}",
         "brand-headlessui": "\u{f32d}",
         "brand-hexo": "\u{fa50}",
@@ -6162,6 +6889,7 @@ public enum TablerIconToken: String {
         "brand-html5": "\u{ed6c}",
         "brand-inertia": "\u{f34a}",
         "brand-instagram": "\u{ec20}",
+        "brand-instagram-filled": "\u{10094}",
         "brand-intercom": "\u{f1cf}",
         "brand-itch": "\u{fa22}",
         "brand-javascript": "\u{ef0c}",
@@ -6169,6 +6897,7 @@ public enum TablerIconToken: String {
         "brand-kako-talk": "\u{fd2d}",
         "brand-kbin": "\u{fad0}",
         "brand-kick": "\u{fa23}",
+        "brand-kick-filled": "\u{10093}",
         "brand-kickstarter": "\u{edce}",
         "brand-kotlin": "\u{ed6d}",
         "brand-laravel": "\u{f34b}",
@@ -6177,6 +6906,7 @@ public enum TablerIconToken: String {
         "brand-letterboxd": "\u{fa24}",
         "brand-line": "\u{f7e8}",
         "brand-linkedin": "\u{ec8c}",
+        "brand-linkedin-filled": "\u{10092}",
         "brand-linktree": "\u{f1e7}",
         "brand-linqpad": "\u{f562}",
         "brand-livewire": "\u{fd76}",
@@ -6191,7 +6921,9 @@ public enum TablerIconToken: String {
         "brand-meetup": "\u{fc6a}",
         "brand-mercedes": "\u{f072}",
         "brand-messenger": "\u{ec71}",
+        "brand-messenger-filled": "\u{100a7}",
         "brand-meta": "\u{efb0}",
+        "brand-metabrainz": "\u{ff12}",
         "brand-minecraft": "\u{faef}",
         "brand-miniprogram": "\u{f602}",
         "brand-mixpanel": "\u{f397}",
@@ -6219,9 +6951,11 @@ public enum TablerIconToken: String {
         "brand-onedrive": "\u{f5d7}",
         "brand-onlyfans": "\u{f605}",
         "brand-open-source": "\u{edd0}",
+        "brand-open-source-filled": "\u{10091}",
         "brand-openai": "\u{f78e}",
         "brand-openvpn": "\u{f39a}",
         "brand-opera": "\u{ec21}",
+        "brand-opera-filled": "\u{10090}",
         "brand-pagekit": "\u{edd1}",
         "brand-parsinta": "\u{fc42}",
         "brand-patreon": "\u{edd2}",
@@ -6234,6 +6968,7 @@ public enum TablerIconToken: String {
         "brand-php": "\u{ef72}",
         "brand-picsart": "\u{f4d9}",
         "brand-pinterest": "\u{ec8d}",
+        "brand-pinterest-filled": "\u{1008f}",
         "brand-planetscale": "\u{f78f}",
         "brand-pnpm": "\u{fd77}",
         "brand-pocket": "\u{ed00}",
@@ -6264,9 +6999,11 @@ public enum TablerIconToken: String {
         "brand-shazam": "\u{edd6}",
         "brand-shopee": "\u{f252}",
         "brand-sketch": "\u{ec24}",
+        "brand-sketch-filled": "\u{1008e}",
         "brand-skype": "\u{ed02}",
         "brand-slack": "\u{ec72}",
         "brand-snapchat": "\u{ec25}",
+        "brand-snapchat-filled": "\u{1008d}",
         "brand-snapseed": "\u{f253}",
         "brand-snowflake": "\u{f615}",
         "brand-socket-io": "\u{f49b}",
@@ -6279,12 +7016,14 @@ public enum TablerIconToken: String {
         "brand-stackoverflow": "\u{ef58}",
         "brand-stackshare": "\u{f607}",
         "brand-steam": "\u{ed6f}",
+        "brand-steam-filled": "\u{1008c}",
         "brand-stocktwits": "\u{fd78}",
         "brand-storj": "\u{fa54}",
         "brand-storybook": "\u{f332}",
         "brand-storytel": "\u{f608}",
         "brand-strava": "\u{f254}",
         "brand-stripe": "\u{edd7}",
+        "brand-stripe-filled": "\u{1008b}",
         "brand-sublime-text": "\u{ef74}",
         "brand-sugarizer": "\u{f7a5}",
         "brand-supabase": "\u{f6d3}",
@@ -6295,12 +7034,14 @@ public enum TablerIconToken: String {
         "brand-swift": "\u{fa55}",
         "brand-symfony": "\u{f616}",
         "brand-tabler": "\u{ec8f}",
+        "brand-tabler-filled": "\u{1008a}",
         "brand-tailwind": "\u{eca1}",
         "brand-taobao": "\u{f5ef}",
         "brand-teams": "\u{fadf}",
         "brand-ted": "\u{f658}",
         "brand-telegram": "\u{ec26}",
         "brand-terraform": "\u{fa56}",
+        "brand-tesla": "\u{10099}",
         "brand-tether": "\u{f5a3}",
         "brand-thingiverse": "\u{fd1c}",
         "brand-threads": "\u{fb02}",
@@ -6309,12 +7050,14 @@ public enum TablerIconToken: String {
         "brand-tiktok": "\u{ec73}",
         "brand-tiktok-filled": "\u{f7ea}",
         "brand-tinder": "\u{ed71}",
+        "brand-tinder-filled": "\u{10089}",
         "brand-topbuzz": "\u{f50d}",
         "brand-torchain": "\u{f5a4}",
         "brand-toyota": "\u{f262}",
         "brand-trello": "\u{f39d}",
         "brand-tripadvisor": "\u{f002}",
         "brand-tumblr": "\u{ed04}",
+        "brand-tumblr-filled": "\u{10088}",
         "brand-twilio": "\u{f617}",
         "brand-twitch": "\u{ed05}",
         "brand-twitter": "\u{ec27}",
@@ -6327,7 +7070,9 @@ public enum TablerIconToken: String {
         "brand-upwork": "\u{f39e}",
         "brand-valorant": "\u{f39f}",
         "brand-vercel": "\u{ef24}",
+        "brand-vercel-filled": "\u{10087}",
         "brand-vimeo": "\u{ed06}",
+        "brand-vimeo-filled": "\u{10086}",
         "brand-vinted": "\u{f20f}",
         "brand-visa": "\u{f380}",
         "brand-visual-studio": "\u{ef76}",
@@ -6344,9 +7089,12 @@ public enum TablerIconToken: String {
         "brand-webflow": "\u{f2d2}",
         "brand-wechat": "\u{f5f3}",
         "brand-weibo": "\u{f609}",
+        "brand-weibo-filled": "\u{100a6}",
         "brand-whatsapp": "\u{ec74}",
+        "brand-whatsapp-filled": "\u{10085}",
         "brand-wikipedia": "\u{fa79}",
         "brand-windows": "\u{ecd8}",
+        "brand-windows-filled": "\u{10084}",
         "brand-windy": "\u{f4dd}",
         "brand-wish": "\u{f212}",
         "brand-wix": "\u{f3a1}",
@@ -6395,8 +7143,11 @@ public enum TablerIconToken: String {
         "broadcast-off": "\u{f1e8}",
         "browser": "\u{ebb7}",
         "browser-check": "\u{efd6}",
+        "browser-maximize": "\u{100b0}",
+        "browser-minus": "\u{100af}",
         "browser-off": "\u{f0c1}",
         "browser-plus": "\u{efd7}",
+        "browser-share": "\u{100ae}",
         "browser-x": "\u{efd8}",
         "brush": "\u{ebb8}",
         "brush-off": "\u{f0c2}",
@@ -6404,7 +7155,10 @@ public enum TablerIconToken: String {
         "bubble-filled": "\u{fec3}",
         "bubble-minus": "\u{febe}",
         "bubble-plus": "\u{febd}",
+        "bubble-tea": "\u{ff51}",
+        "bubble-tea-2": "\u{ff52}",
         "bubble-text": "\u{febc}",
+        "bubble-text-filled": "\u{100a5}",
         "bubble-x": "\u{febb}",
         "bucket": "\u{ea47}",
         "bucket-droplet": "\u{f56a}",
@@ -6413,16 +7167,19 @@ public enum TablerIconToken: String {
         "bug-filled": "\u{fd01}",
         "bug-off": "\u{f0c3}",
         "building": "\u{ea4f}",
+        "building-airport": "\u{ffa9}",
         "building-arch": "\u{ea49}",
         "building-bank": "\u{ebe2}",
         "building-bridge": "\u{ea4b}",
         "building-bridge-2": "\u{ea4a}",
         "building-broadcast-tower": "\u{f4be}",
         "building-broadcast-tower-filled": "\u{fe81}",
+        "building-burj-al-arab": "\u{ff50}",
         "building-carousel": "\u{ed87}",
         "building-castle": "\u{ed88}",
         "building-church": "\u{ea4c}",
         "building-circus": "\u{f4bf}",
+        "building-cog": "\u{10062}",
         "building-community": "\u{ebf6}",
         "building-cottage": "\u{ee1b}",
         "building-estate": "\u{f5a5}",
@@ -6431,30 +7188,37 @@ public enum TablerIconToken: String {
         "building-fortress": "\u{ed89}",
         "building-hospital": "\u{ea4d}",
         "building-lighthouse": "\u{ed8a}",
+        "building-minus": "\u{10061}",
         "building-monument": "\u{ed26}",
         "building-mosque": "\u{fa57}",
+        "building-off": "\u{fefd}",
         "building-pavilion": "\u{ebf7}",
+        "building-plus": "\u{10060}",
         "building-skyscraper": "\u{ec39}",
         "building-stadium": "\u{f641}",
         "building-store": "\u{ea4e}",
         "building-tunnel": "\u{f5a6}",
         "building-warehouse": "\u{ebe3}",
         "building-wind-turbine": "\u{f4c0}",
+        "buildings": "\u{ff40}",
         "bulb": "\u{ea51}",
         "bulb-filled": "\u{f66a}",
         "bulb-off": "\u{ea50}",
         "bulldozer": "\u{ee1d}",
         "burger": "\u{fcb4}",
         "bus": "\u{ebe4}",
+        "bus-filled": "\u{100ff}",
         "bus-off": "\u{f3ce}",
         "bus-stop": "\u{f2d4}",
         "businessplan": "\u{ee1e}",
         "butterfly": "\u{efd9}",
+        "butterfly-filled": "\u{10016}",
         "cactus": "\u{f21b}",
         "cactus-filled": "\u{fb25}",
         "cactus-off": "\u{f3cf}",
         "cake": "\u{f00f}",
         "cake-off": "\u{f104}",
+        "cake-roll": "\u{100bd}",
         "calculator": "\u{eb80}",
         "calculator-filled": "\u{fb26}",
         "calculator-off": "\u{f0c4}",
@@ -6470,11 +7234,13 @@ public enum TablerIconToken: String {
         "calendar-down": "\u{f828}",
         "calendar-due": "\u{f621}",
         "calendar-event": "\u{ea52}",
+        "calendar-event-filled": "\u{100b9}",
         "calendar-exclamation": "\u{f829}",
         "calendar-filled": "\u{fb27}",
         "calendar-heart": "\u{f82a}",
         "calendar-minus": "\u{ebb9}",
         "calendar-month": "\u{fd2f}",
+        "calendar-month-filled": "\u{100b8}",
         "calendar-off": "\u{ee1f}",
         "calendar-pause": "\u{f82b}",
         "calendar-pin": "\u{f82c}",
@@ -6491,8 +7257,11 @@ public enum TablerIconToken: String {
         "calendar-up": "\u{f831}",
         "calendar-user": "\u{fd1f}",
         "calendar-week": "\u{fd30}",
+        "calendar-week-filled": "\u{100b7}",
         "calendar-x": "\u{f832}",
         "camera": "\u{ea54}",
+        "camera-ai": "\u{ffa8}",
+        "camera-bitcoin": "\u{ffa7}",
         "camera-bolt": "\u{f833}",
         "camera-cancel": "\u{f834}",
         "camera-check": "\u{f835}",
@@ -6504,6 +7273,7 @@ public enum TablerIconToken: String {
         "camera-filled": "\u{fa37}",
         "camera-heart": "\u{f83b}",
         "camera-minus": "\u{ec3a}",
+        "camera-moon": "\u{ffa6}",
         "camera-off": "\u{ecee}",
         "camera-pause": "\u{f83c}",
         "camera-pin": "\u{f83d}",
@@ -6513,18 +7283,24 @@ public enum TablerIconToken: String {
         "camera-search": "\u{f83f}",
         "camera-selfie": "\u{ee23}",
         "camera-share": "\u{f840}",
+        "camera-spark": "\u{ffbc}",
         "camera-star": "\u{f841}",
         "camera-up": "\u{f842}",
         "camera-x": "\u{f843}",
         "camper": "\u{fa25}",
         "campfire": "\u{f5a7}",
         "campfire-filled": "\u{fb28}",
+        "cancel": "\u{ff11}",
         "candle": "\u{efc6}",
         "candle-filled": "\u{fc23}",
         "candy": "\u{ef0d}",
         "candy-off": "\u{f0c5}",
         "cane": "\u{f50f}",
         "cannabis": "\u{f4c1}",
+        "cannabis-filled": "\u{10015}",
+        "cap-projecting": "\u{ff22}",
+        "cap-rounded": "\u{ff21}",
+        "cap-straight": "\u{ff20}",
         "capsule": "\u{fae3}",
         "capsule-filled": "\u{fc24}",
         "capsule-horizontal": "\u{fae2}",
@@ -6534,20 +7310,28 @@ public enum TablerIconToken: String {
         "capture-off": "\u{f0c6}",
         "car": "\u{ebbb}",
         "car-4wd": "\u{fdb8}",
+        "car-4wd-filled": "\u{1001e}",
         "car-crane": "\u{ef25}",
+        "car-crane-filled": "\u{100fe}",
         "car-crash": "\u{efa4}",
         "car-fan": "\u{fdb3}",
         "car-fan-1": "\u{fdb7}",
         "car-fan-2": "\u{fdb6}",
         "car-fan-3": "\u{fdb5}",
         "car-fan-auto": "\u{fdb4}",
+        "car-fan-filled": "\u{1001d}",
+        "car-filled": "\u{1004c}",
         "car-garage": "\u{fc77}",
         "car-off": "\u{f0c7}",
         "car-suv": "\u{fc8b}",
+        "car-suv-filled": "\u{1004d}",
         "car-turbine": "\u{f4fd}",
         "carambola": "\u{feb9}",
+        "carambola-filled": "\u{10014}",
         "caravan": "\u{ec7c}",
+        "caravan-filled": "\u{100fd}",
         "cardboards": "\u{ed74}",
+        "cardboards-filled": "\u{1001c}",
         "cardboards-off": "\u{f0c8}",
         "cards": "\u{f510}",
         "cards-filled": "\u{fc26}",
@@ -6571,9 +7355,22 @@ public enum TablerIconToken: String {
         "carrot-off": "\u{f3d0}",
         "cash": "\u{ea55}",
         "cash-banknote": "\u{ee25}",
+        "cash-banknote-edit": "\u{10149}",
         "cash-banknote-filled": "\u{fe80}",
+        "cash-banknote-heart": "\u{10148}",
+        "cash-banknote-minus": "\u{10147}",
+        "cash-banknote-move": "\u{10145}",
+        "cash-banknote-move-back": "\u{10146}",
         "cash-banknote-off": "\u{ee24}",
+        "cash-banknote-plus": "\u{10144}",
+        "cash-edit": "\u{10143}",
+        "cash-heart": "\u{10142}",
+        "cash-minus": "\u{10141}",
+        "cash-move": "\u{1013f}",
+        "cash-move-back": "\u{10140}",
         "cash-off": "\u{f105}",
+        "cash-plus": "\u{1013e}",
+        "cash-register": "\u{fee6}",
         "cast": "\u{ea56}",
         "cast-off": "\u{f0c9}",
         "cat": "\u{f65b}",
@@ -6599,6 +7396,7 @@ public enum TablerIconToken: String {
         "chalkboard": "\u{f34d}",
         "chalkboard-off": "\u{f3d1}",
         "charging-pile": "\u{ee26}",
+        "charging-pile-filled": "\u{1001b}",
         "chart-arcs": "\u{ee28}",
         "chart-arcs-3": "\u{ee27}",
         "chart-area": "\u{ea58}",
@@ -6609,11 +7407,15 @@ public enum TablerIconToken: String {
         "chart-arrows-vertical": "\u{ee29}",
         "chart-bar": "\u{ea59}",
         "chart-bar-off": "\u{f3d2}",
+        "chart-bar-popular": "\u{fef7}",
         "chart-bubble": "\u{ec75}",
         "chart-bubble-filled": "\u{f66d}",
         "chart-candle": "\u{ea5a}",
         "chart-candle-filled": "\u{f66e}",
         "chart-circles": "\u{ee2b}",
+        "chart-cohort": "\u{fef6}",
+        "chart-column": "\u{ffa5}",
+        "chart-covariate": "\u{ffa4}",
         "chart-donut": "\u{ea5b}",
         "chart-donut-2": "\u{ee2c}",
         "chart-donut-3": "\u{ee2d}",
@@ -6621,8 +7423,12 @@ public enum TablerIconToken: String {
         "chart-donut-filled": "\u{f66f}",
         "chart-dots": "\u{ee2f}",
         "chart-dots-2": "\u{f097}",
+        "chart-dots-2-filled": "\u{100dd}",
         "chart-dots-3": "\u{f098}",
+        "chart-dots-3-filled": "\u{100dc}",
         "chart-dots-filled": "\u{fd04}",
+        "chart-funnel": "\u{fef5}",
+        "chart-funnel-filled": "\u{100db}",
         "chart-grid-dots": "\u{f4c2}",
         "chart-grid-dots-filled": "\u{fd05}",
         "chart-histogram": "\u{f65c}",
@@ -6630,8 +7436,11 @@ public enum TablerIconToken: String {
         "chart-line": "\u{ea5c}",
         "chart-pie": "\u{ea5d}",
         "chart-pie-2": "\u{ee31}",
+        "chart-pie-2-filled": "\u{100da}",
         "chart-pie-3": "\u{ee32}",
+        "chart-pie-3-filled": "\u{100d9}",
         "chart-pie-4": "\u{ee33}",
+        "chart-pie-4-filled": "\u{100d8}",
         "chart-pie-filled": "\u{f670}",
         "chart-pie-off": "\u{f3d3}",
         "chart-ppf": "\u{f618}",
@@ -6647,6 +7456,7 @@ public enum TablerIconToken: String {
         "checkup-list": "\u{ef5a}",
         "cheese": "\u{ef26}",
         "chef-hat": "\u{f21d}",
+        "chef-hat-filled": "\u{100d7}",
         "chef-hat-off": "\u{f3d4}",
         "cherry": "\u{f511}",
         "cherry-filled": "\u{f728}",
@@ -6687,6 +7497,7 @@ public enum TablerIconToken: String {
         "chisel": "\u{f383}",
         "christmas-ball": "\u{fd31}",
         "christmas-tree": "\u{ed78}",
+        "christmas-tree-filled": "\u{1001a}",
         "christmas-tree-off": "\u{f3d5}",
         "circle": "\u{ea6b}",
         "circle-arrow-down": "\u{f6f9}",
@@ -6706,21 +7517,59 @@ public enum TablerIconToken: String {
         "circle-arrow-up-right": "\u{f702}",
         "circle-arrow-up-right-filled": "\u{f701}",
         "circle-caret-down": "\u{f4a9}",
+        "circle-caret-down-filled": "\u{100d6}",
         "circle-caret-left": "\u{f4aa}",
+        "circle-caret-left-filled": "\u{100d5}",
         "circle-caret-right": "\u{f4ab}",
+        "circle-caret-right-filled": "\u{100d4}",
         "circle-caret-up": "\u{f4ac}",
+        "circle-caret-up-filled": "\u{100d3}",
         "circle-check": "\u{ea67}",
         "circle-check-filled": "\u{f704}",
         "circle-chevron-down": "\u{f622}",
+        "circle-chevron-down-filled": "\u{100d2}",
         "circle-chevron-left": "\u{f623}",
+        "circle-chevron-left-filled": "\u{100d1}",
         "circle-chevron-right": "\u{f624}",
+        "circle-chevron-right-filled": "\u{100d0}",
         "circle-chevron-up": "\u{f625}",
+        "circle-chevron-up-filled": "\u{100cf}",
         "circle-chevrons-down": "\u{f642}",
+        "circle-chevrons-down-filled": "\u{100ef}",
         "circle-chevrons-left": "\u{f643}",
+        "circle-chevrons-left-filled": "\u{100ee}",
         "circle-chevrons-right": "\u{f644}",
+        "circle-chevrons-right-filled": "\u{100ed}",
         "circle-chevrons-up": "\u{f645}",
+        "circle-chevrons-up-filled": "\u{100ec}",
         "circle-dashed": "\u{ed27}",
         "circle-dashed-check": "\u{feb8}",
+        "circle-dashed-letter-a": "\u{ff9a}",
+        "circle-dashed-letter-b": "\u{ff99}",
+        "circle-dashed-letter-c": "\u{ff98}",
+        "circle-dashed-letter-d": "\u{ff97}",
+        "circle-dashed-letter-e": "\u{ff96}",
+        "circle-dashed-letter-f": "\u{ff95}",
+        "circle-dashed-letter-g": "\u{ff94}",
+        "circle-dashed-letter-h": "\u{ff93}",
+        "circle-dashed-letter-i": "\u{ff92}",
+        "circle-dashed-letter-j": "\u{ff91}",
+        "circle-dashed-letter-k": "\u{ff90}",
+        "circle-dashed-letter-l": "\u{ff8f}",
+        "circle-dashed-letter-m": "\u{ff8d}",
+        "circle-dashed-letter-n": "\u{ff8c}",
+        "circle-dashed-letter-o": "\u{ff8b}",
+        "circle-dashed-letter-p": "\u{ff8a}",
+        "circle-dashed-letter-q": "\u{ff89}",
+        "circle-dashed-letter-r": "\u{ff88}",
+        "circle-dashed-letter-s": "\u{ff87}",
+        "circle-dashed-letter-t": "\u{ff86}",
+        "circle-dashed-letter-u": "\u{ff85}",
+        "circle-dashed-letter-v": "\u{ff84}",
+        "circle-dashed-letter-w": "\u{ff83}",
+        "circle-dashed-letter-x": "\u{ff82}",
+        "circle-dashed-letter-y": "\u{ff81}",
+        "circle-dashed-letter-z": "\u{ff80}",
         "circle-dashed-minus": "\u{feb7}",
         "circle-dashed-number-0": "\u{fc6b}",
         "circle-dashed-number-1": "\u{fc6c}",
@@ -6738,6 +7587,32 @@ public enum TablerIconToken: String {
         "circle-dot": "\u{efb1}",
         "circle-dot-filled": "\u{f705}",
         "circle-dotted": "\u{ed28}",
+        "circle-dotted-letter-a": "\u{ff7f}",
+        "circle-dotted-letter-b": "\u{ff7e}",
+        "circle-dotted-letter-c": "\u{ff7d}",
+        "circle-dotted-letter-d": "\u{ff7c}",
+        "circle-dotted-letter-e": "\u{ff7b}",
+        "circle-dotted-letter-f": "\u{ff7a}",
+        "circle-dotted-letter-g": "\u{ff79}",
+        "circle-dotted-letter-h": "\u{ff78}",
+        "circle-dotted-letter-i": "\u{ff77}",
+        "circle-dotted-letter-j": "\u{ff76}",
+        "circle-dotted-letter-k": "\u{ff75}",
+        "circle-dotted-letter-l": "\u{ff74}",
+        "circle-dotted-letter-m": "\u{ff73}",
+        "circle-dotted-letter-n": "\u{ff72}",
+        "circle-dotted-letter-o": "\u{ff71}",
+        "circle-dotted-letter-p": "\u{ff70}",
+        "circle-dotted-letter-q": "\u{ff6f}",
+        "circle-dotted-letter-r": "\u{ff6e}",
+        "circle-dotted-letter-s": "\u{ff6d}",
+        "circle-dotted-letter-t": "\u{ff6c}",
+        "circle-dotted-letter-u": "\u{ff6b}",
+        "circle-dotted-letter-v": "\u{ff6a}",
+        "circle-dotted-letter-w": "\u{ff69}",
+        "circle-dotted-letter-x": "\u{ff68}",
+        "circle-dotted-letter-y": "\u{ff67}",
+        "circle-dotted-letter-z": "\u{ff66}",
         "circle-filled": "\u{f671}",
         "circle-half": "\u{ee3f}",
         "circle-half-2": "\u{eff3}",
@@ -6823,7 +7698,9 @@ public enum TablerIconToken: String {
         "circle-percentage-filled": "\u{fed5}",
         "circle-plus": "\u{ea69}",
         "circle-plus-2": "\u{fc8d}",
+        "circle-plus-filled": "\u{fef9}",
         "circle-rectangle": "\u{f010}",
+        "circle-rectangle-filled": "\u{ff63}",
         "circle-rectangle-off": "\u{f0cd}",
         "circle-square": "\u{ece4}",
         "circle-triangle": "\u{f011}",
@@ -6854,22 +7731,32 @@ public enum TablerIconToken: String {
         "clear-all": "\u{ee41}",
         "clear-formatting": "\u{ebe5}",
         "click": "\u{ebbc}",
+        "cliff-jumping": "\u{fefc}",
         "clipboard": "\u{ea6f}",
         "clipboard-check": "\u{ea6c}",
+        "clipboard-check-filled": "\u{100ce}",
         "clipboard-copy": "\u{f299}",
         "clipboard-data": "\u{f563}",
+        "clipboard-data-filled": "\u{100eb}",
+        "clipboard-filled": "\u{100cc}",
         "clipboard-heart": "\u{f34e}",
         "clipboard-list": "\u{ea6d}",
+        "clipboard-list-filled": "\u{100ea}",
         "clipboard-off": "\u{f0ce}",
         "clipboard-plus": "\u{efb2}",
+        "clipboard-search": "\u{10098}",
         "clipboard-smile": "\u{fd9a}",
         "clipboard-text": "\u{f089}",
+        "clipboard-text-filled": "\u{100e9}",
         "clipboard-typography": "\u{f34f}",
+        "clipboard-typography-filled": "\u{100e8}",
         "clipboard-x": "\u{ea6e}",
+        "clipboard-x-filled": "\u{100cd}",
         "clock": "\u{ea70}",
         "clock-12": "\u{fc56}",
         "clock-2": "\u{f099}",
         "clock-24": "\u{fc57}",
+        "clock-bitcoin": "\u{ff3f}",
         "clock-bolt": "\u{f844}",
         "clock-cancel": "\u{f546}",
         "clock-check": "\u{f7c1}",
@@ -6923,13 +7810,16 @@ public enum TablerIconToken: String {
         "clothes-rack": "\u{f285}",
         "clothes-rack-off": "\u{f3d6}",
         "cloud": "\u{ea76}",
+        "cloud-bitcoin": "\u{ff3e}",
         "cloud-bolt": "\u{f84b}",
         "cloud-cancel": "\u{f84c}",
         "cloud-check": "\u{f84d}",
         "cloud-code": "\u{f84e}",
         "cloud-cog": "\u{f84f}",
         "cloud-computing": "\u{f1d0}",
+        "cloud-computing-filled": "\u{1010d}",
         "cloud-data-connection": "\u{f1d1}",
+        "cloud-data-connection-filled": "\u{1010c}",
         "cloud-dollar": "\u{f850}",
         "cloud-down": "\u{f851}",
         "cloud-download": "\u{ea71}",
@@ -6957,6 +7847,7 @@ public enum TablerIconToken: String {
         "cloud-x": "\u{f85d}",
         "clover": "\u{f1ea}",
         "clover-2": "\u{f21e}",
+        "clover-filled": "\u{10013}",
         "clubs": "\u{eff4}",
         "clubs-filled": "\u{f674}",
         "code": "\u{ea77}",
@@ -6969,6 +7860,9 @@ public enum TablerIconToken: String {
         "code-minus": "\u{ee42}",
         "code-off": "\u{f0d0}",
         "code-plus": "\u{ee43}",
+        "code-variable": "\u{100ab}",
+        "code-variable-minus": "\u{100ad}",
+        "code-variable-plus": "\u{100ac}",
         "coffee": "\u{ef0e}",
         "coffee-off": "\u{f106}",
         "coffin": "\u{f579}",
@@ -7022,8 +7916,10 @@ public enum TablerIconToken: String {
         "confetti": "\u{ee46}",
         "confetti-off": "\u{f3d9}",
         "confucius": "\u{f58a}",
+        "congruent-to": "\u{ffa3}",
         "container": "\u{ee47}",
         "container-off": "\u{f107}",
+        "contract": "\u{fefb}",
         "contrast": "\u{ec4e}",
         "contrast-2": "\u{efc7}",
         "contrast-2-filled": "\u{fe57}",
@@ -7117,6 +8013,7 @@ public enum TablerIconToken: String {
         "cube-off": "\u{fa95}",
         "cube-plus": "\u{fa96}",
         "cube-send": "\u{f61b}",
+        "cube-spark": "\u{ffbb}",
         "cube-unfolded": "\u{f61c}",
         "cup": "\u{ef28}",
         "cup-off": "\u{f10d}",
@@ -7190,6 +8087,7 @@ public enum TablerIconToken: String {
         "currency-yuan": "\u{f29a}",
         "currency-zloty": "\u{ee6c}",
         "current-location": "\u{ecef}",
+        "current-location-filled": "\u{10125}",
         "current-location-off": "\u{f10e}",
         "cursor-off": "\u{f10f}",
         "cursor-text": "\u{ee6d}",
@@ -7198,6 +8096,7 @@ public enum TablerIconToken: String {
         "cylinder-off": "\u{fa98}",
         "cylinder-plus": "\u{fa99}",
         "dashboard": "\u{ea87}",
+        "dashboard-filled": "\u{10019}",
         "dashboard-off": "\u{f3e1}",
         "database": "\u{ea88}",
         "database-cog": "\u{fa10}",
@@ -7233,6 +8132,7 @@ public enum TablerIconToken: String {
         "device-audio-tape": "\u{ee73}",
         "device-camera-phone": "\u{f233}",
         "device-cctv": "\u{ee74}",
+        "device-cctv-filled": "\u{1004b}",
         "device-cctv-off": "\u{f3e3}",
         "device-computer-camera": "\u{ee76}",
         "device-computer-camera-off": "\u{ee75}",
@@ -7246,6 +8146,7 @@ public enum TablerIconToken: String {
         "device-desktop-dollar": "\u{f863}",
         "device-desktop-down": "\u{f864}",
         "device-desktop-exclamation": "\u{f865}",
+        "device-desktop-filled": "\u{1004a}",
         "device-desktop-heart": "\u{f866}",
         "device-desktop-minus": "\u{f867}",
         "device-desktop-off": "\u{ee78}",
@@ -7262,6 +8163,7 @@ public enum TablerIconToken: String {
         "device-gamepad": "\u{eb63}",
         "device-gamepad-2": "\u{f1d2}",
         "device-gamepad-3": "\u{fc58}",
+        "device-gamepad-3-filled": "\u{10049}",
         "device-heart-monitor": "\u{f060}",
         "device-heart-monitor-filled": "\u{fa38}",
         "device-imac": "\u{f7a7}",
@@ -7273,6 +8175,7 @@ public enum TablerIconToken: String {
         "device-imac-dollar": "\u{f876}",
         "device-imac-down": "\u{f877}",
         "device-imac-exclamation": "\u{f878}",
+        "device-imac-filled": "\u{10048}",
         "device-imac-heart": "\u{f879}",
         "device-imac-minus": "\u{f87a}",
         "device-imac-off": "\u{f87b}",
@@ -7294,6 +8197,7 @@ public enum TablerIconToken: String {
         "device-ipad-dollar": "\u{f88a}",
         "device-ipad-down": "\u{f88b}",
         "device-ipad-exclamation": "\u{f88c}",
+        "device-ipad-filled": "\u{10047}",
         "device-ipad-heart": "\u{f88d}",
         "device-ipad-horizontal": "\u{f647}",
         "device-ipad-horizontal-bolt": "\u{f88e}",
@@ -7360,12 +8264,14 @@ public enum TablerIconToken: String {
         "device-nintendo-off": "\u{f111}",
         "device-projector": "\u{fc11}",
         "device-remote": "\u{f792}",
+        "device-remote-filled": "\u{10046}",
         "device-sd-card": "\u{f384}",
         "device-sim": "\u{f4b2}",
         "device-sim-1": "\u{f4af}",
         "device-sim-2": "\u{f4b0}",
         "device-sim-3": "\u{f4b1}",
         "device-speaker": "\u{ea8b}",
+        "device-speaker-filled": "\u{10045}",
         "device-speaker-off": "\u{f112}",
         "device-tablet": "\u{ea8c}",
         "device-tablet-bolt": "\u{f8c0}",
@@ -7390,10 +8296,16 @@ public enum TablerIconToken: String {
         "device-tablet-up": "\u{f8d1}",
         "device-tablet-x": "\u{f8d2}",
         "device-tv": "\u{ea8d}",
+        "device-tv-filled": "\u{10043}",
         "device-tv-off": "\u{f064}",
         "device-tv-old": "\u{f1d3}",
+        "device-tv-old-filled": "\u{10044}",
+        "device-unknown": "\u{fef4}",
+        "device-unknown-filled": "\u{10018}",
         "device-usb": "\u{fc59}",
+        "device-usb-filled": "\u{10042}",
         "device-vision-pro": "\u{fae7}",
+        "device-vision-pro-filled": "\u{10041}",
         "device-watch": "\u{ebf9}",
         "device-watch-bolt": "\u{f8d3}",
         "device-watch-cancel": "\u{f8d4}",
@@ -7403,6 +8315,7 @@ public enum TablerIconToken: String {
         "device-watch-dollar": "\u{f8d8}",
         "device-watch-down": "\u{f8d9}",
         "device-watch-exclamation": "\u{f8da}",
+        "device-watch-filled": "\u{10040}",
         "device-watch-heart": "\u{f8db}",
         "device-watch-minus": "\u{f8dc}",
         "device-watch-off": "\u{f065}",
@@ -7452,6 +8365,7 @@ public enum TablerIconToken: String {
         "diamond-off": "\u{f115}",
         "diamonds": "\u{eff5}",
         "diamonds-filled": "\u{f676}",
+        "diaper": "\u{ffa2}",
         "dice": "\u{eb66}",
         "dice-1": "\u{f08b}",
         "dice-1-filled": "\u{f73e}",
@@ -7469,19 +8383,23 @@ public enum TablerIconToken: String {
         "dimensions": "\u{ee7b}",
         "direction": "\u{ebfb}",
         "direction-arrows": "\u{fd36}",
+        "direction-arrows-filled": "\u{100ca}",
         "direction-horizontal": "\u{ebfa}",
         "direction-sign": "\u{f1f7}",
         "direction-sign-filled": "\u{f745}",
         "direction-sign-off": "\u{f3e5}",
         "directions": "\u{ea8e}",
+        "directions-filled": "\u{1003f}",
         "directions-off": "\u{f116}",
         "disabled": "\u{ea8f}",
         "disabled-2": "\u{ebaf}",
         "disabled-off": "\u{f117}",
         "disc": "\u{ea90}",
+        "disc-filled": "\u{1003e}",
         "disc-golf": "\u{f385}",
         "disc-off": "\u{f118}",
         "discount": "\u{ebbd}",
+        "discount-filled": "\u{1003d}",
         "discount-off": "\u{f3e7}",
         "divide": "\u{ed5c}",
         "dna": "\u{ee7d}",
@@ -7506,6 +8424,7 @@ public enum TablerIconToken: String {
         "drone": "\u{ed79}",
         "drone-off": "\u{ee7e}",
         "drop-circle": "\u{efde}",
+        "drop-circle-filled": "\u{10137}",
         "droplet": "\u{ea97}",
         "droplet-bolt": "\u{f8f9}",
         "droplet-cancel": "\u{f8fa}",
@@ -7533,8 +8452,11 @@ public enum TablerIconToken: String {
         "droplet-up": "\u{f90a}",
         "droplet-x": "\u{f90b}",
         "droplets": "\u{fc12}",
+        "droplets-filled": "\u{100c9}",
         "dual-screen": "\u{fa59}",
+        "dual-screen-filled": "\u{10136}",
         "dumpling": "\u{feb5}",
+        "dumpling-filled": "\u{10135}",
         "e-passport": "\u{f4df}",
         "ear": "\u{ebce}",
         "ear-off": "\u{ee84}",
@@ -7551,17 +8473,21 @@ public enum TablerIconToken: String {
         "edit-off": "\u{f11e}",
         "egg": "\u{eb8a}",
         "egg-cracked": "\u{f2d6}",
+        "egg-cracked-filled": "\u{10012}",
         "egg-filled": "\u{f678}",
         "egg-fried": "\u{f386}",
+        "egg-fried-filled": "\u{10134}",
         "egg-off": "\u{f11f}",
         "eggs": "\u{f500}",
         "elevator": "\u{efdf}",
+        "elevator-filled": "\u{1003c}",
         "elevator-off": "\u{f3e8}",
         "emergency-bed": "\u{ef5d}",
         "empathize": "\u{f29b}",
         "empathize-off": "\u{f3e9}",
         "emphasis": "\u{ebcf}",
         "engine": "\u{ef7e}",
+        "engine-filled": "\u{100fc}",
         "engine-off": "\u{f120}",
         "equal": "\u{ee87}",
         "equal-double": "\u{f4e1}",
@@ -7572,16 +8498,23 @@ public enum TablerIconToken: String {
         "error-404-off": "\u{f122}",
         "escalator": "\u{fb06}",
         "escalator-down": "\u{fb04}",
+        "escalator-down-filled": "\u{10133}",
+        "escalator-filled": "\u{10131}",
         "escalator-up": "\u{fb05}",
+        "escalator-up-filled": "\u{10132}",
         "exchange": "\u{ebe7}",
+        "exchange-filled": "\u{10130}",
         "exchange-off": "\u{f123}",
         "exclamation-circle": "\u{f634}",
+        "exclamation-circle-filled": "\u{ff62}",
         "exclamation-mark": "\u{efb4}",
         "exclamation-mark-off": "\u{f124}",
         "explicit": "\u{f256}",
+        "explicit-filled": "\u{1012f}",
         "explicit-off": "\u{f3ea}",
         "exposure": "\u{eb8c}",
         "exposure-0": "\u{f29c}",
+        "exposure-filled": "\u{10124}",
         "exposure-minus-1": "\u{f29d}",
         "exposure-minus-2": "\u{f29e}",
         "exposure-off": "\u{f3eb}",
@@ -7590,6 +8523,7 @@ public enum TablerIconToken: String {
         "external-link": "\u{ea99}",
         "external-link-off": "\u{f125}",
         "eye": "\u{ea9a}",
+        "eye-bitcoin": "\u{ff3d}",
         "eye-bolt": "\u{fb6d}",
         "eye-cancel": "\u{fb6e}",
         "eye-check": "\u{ee88}",
@@ -7612,84 +8546,121 @@ public enum TablerIconToken: String {
         "eye-question": "\u{fb77}",
         "eye-search": "\u{fb78}",
         "eye-share": "\u{fb79}",
+        "eye-spark": "\u{ffba}",
         "eye-star": "\u{fb7a}",
         "eye-table": "\u{ef5e}",
+        "eye-table-filled": "\u{10123}",
         "eye-up": "\u{fb7b}",
         "eye-x": "\u{f7f1}",
         "eyeglass": "\u{ee8a}",
         "eyeglass-2": "\u{ee89}",
+        "eyeglass-2-filled": "\u{10122}",
+        "eyeglass-filled": "\u{100c8}",
         "eyeglass-off": "\u{f126}",
         "face-id": "\u{ea9b}",
         "face-id-error": "\u{efa7}",
         "face-mask": "\u{efb5}",
+        "face-mask-filled": "\u{10121}",
         "face-mask-off": "\u{f127}",
         "fall": "\u{ecb9}",
         "favicon": "\u{fd65}",
+        "favicon-filled": "\u{10071}",
         "feather": "\u{ee8b}",
+        "feather-filled": "\u{10011}",
         "feather-off": "\u{f128}",
         "fence": "\u{ef2a}",
+        "fence-filled": "\u{10120}",
         "fence-off": "\u{f129}",
+        "ferry": "\u{10074}",
+        "ferry-filled": "\u{100fb}",
         "fidget-spinner": "\u{f068}",
+        "fidget-spinner-filled": "\u{1011f}",
         "file": "\u{eaa4}",
         "file-3d": "\u{f032}",
+        "file-ai": "\u{ffa1}",
         "file-alert": "\u{ede6}",
         "file-analytics": "\u{ede7}",
         "file-arrow-left": "\u{f033}",
         "file-arrow-right": "\u{f034}",
         "file-barcode": "\u{f035}",
+        "file-bitcoin": "\u{ffa0}",
         "file-broken": "\u{f501}",
         "file-certificate": "\u{ed4d}",
         "file-chart": "\u{f036}",
         "file-check": "\u{ea9c}",
+        "file-check-filled": "\u{1012e}",
         "file-code": "\u{ebd0}",
         "file-code-2": "\u{ede8}",
+        "file-code-2-filled": "\u{1012d}",
         "file-cv": "\u{fa5a}",
+        "file-cv-filled": "\u{1012c}",
         "file-database": "\u{f037}",
         "file-delta": "\u{f53d}",
+        "file-delta-filled": "\u{1012b}",
         "file-description": "\u{f028}",
+        "file-description-filled": "\u{1011e}",
         "file-diff": "\u{ecf1}",
         "file-digit": "\u{efa8}",
+        "file-digit-filled": "\u{1011d}",
         "file-dislike": "\u{ed2a}",
         "file-dollar": "\u{efe0}",
         "file-dots": "\u{f038}",
         "file-download": "\u{ea9d}",
+        "file-download-filled": "\u{1012a}",
         "file-euro": "\u{efe1}",
+        "file-excel": "\u{fef3}",
         "file-export": "\u{ede9}",
         "file-filled": "\u{f747}",
         "file-function": "\u{f53e}",
         "file-horizontal": "\u{ebb0}",
+        "file-horizontal-filled": "\u{1011c}",
         "file-import": "\u{edea}",
         "file-infinity": "\u{f502}",
         "file-info": "\u{edec}",
         "file-invoice": "\u{eb67}",
+        "file-invoice-filled": "\u{1011b}",
         "file-isr": "\u{feac}",
         "file-lambda": "\u{f53f}",
+        "file-lambda-filled": "\u{10129}",
         "file-like": "\u{ed2b}",
         "file-minus": "\u{ea9e}",
+        "file-minus-filled": "\u{1011a}",
         "file-music": "\u{ea9f}",
         "file-neutral": "\u{fd22}",
+        "file-neutral-filled": "\u{10119}",
         "file-off": "\u{ecf2}",
         "file-orientation": "\u{f2a1}",
         "file-pencil": "\u{f039}",
         "file-percent": "\u{f540}",
+        "file-percent-filled": "\u{10128}",
         "file-phone": "\u{ecdc}",
+        "file-phone-filled": "\u{10127}",
         "file-plus": "\u{eaa0}",
         "file-power": "\u{f03a}",
+        "file-power-filled": "\u{10118}",
         "file-report": "\u{eded}",
         "file-rss": "\u{f03b}",
+        "file-rss-filled": "\u{10126}",
         "file-sad": "\u{fd23}",
+        "file-sad-filled": "\u{10117}",
         "file-scissors": "\u{f03c}",
         "file-search": "\u{ed5d}",
         "file-settings": "\u{f029}",
         "file-shredder": "\u{eaa1}",
         "file-signal": "\u{f03d}",
         "file-smile": "\u{fd24}",
+        "file-smile-filled": "\u{10116}",
+        "file-spark": "\u{ffb9}",
         "file-spreadsheet": "\u{f03e}",
         "file-stack": "\u{f503}",
         "file-star": "\u{f03f}",
+        "file-star-filled": "\u{10115}",
         "file-symlink": "\u{ed53}",
         "file-text": "\u{eaa2}",
         "file-text-ai": "\u{fa27}",
+        "file-text-filled": "\u{10114}",
+        "file-text-shield": "\u{100f2}",
+        "file-text-spark": "\u{ffb8}",
         "file-time": "\u{f040}",
         "file-type-bmp": "\u{fb07}",
         "file-type-css": "\u{fb08}",
@@ -7718,6 +8689,7 @@ public enum TablerIconToken: String {
         "file-unknown": "\u{f042}",
         "file-upload": "\u{ec91}",
         "file-vector": "\u{f043}",
+        "file-word": "\u{fef2}",
         "file-x": "\u{eaa3}",
         "file-x-filled": "\u{f748}",
         "file-zip": "\u{ed4e}",
@@ -7748,6 +8720,7 @@ public enum TablerIconToken: String {
         "filter-up": "\u{fb89}",
         "filter-x": "\u{fa04}",
         "filters": "\u{f793}",
+        "filters-filled": "\u{100c7}",
         "fingerprint": "\u{ebd1}",
         "fingerprint-off": "\u{f12a}",
         "fingerprint-scan": "\u{fcb5}",
@@ -7759,6 +8732,7 @@ public enum TablerIconToken: String {
         "first-aid-kit-off": "\u{f3ed}",
         "fish": "\u{ef2b}",
         "fish-bone": "\u{f287}",
+        "fish-bone-filled": "\u{1010b}",
         "fish-christianity": "\u{f58b}",
         "fish-hook": "\u{f1f9}",
         "fish-hook-off": "\u{f3ee}",
@@ -7769,6 +8743,7 @@ public enum TablerIconToken: String {
         "flag-2-off": "\u{f12c}",
         "flag-3": "\u{ee8d}",
         "flag-3-filled": "\u{f708}",
+        "flag-bitcoin": "\u{ff3c}",
         "flag-bolt": "\u{fb8a}",
         "flag-cancel": "\u{fb8b}",
         "flag-check": "\u{fb8c}",
@@ -7788,12 +8763,15 @@ public enum TablerIconToken: String {
         "flag-question": "\u{fb98}",
         "flag-search": "\u{fb99}",
         "flag-share": "\u{fb9a}",
+        "flag-spark": "\u{ffb7}",
         "flag-star": "\u{fb9b}",
         "flag-up": "\u{fb9c}",
         "flag-x": "\u{fb9d}",
         "flame": "\u{ec2c}",
+        "flame-filled": "\u{100c6}",
         "flame-off": "\u{f12e}",
         "flare": "\u{ee8e}",
+        "flare-filled": "\u{100c5}",
         "flask": "\u{ebd2}",
         "flask-2": "\u{ef60}",
         "flask-2-filled": "\u{fd12}",
@@ -7808,6 +8786,7 @@ public enum TablerIconToken: String {
         "float-none": "\u{ed13}",
         "float-right": "\u{ebb3}",
         "flower": "\u{eff6}",
+        "flower-filled": "\u{10010}",
         "flower-off": "\u{f131}",
         "focus": "\u{eb8d}",
         "focus-2": "\u{ebd3}",
@@ -7842,6 +8821,7 @@ public enum TablerIconToken: String {
         "folder-up": "\u{f91c}",
         "folder-x": "\u{eaac}",
         "folders": "\u{eaae}",
+        "folders-filled": "\u{100c4}",
         "folders-off": "\u{f133}",
         "forbid": "\u{ebd5}",
         "forbid-2": "\u{ebd4}",
@@ -7870,8 +8850,10 @@ public enum TablerIconToken: String {
         "function-off": "\u{f3f0}",
         "galaxy": "\u{fcb6}",
         "garden-cart": "\u{f23e}",
+        "garden-cart-filled": "\u{100c3}",
         "garden-cart-off": "\u{f3f1}",
         "gas-station": "\u{ec7d}",
+        "gas-station-filled": "\u{100fa}",
         "gas-station-off": "\u{f137}",
         "gauge": "\u{eab1}",
         "gauge-filled": "\u{fc2c}",
@@ -7900,6 +8882,7 @@ public enum TablerIconToken: String {
         "ghost-2": "\u{f57c}",
         "ghost-2-filled": "\u{f74a}",
         "ghost-3": "\u{fc13}",
+        "ghost-3-filled": "\u{100a4}",
         "ghost-filled": "\u{f74b}",
         "ghost-off": "\u{f3f2}",
         "gif": "\u{f257}",
@@ -7922,6 +8905,7 @@ public enum TablerIconToken: String {
         "glass": "\u{eab8}",
         "glass-champagne": "\u{fd9c}",
         "glass-cocktail": "\u{fd9d}",
+        "glass-filled": "\u{1000f}",
         "glass-full": "\u{eab7}",
         "glass-full-filled": "\u{fc2e}",
         "glass-gin": "\u{fd9e}",
@@ -7931,6 +8915,7 @@ public enum TablerIconToken: String {
         "globe-off": "\u{f139}",
         "go-game": "\u{f512}",
         "golf": "\u{ed8c}",
+        "golf-filled": "\u{100a3}",
         "golf-off": "\u{f13a}",
         "gps": "\u{ed7a}",
         "gps-filled": "\u{fe48}",
@@ -7946,6 +8931,7 @@ public enum TablerIconToken: String {
         "grid-dots": "\u{eaba}",
         "grid-goldenratio": "\u{fca6}",
         "grid-pattern": "\u{efc9}",
+        "grid-pattern-filled": "\u{100c2}",
         "grid-scan": "\u{fca7}",
         "grill": "\u{efa9}",
         "grill-fork": "\u{f35b}",
@@ -7966,8 +8952,12 @@ public enum TablerIconToken: String {
         "hammer": "\u{ef91}",
         "hammer-off": "\u{f13c}",
         "hand-click": "\u{ef4f}",
+        "hand-click-off": "\u{100f1}",
         "hand-finger": "\u{ee94}",
+        "hand-finger-down": "\u{ff4f}",
+        "hand-finger-left": "\u{ff4e}",
         "hand-finger-off": "\u{f13d}",
+        "hand-finger-right": "\u{ff4d}",
         "hand-grab": "\u{f091}",
         "hand-little-finger": "\u{ee95}",
         "hand-love-you": "\u{ee97}",
@@ -7981,6 +8971,7 @@ public enum TablerIconToken: String {
         "hand-two-fingers": "\u{ee99}",
         "hanger": "\u{ee9a}",
         "hanger-2": "\u{f09c}",
+        "hanger-2-filled": "\u{ff61}",
         "hanger-off": "\u{f13e}",
         "hash": "\u{eabc}",
         "haze": "\u{efaa}",
@@ -7995,6 +8986,7 @@ public enum TablerIconToken: String {
         "headset-off": "\u{f3f6}",
         "health-recognition": "\u{f1fb}",
         "heart": "\u{eabe}",
+        "heart-bitcoin": "\u{ff3b}",
         "heart-bolt": "\u{fb9e}",
         "heart-broken": "\u{ecba}",
         "heart-cancel": "\u{fb9f}",
@@ -8016,6 +9008,7 @@ public enum TablerIconToken: String {
         "heart-rate-monitor": "\u{ef61}",
         "heart-search": "\u{fbaa}",
         "heart-share": "\u{fbab}",
+        "heart-spark": "\u{ffb6}",
         "heart-star": "\u{fbac}",
         "heart-up": "\u{fbad}",
         "heart-x": "\u{fbae}",
@@ -8023,7 +9016,9 @@ public enum TablerIconToken: String {
         "hearts": "\u{f387}",
         "hearts-off": "\u{f3f7}",
         "helicopter": "\u{ed8e}",
+        "helicopter-filled": "\u{100f9}",
         "helicopter-landing": "\u{ed8d}",
+        "helicopter-landing-filled": "\u{100c1}",
         "helmet": "\u{efca}",
         "helmet-off": "\u{f143}",
         "help": "\u{eabf}",
@@ -8145,6 +9140,7 @@ public enum TablerIconToken: String {
         "history-toggle": "\u{f1fc}",
         "home": "\u{eac1}",
         "home-2": "\u{eac0}",
+        "home-bitcoin": "\u{ff3a}",
         "home-bolt": "\u{f336}",
         "home-cancel": "\u{f350}",
         "home-check": "\u{f337}",
@@ -8170,6 +9166,7 @@ public enum TablerIconToken: String {
         "home-share": "\u{f342}",
         "home-shield": "\u{f343}",
         "home-signal": "\u{f356}",
+        "home-spark": "\u{ffb5}",
         "home-star": "\u{f344}",
         "home-stats": "\u{f345}",
         "home-up": "\u{f346}",
@@ -8191,20 +9188,31 @@ public enum TablerIconToken: String {
         "hours-24": "\u{f5e7}",
         "html": "\u{f7b1}",
         "http-connect": "\u{fa28}",
+        "http-connect-off": "\u{100e7}",
         "http-delete": "\u{fa29}",
+        "http-delete-off": "\u{100e6}",
         "http-get": "\u{fa2a}",
+        "http-get-off": "\u{100e5}",
         "http-head": "\u{fa2b}",
+        "http-head-off": "\u{100e4}",
         "http-options": "\u{fa2c}",
+        "http-options-off": "\u{100e3}",
         "http-patch": "\u{fa2d}",
+        "http-patch-off": "\u{100e2}",
         "http-post": "\u{fa2e}",
+        "http-post-off": "\u{100e1}",
         "http-put": "\u{fa2f}",
+        "http-put-off": "\u{100e0}",
         "http-que": "\u{fa5b}",
+        "http-que-off": "\u{100df}",
         "http-trace": "\u{fa30}",
+        "http-trace-off": "\u{100de}",
         "ice-cream": "\u{eac2}",
         "ice-cream-2": "\u{ee9f}",
         "ice-cream-off": "\u{f148}",
         "ice-skating": "\u{efcb}",
         "icons": "\u{f1d4}",
+        "icons-filled": "\u{10070}",
         "icons-off": "\u{f3fc}",
         "id": "\u{eac3}",
         "id-badge": "\u{eff7}",
@@ -8251,15 +9259,20 @@ public enum TablerIconToken: String {
         "input-ai": "\u{fc5a}",
         "input-check": "\u{fc5b}",
         "input-search": "\u{f2a2}",
+        "input-spark": "\u{ffb4}",
         "input-x": "\u{fc5c}",
         "invoice": "\u{feab}",
         "ironing": "\u{fa7c}",
         "ironing-1": "\u{f2f4}",
+        "ironing-1-filled": "\u{1006f}",
         "ironing-2": "\u{f2f5}",
+        "ironing-2-filled": "\u{1006e}",
         "ironing-3": "\u{f2f6}",
+        "ironing-3-filled": "\u{1006d}",
         "ironing-filled": "\u{fe2a}",
         "ironing-off": "\u{f2f7}",
         "ironing-steam": "\u{f2f9}",
+        "ironing-steam-filled": "\u{1006c}",
         "ironing-steam-off": "\u{f2f8}",
         "irregular-polyhedron": "\u{faab}",
         "irregular-polyhedron-off": "\u{faa9}",
@@ -8270,6 +9283,10 @@ public enum TablerIconToken: String {
         "jetpack-filled": "\u{fe29}",
         "jewish-star": "\u{f3ff}",
         "jewish-star-filled": "\u{f67e}",
+        "join-bevel": "\u{ff4c}",
+        "join-round": "\u{ff4b}",
+        "join-straight": "\u{ff4a}",
+        "joker": "\u{1005f}",
         "jpg": "\u{f3ac}",
         "json": "\u{f7b2}",
         "jump-rope": "\u{ed8f}",
@@ -8280,6 +9297,7 @@ public enum TablerIconToken: String {
         "key-filled": "\u{fe28}",
         "key-off": "\u{f14b}",
         "keyboard": "\u{ebd6}",
+        "keyboard-filled": "\u{100a2}",
         "keyboard-hide": "\u{ec7e}",
         "keyboard-off": "\u{eea0}",
         "keyboard-show": "\u{ec7f}",
@@ -8293,6 +9311,11 @@ public enum TablerIconToken: String {
         "keyframe-filled": "\u{fc33}",
         "keyframes": "\u{f585}",
         "keyframes-filled": "\u{fc34}",
+        "label": "\u{ff38}",
+        "label-filled": "\u{ff41}",
+        "label-important": "\u{ff49}",
+        "label-important-filled": "\u{ff60}",
+        "label-off": "\u{ff39}",
         "ladder": "\u{efe2}",
         "ladder-off": "\u{f14c}",
         "ladle": "\u{fc14}",
@@ -8308,6 +9331,12 @@ public enum TablerIconToken: String {
         "lasso": "\u{efac}",
         "lasso-off": "\u{f14f}",
         "lasso-polygon": "\u{f388}",
+        "lasso-polygon-filled": "\u{ff5f}",
+        "laurel-wreath": "\u{ff45}",
+        "laurel-wreath-1": "\u{ff48}",
+        "laurel-wreath-2": "\u{ff47}",
+        "laurel-wreath-3": "\u{ff46}",
+        "laurel-wreath-filled": "\u{100c0}",
         "layers-difference": "\u{eac8}",
         "layers-intersect": "\u{eac9}",
         "layers-intersect-2": "\u{eff8}",
@@ -8384,12 +9413,14 @@ public enum TablerIconToken: String {
         "layout-sidebar-right-filled": "\u{fe19}",
         "layout-sidebar-right-inactive": "\u{fd48}",
         "leaf": "\u{ed4f}",
+        "leaf-2": "\u{ff44}",
         "leaf-off": "\u{f400}",
         "lego": "\u{eadc}",
         "lego-filled": "\u{fe16}",
         "lego-off": "\u{f401}",
         "lemon": "\u{ef10}",
         "lemon-2": "\u{ef81}",
+        "lemon-2-filled": "\u{100bf}",
         "letter-a": "\u{ec50}",
         "letter-a-small": "\u{fcc7}",
         "letter-b": "\u{ec51}",
@@ -8454,6 +9485,7 @@ public enum TablerIconToken: String {
         "license": "\u{ebc0}",
         "license-off": "\u{f153}",
         "lifebuoy": "\u{eadd}",
+        "lifebuoy-filled": "\u{100be}",
         "lifebuoy-off": "\u{f154}",
         "lighter": "\u{f794}",
         "line": "\u{ec40}",
@@ -8476,6 +9508,7 @@ public enum TablerIconToken: String {
         "live-photo-filled": "\u{fed1}",
         "live-photo-off": "\u{f403}",
         "live-view": "\u{ec6b}",
+        "live-view-filled": "\u{100a1}",
         "load-balancer": "\u{fa5c}",
         "loader": "\u{eca3}",
         "loader-2": "\u{f226}",
@@ -8508,6 +9541,7 @@ public enum TablerIconToken: String {
         "lock": "\u{eae2}",
         "lock-access": "\u{eeaa}",
         "lock-access-off": "\u{f404}",
+        "lock-bitcoin": "\u{ff37}",
         "lock-bolt": "\u{f924}",
         "lock-cancel": "\u{f925}",
         "lock-check": "\u{f926}",
@@ -8523,6 +9557,7 @@ public enum TablerIconToken: String {
         "lock-open": "\u{eae1}",
         "lock-open-2": "\u{fea8}",
         "lock-open-off": "\u{f156}",
+        "lock-password": "\u{ff9f}",
         "lock-pause": "\u{f92e}",
         "lock-pin": "\u{f92f}",
         "lock-plus": "\u{f930}",
@@ -8564,6 +9599,7 @@ public enum TablerIconToken: String {
         "magnetic": "\u{fcb9}",
         "mail": "\u{eae5}",
         "mail-ai": "\u{fa31}",
+        "mail-bitcoin": "\u{ff36}",
         "mail-bolt": "\u{f937}",
         "mail-cancel": "\u{f938}",
         "mail-check": "\u{f939}",
@@ -8586,6 +9622,7 @@ public enum TablerIconToken: String {
         "mail-question": "\u{f944}",
         "mail-search": "\u{f945}",
         "mail-share": "\u{f946}",
+        "mail-spark": "\u{ffb3}",
         "mail-star": "\u{f947}",
         "mail-up": "\u{f948}",
         "mail-x": "\u{f949}",
@@ -8662,6 +9699,8 @@ public enum TablerIconToken: String {
         "math-1-divide-2": "\u{f4e2}",
         "math-1-divide-3": "\u{f4e3}",
         "math-avg": "\u{f0f4}",
+        "math-cos": "\u{ff1f}",
+        "math-ctg": "\u{ff35}",
         "math-equal-greater": "\u{f4e4}",
         "math-equal-lower": "\u{f4e5}",
         "math-function": "\u{eeb2}",
@@ -8679,10 +9718,14 @@ public enum TablerIconToken: String {
         "math-off": "\u{f409}",
         "math-pi": "\u{f4ee}",
         "math-pi-divide-2": "\u{f4ed}",
+        "math-sec": "\u{ff34}",
+        "math-sin": "\u{ff1e}",
         "math-symbols": "\u{eeb3}",
+        "math-tg": "\u{ff33}",
         "math-x-divide-2": "\u{f4ef}",
         "math-x-divide-y": "\u{f4f1}",
         "math-x-divide-y-2": "\u{f4f0}",
+        "math-x-floor-divide-y": "\u{10073}",
         "math-x-minus-x": "\u{f4f2}",
         "math-x-minus-y": "\u{f4f3}",
         "math-x-plus-x": "\u{f4f4}",
@@ -8690,6 +9733,7 @@ public enum TablerIconToken: String {
         "math-xy": "\u{f4f6}",
         "math-y-minus-y": "\u{f4f7}",
         "math-y-plus-y": "\u{f4f8}",
+        "matrix": "\u{100bc}",
         "maximize": "\u{eaea}",
         "maximize-off": "\u{f15f}",
         "meat": "\u{ef12}",
@@ -8702,10 +9746,14 @@ public enum TablerIconToken: String {
         "medical-cross-off": "\u{f160}",
         "medicine-syrup": "\u{ef63}",
         "meeple": "\u{f514}",
+        "meeple-filled": "\u{100a0}",
         "melon": "\u{fc7a}",
+        "melon-filled": "\u{1000e}",
         "menorah": "\u{f58c}",
         "menu": "\u{eaeb}",
         "menu-2": "\u{ec42}",
+        "menu-3": "\u{ff43}",
+        "menu-4": "\u{ff42}",
         "menu-deep": "\u{fafb}",
         "menu-order": "\u{f5f5}",
         "message": "\u{eaef}",
@@ -8718,6 +9766,7 @@ public enum TablerIconToken: String {
         "message-2-dollar": "\u{f960}",
         "message-2-down": "\u{f961}",
         "message-2-exclamation": "\u{f962}",
+        "message-2-filled": "\u{1009f}",
         "message-2-heart": "\u{f963}",
         "message-2-minus": "\u{f964}",
         "message-2-off": "\u{f40b}",
@@ -8786,12 +9835,14 @@ public enum TablerIconToken: String {
         "messages": "\u{eb6c}",
         "messages-off": "\u{ed42}",
         "meteor": "\u{f1fd}",
+        "meteor-filled": "\u{1000d}",
         "meteor-off": "\u{f40c}",
         "meter-cube": "\u{fd7c}",
         "meter-square": "\u{fd7d}",
         "metronome": "\u{fd25}",
         "michelin-bib-gourmand": "\u{fae9}",
         "michelin-star": "\u{faeb}",
+        "michelin-star-filled": "\u{1000c}",
         "michelin-star-green": "\u{faea}",
         "mickey": "\u{f2a3}",
         "mickey-filled": "\u{f683}",
@@ -8807,7 +9858,9 @@ public enum TablerIconToken: String {
         "microwave-off": "\u{f264}",
         "military-award": "\u{f079}",
         "military-rank": "\u{efcf}",
+        "military-rank-filled": "\u{ff5e}",
         "milk": "\u{ef13}",
+        "milk-filled": "\u{1000b}",
         "milk-off": "\u{f40f}",
         "milkshake": "\u{f4c8}",
         "minimize": "\u{eaf1}",
@@ -8818,16 +9871,25 @@ public enum TablerIconToken: String {
         "mobiledata": "\u{f9f5}",
         "mobiledata-off": "\u{f9f4}",
         "moneybag": "\u{f506}",
+        "moneybag-edit": "\u{1013d}",
+        "moneybag-heart": "\u{1013c}",
+        "moneybag-minus": "\u{1013b}",
+        "moneybag-move": "\u{10139}",
+        "moneybag-move-back": "\u{1013a}",
+        "moneybag-plus": "\u{10138}",
         "monkeybar": "\u{feb4}",
         "mood-angry": "\u{f2de}",
+        "mood-angry-filled": "\u{ff0a}",
         "mood-annoyed": "\u{f2e0}",
         "mood-annoyed-2": "\u{f2df}",
+        "mood-bitcoin": "\u{ff32}",
         "mood-boy": "\u{ed2d}",
         "mood-check": "\u{f7b3}",
         "mood-cog": "\u{f7b4}",
         "mood-confuzed": "\u{eaf3}",
         "mood-confuzed-filled": "\u{f7f2}",
         "mood-crazy-happy": "\u{ed90}",
+        "mood-crazy-happy-filled": "\u{ff09}",
         "mood-cry": "\u{ecbb}",
         "mood-dollar": "\u{f7b5}",
         "mood-edit": "\u{fa05}",
@@ -8865,7 +9927,8 @@ public enum TablerIconToken: String {
         "mood-smile-beam": "\u{f2e7}",
         "mood-smile-dizzy": "\u{f2e8}",
         "mood-smile-filled": "\u{f7f8}",
-        "mood-suprised": "\u{ec04}",
+        "mood-spark": "\u{ffb2}",
+        "mood-surprised": "\u{ec04}",
         "mood-tongue": "\u{eb95}",
         "mood-tongue-wink": "\u{f2ea}",
         "mood-tongue-wink-2": "\u{f2e9}",
@@ -8874,6 +9937,7 @@ public enum TablerIconToken: String {
         "mood-wink": "\u{f2ed}",
         "mood-wink-2": "\u{f2ec}",
         "mood-wrrr": "\u{f2ee}",
+        "mood-wrrr-filled": "\u{ff08}",
         "mood-x": "\u{f7bc}",
         "mood-xd": "\u{f2ef}",
         "moon": "\u{eaf8}",
@@ -8883,7 +9947,9 @@ public enum TablerIconToken: String {
         "moon-stars": "\u{ece7}",
         "moped": "\u{ecbc}",
         "motorbike": "\u{eeb6}",
+        "motorbike-filled": "\u{100f8}",
         "mountain": "\u{ef97}",
+        "mountain-filled": "\u{1000a}",
         "mountain-off": "\u{f411}",
         "mouse": "\u{eaf9}",
         "mouse-2": "\u{f1d7}",
@@ -8893,6 +9959,7 @@ public enum TablerIconToken: String {
         "movie": "\u{eafa}",
         "movie-off": "\u{f164}",
         "mug": "\u{eafb}",
+        "mug-filled": "\u{10009}",
         "mug-off": "\u{f165}",
         "multiplier-0-5x": "\u{ef41}",
         "multiplier-1-5x": "\u{ef42}",
@@ -8977,7 +10044,10 @@ public enum TablerIconToken: String {
         "number-0-small": "\u{fce1}",
         "number-1": "\u{edf1}",
         "number-1-small": "\u{fce2}",
+        "number-10": "\u{1005e}",
         "number-10-small": "\u{fce3}",
+        "number-100-small": "\u{10005}",
+        "number-11": "\u{1005d}",
         "number-11-small": "\u{fce4}",
         "number-12-small": "\u{fce5}",
         "number-123": "\u{f554}",
@@ -9002,21 +10072,93 @@ public enum TablerIconToken: String {
         "number-29-small": "\u{fcf7}",
         "number-3": "\u{edf3}",
         "number-3-small": "\u{fcf8}",
+        "number-30-small": "\u{10004}",
+        "number-31-small": "\u{10003}",
+        "number-32-small": "\u{10002}",
+        "number-33-small": "\u{10001}",
+        "number-34-small": "\u{10000}",
+        // "number-35-small": "\u{ffff}", Unsupported Unicode
+        // "number-36-small": "\u{fffe}", Unsupported Unicode
+        "number-37-small": "\u{fffd}",
+        "number-38-small": "\u{fffc}",
+        "number-39-small": "\u{fffb}",
         "number-4": "\u{edf4}",
         "number-4-small": "\u{fcf9}",
+        "number-40-small": "\u{fffa}",
+        "number-41-small": "\u{fff9}",
+        "number-42-small": "\u{fff8}",
+        "number-43-small": "\u{fff7}",
+        "number-44-small": "\u{fff6}",
+        "number-45-small": "\u{fff5}",
+        "number-46-small": "\u{fff4}",
+        "number-47-small": "\u{fff3}",
+        "number-48-small": "\u{fff2}",
+        "number-49-small": "\u{fff1}",
         "number-5": "\u{edf5}",
         "number-5-small": "\u{fcfa}",
+        "number-50-small": "\u{fff0}",
+        "number-51-small": "\u{ffef}",
+        "number-52-small": "\u{ffee}",
+        "number-53-small": "\u{ffed}",
+        "number-54-small": "\u{ffec}",
+        "number-55-small": "\u{ffeb}",
+        "number-56-small": "\u{ffea}",
+        "number-57-small": "\u{ffe9}",
+        "number-58-small": "\u{ffe8}",
+        "number-59-small": "\u{ffe7}",
         "number-6": "\u{edf6}",
         "number-6-small": "\u{fcfb}",
+        "number-60-small": "\u{ffe6}",
+        "number-61-small": "\u{ffe5}",
+        "number-62-small": "\u{ffe4}",
+        "number-63-small": "\u{ffe3}",
+        "number-64-small": "\u{ffe2}",
+        "number-65-small": "\u{ffe1}",
+        "number-66-small": "\u{ffe0}",
+        "number-67-small": "\u{ffdf}",
+        "number-68-small": "\u{ffde}",
+        "number-69-small": "\u{ffdd}",
         "number-7": "\u{edf7}",
         "number-7-small": "\u{fcfc}",
+        "number-70-small": "\u{ffdc}",
+        "number-71-small": "\u{ffdb}",
+        "number-72-small": "\u{ffda}",
+        "number-73-small": "\u{ffd9}",
+        "number-74-small": "\u{ffd8}",
+        "number-75-small": "\u{ffd7}",
+        "number-76-small": "\u{ffd6}",
+        "number-77-small": "\u{ffd5}",
+        "number-78-small": "\u{ffd4}",
+        "number-79-small": "\u{ffd3}",
         "number-8": "\u{edf8}",
         "number-8-small": "\u{fcfd}",
+        "number-80-small": "\u{ffd2}",
+        "number-81-small": "\u{ffd1}",
+        "number-82-small": "\u{ffd0}",
+        "number-83-small": "\u{ffcf}",
+        "number-84-small": "\u{ffce}",
+        "number-85-small": "\u{ffcd}",
+        "number-86-small": "\u{ffcc}",
+        "number-87-small": "\u{ffcb}",
+        "number-88-small": "\u{ffca}",
+        "number-89-small": "\u{ffc9}",
         "number-9": "\u{edf9}",
         "number-9-small": "\u{fcfe}",
+        "number-90-small": "\u{ffc8}",
+        "number-91-small": "\u{ffc7}",
+        "number-92-small": "\u{ffc6}",
+        "number-93-small": "\u{ffc5}",
+        "number-94-small": "\u{ffc4}",
+        "number-95-small": "\u{ffc3}",
+        "number-96-small": "\u{ffc2}",
+        "number-97-small": "\u{ffc1}",
+        "number-98-small": "\u{ffc0}",
+        "number-99-small": "\u{ffbf}",
         "numbers": "\u{f015}",
         "nurse": "\u{ef65}",
+        "nurse-filled": "\u{1009e}",
         "nut": "\u{fc61}",
+        "object-scan": "\u{fef1}",
         "octagon": "\u{ecbd}",
         "octagon-filled": "\u{f686}",
         "octagon-minus": "\u{fc92}",
@@ -9050,6 +10192,7 @@ public enum TablerIconToken: String {
         "paint-filled": "\u{f75f}",
         "paint-off": "\u{f16d}",
         "palette": "\u{eb01}",
+        "palette-filled": "\u{1009d}",
         "palette-off": "\u{f16e}",
         "panorama-horizontal": "\u{ed33}",
         "panorama-horizontal-filled": "\u{fecc}",
@@ -9125,6 +10268,21 @@ public enum TablerIconToken: String {
         "pepper": "\u{ef15}",
         "pepper-off": "\u{f175}",
         "percentage": "\u{ecf4}",
+        "percentage-0": "\u{fee5}",
+        "percentage-10": "\u{fee4}",
+        "percentage-100": "\u{fee3}",
+        "percentage-20": "\u{fee2}",
+        "percentage-25": "\u{fee1}",
+        "percentage-30": "\u{fee0}",
+        "percentage-33": "\u{fedf}",
+        "percentage-40": "\u{fede}",
+        "percentage-50": "\u{fedd}",
+        "percentage-60": "\u{fedc}",
+        "percentage-66": "\u{fedb}",
+        "percentage-70": "\u{feda}",
+        "percentage-75": "\u{fed9}",
+        "percentage-80": "\u{fed8}",
+        "percentage-90": "\u{fed7}",
         "perfume": "\u{f509}",
         "perspective": "\u{eebd}",
         "perspective-off": "\u{f176}",
@@ -9132,15 +10290,20 @@ public enum TablerIconToken: String {
         "phone-call": "\u{eb05}",
         "phone-calling": "\u{ec43}",
         "phone-check": "\u{ec05}",
+        "phone-done": "\u{ff9e}",
+        "phone-end": "\u{ff9d}",
         "phone-filled": "\u{fa49}",
         "phone-incoming": "\u{eb06}",
         "phone-off": "\u{ecf5}",
         "phone-outgoing": "\u{eb07}",
         "phone-pause": "\u{eb08}",
         "phone-plus": "\u{ec06}",
+        "phone-ringing": "\u{ff9c}",
+        "phone-spark": "\u{ffb1}",
         "phone-x": "\u{ec07}",
         "photo": "\u{eb0a}",
         "photo-ai": "\u{fa32}",
+        "photo-bitcoin": "\u{ff31}",
         "photo-bolt": "\u{f990}",
         "photo-cancel": "\u{f35d}",
         "photo-check": "\u{f35e}",
@@ -9170,6 +10333,7 @@ public enum TablerIconToken: String {
         "photo-sensor-3": "\u{f797}",
         "photo-share": "\u{f998}",
         "photo-shield": "\u{f365}",
+        "photo-spark": "\u{ffb0}",
         "photo-square-rounded": "\u{fc4d}",
         "photo-star": "\u{f366}",
         "photo-up": "\u{f38b}",
@@ -9178,6 +10342,7 @@ public enum TablerIconToken: String {
         "physotherapist": "\u{eebe}",
         "piano": "\u{fad3}",
         "pick": "\u{fafc}",
+        "picnic-table": "\u{fed6}",
         "picture-in-picture": "\u{ed35}",
         "picture-in-picture-filled": "\u{fec1}",
         "picture-in-picture-off": "\u{ed43}",
@@ -9185,12 +10350,14 @@ public enum TablerIconToken: String {
         "picture-in-picture-top": "\u{efe4}",
         "picture-in-picture-top-filled": "\u{fec2}",
         "pig": "\u{ef52}",
+        "pig-filled": "\u{1010a}",
         "pig-money": "\u{f38c}",
         "pig-off": "\u{f177}",
         "pilcrow": "\u{f5f6}",
         "pilcrow-left": "\u{fd7f}",
         "pilcrow-right": "\u{fd80}",
         "pill": "\u{ec44}",
+        "pill-filled": "\u{ff07}",
         "pill-off": "\u{f178}",
         "pills": "\u{ef66}",
         "pin": "\u{ec9c}",
@@ -9202,6 +10369,7 @@ public enum TablerIconToken: String {
         "pinned-filled": "\u{f68e}",
         "pinned-off": "\u{ed5f}",
         "pizza": "\u{edbb}",
+        "pizza-filled": "\u{10008}",
         "pizza-off": "\u{f179}",
         "placeholder": "\u{f626}",
         "plane": "\u{eb6f}",
@@ -9218,7 +10386,37 @@ public enum TablerIconToken: String {
         "plant-off": "\u{f17d}",
         "play-basketball": "\u{fa66}",
         "play-card": "\u{eebf}",
+        "play-card-1": "\u{1005c}",
+        "play-card-1-filled": "\u{10083}",
+        "play-card-10": "\u{1005b}",
+        "play-card-10-filled": "\u{10082}",
+        "play-card-2": "\u{1005a}",
+        "play-card-2-filled": "\u{10081}",
+        "play-card-3": "\u{10059}",
+        "play-card-3-filled": "\u{10080}",
+        "play-card-4": "\u{10058}",
+        "play-card-4-filled": "\u{1007f}",
+        "play-card-5": "\u{10057}",
+        "play-card-5-filled": "\u{1007e}",
+        "play-card-6": "\u{10056}",
+        "play-card-6-filled": "\u{1007d}",
+        "play-card-7": "\u{10055}",
+        "play-card-7-filled": "\u{1007c}",
+        "play-card-8": "\u{10054}",
+        "play-card-8-filled": "\u{1007b}",
+        "play-card-9": "\u{10053}",
+        "play-card-9-filled": "\u{1007a}",
+        "play-card-a": "\u{10052}",
+        "play-card-a-filled": "\u{10079}",
+        "play-card-j": "\u{10051}",
+        "play-card-j-filled": "\u{10078}",
+        "play-card-k": "\u{10050}",
+        "play-card-k-filled": "\u{10077}",
         "play-card-off": "\u{f17e}",
+        "play-card-q": "\u{1004f}",
+        "play-card-q-filled": "\u{10076}",
+        "play-card-star": "\u{1004e}",
+        "play-card-star-filled": "\u{10075}",
         "play-football": "\u{fa67}",
         "play-handball": "\u{fa68}",
         "play-volleyball": "\u{fa69}",
@@ -9301,6 +10499,8 @@ public enum TablerIconToken: String {
         "prescription": "\u{ef99}",
         "presentation": "\u{eb70}",
         "presentation-analytics": "\u{eec3}",
+        "presentation-analytics-filled": "\u{ff5d}",
+        "presentation-filled": "\u{ff5c}",
         "presentation-off": "\u{f183}",
         "printer": "\u{eb0e}",
         "printer-off": "\u{f184}",
@@ -9333,6 +10533,7 @@ public enum TablerIconToken: String {
         "qrcode-off": "\u{f41e}",
         "question-mark": "\u{ec9d}",
         "quote": "\u{efbe}",
+        "quote-filled": "\u{1009c}",
         "quote-off": "\u{f188}",
         "quotes": "\u{fb1e}",
         "radar": "\u{f017}",
@@ -9362,6 +10563,7 @@ public enum TablerIconToken: String {
         "receipt-bitcoin": "\u{fd66}",
         "receipt-dollar": "\u{fd67}",
         "receipt-euro": "\u{fd68}",
+        "receipt-filled": "\u{ff06}",
         "receipt-off": "\u{edfb}",
         "receipt-pound": "\u{fd69}",
         "receipt-refund": "\u{edfc}",
@@ -9404,6 +10606,7 @@ public enum TablerIconToken: String {
         "replace": "\u{ebc7}",
         "replace-filled": "\u{f69c}",
         "replace-off": "\u{f422}",
+        "replace-user": "\u{100f0}",
         "report": "\u{eece}",
         "report-analytics": "\u{eecb}",
         "report-medical": "\u{eecc}",
@@ -9443,11 +10646,14 @@ public enum TablerIconToken: String {
         "rocket-off": "\u{f193}",
         "roller-skating": "\u{efd1}",
         "rollercoaster": "\u{f0a2}",
+        "rollercoaster-filled": "\u{100f7}",
         "rollercoaster-off": "\u{f423}",
         "rosette": "\u{f599}",
         "rosette-discount": "\u{ee7c}",
         "rosette-discount-check": "\u{f1f8}",
         "rosette-discount-check-filled": "\u{f746}",
+        "rosette-discount-check-off": "\u{ff10}",
+        "rosette-discount-filled": "\u{ff05}",
         "rosette-discount-off": "\u{f3e6}",
         "rosette-filled": "\u{f69d}",
         "rosette-number-0": "\u{f58f}",
@@ -9491,6 +10697,7 @@ public enum TablerIconToken: String {
         "ruler-2-off": "\u{f195}",
         "ruler-3": "\u{f290}",
         "ruler-measure": "\u{f291}",
+        "ruler-measure-2": "\u{ff0f}",
         "ruler-off": "\u{f196}",
         "run": "\u{ec82}",
         "rv-truck": "\u{fcc0}",
@@ -9502,6 +10709,7 @@ public enum TablerIconToken: String {
         "sailboat-2": "\u{f5f7}",
         "sailboat-off": "\u{f425}",
         "salad": "\u{f50a}",
+        "salad-filled": "\u{10007}",
         "salt": "\u{ef16}",
         "sandbox": "\u{fd6c}",
         "satellite": "\u{eed3}",
@@ -9534,6 +10742,8 @@ public enum TablerIconToken: String {
         "script-plus": "\u{f2d8}",
         "script-x": "\u{f2d9}",
         "scuba-diving": "\u{fd4e}",
+        "scuba-diving-tank": "\u{fefa}",
+        "scuba-diving-tank-filled": "\u{ff04}",
         "scuba-mask": "\u{eed4}",
         "scuba-mask-off": "\u{f428}",
         "sdk": "\u{f3af}",
@@ -9542,8 +10752,9 @@ public enum TablerIconToken: String {
         "section": "\u{eed5}",
         "section-filled": "\u{fe09}",
         "section-sign": "\u{f019}",
-        "seeding": "\u{ed51}",
-        "seeding-off": "\u{f19d}",
+        "seedling": "\u{ed51}",
+        "seedling-filled": "\u{10006}",
+        "seedling-off": "\u{f19d}",
         "select": "\u{ec9e}",
         "select-all": "\u{f9f7}",
         "selector": "\u{eb1d}",
@@ -9559,6 +10770,7 @@ public enum TablerIconToken: String {
         "server-bolt": "\u{f320}",
         "server-cog": "\u{f321}",
         "server-off": "\u{f19e}",
+        "server-spark": "\u{ffaf}",
         "servicemark": "\u{ec09}",
         "settings": "\u{eb20}",
         "settings-2": "\u{f5ac}",
@@ -9581,6 +10793,7 @@ public enum TablerIconToken: String {
         "settings-question": "\u{f9ba}",
         "settings-search": "\u{f9bb}",
         "settings-share": "\u{f9bc}",
+        "settings-spark": "\u{ffae}",
         "settings-star": "\u{f9bd}",
         "settings-up": "\u{f9be}",
         "settings-x": "\u{f9bf}",
@@ -9688,6 +10901,7 @@ public enum TablerIconToken: String {
         "signature": "\u{eee0}",
         "signature-off": "\u{f1a5}",
         "sitemap": "\u{eb9d}",
+        "sitemap-filled": "\u{1006b}",
         "sitemap-off": "\u{f1a6}",
         "skateboard": "\u{ecc2}",
         "skateboard-off": "\u{f42b}",
@@ -9723,15 +10937,19 @@ public enum TablerIconToken: String {
         "sort-a-z": "\u{f54f}",
         "sort-ascending": "\u{eb26}",
         "sort-ascending-2": "\u{eee2}",
+        "sort-ascending-2-filled": "\u{ff5b}",
         "sort-ascending-letters": "\u{ef18}",
         "sort-ascending-numbers": "\u{ef19}",
         "sort-ascending-shapes": "\u{fd94}",
+        "sort-ascending-shapes-filled": "\u{ff5a}",
         "sort-ascending-small-big": "\u{fd95}",
         "sort-descending": "\u{eb27}",
         "sort-descending-2": "\u{eee3}",
+        "sort-descending-2-filled": "\u{ff59}",
         "sort-descending-letters": "\u{ef1a}",
         "sort-descending-numbers": "\u{ef1b}",
         "sort-descending-shapes": "\u{fd97}",
+        "sort-descending-shapes-filled": "\u{ff58}",
         "sort-descending-small-big": "\u{fd96}",
         "sort-z-a": "\u{f550}",
         "sos": "\u{f24a}",
@@ -9749,10 +10967,12 @@ public enum TablerIconToken: String {
         "sparkles": "\u{f6d7}",
         "speakerphone": "\u{ed61}",
         "speedboat": "\u{ed93}",
+        "speedboat-filled": "\u{100f6}",
         "sphere": "\u{fab8}",
         "sphere-off": "\u{fab6}",
         "sphere-plus": "\u{fab7}",
         "spider": "\u{f293}",
+        "spider-filled": "\u{10109}",
         "spiral": "\u{f294}",
         "spiral-off": "\u{f42e}",
         "sport-billard": "\u{eee4}",
@@ -9789,6 +11009,7 @@ public enum TablerIconToken: String {
         "square-chevrons-right-filled": "\u{fb3c}",
         "square-chevrons-up": "\u{f64e}",
         "square-chevrons-up-filled": "\u{fb3d}",
+        "square-dashed": "\u{100bb}",
         "square-dot": "\u{ed59}",
         "square-dot-filled": "\u{fb3e}",
         "square-f0": "\u{f526}",
@@ -10045,6 +11266,7 @@ public enum TablerIconToken: String {
         "status-change": "\u{f3b0}",
         "steam": "\u{f24b}",
         "steering-wheel": "\u{ec7b}",
+        "steering-wheel-filled": "\u{ff03}",
         "steering-wheel-off": "\u{f431}",
         "step-into": "\u{ece0}",
         "step-out": "\u{ece1}",
@@ -10053,6 +11275,7 @@ public enum TablerIconToken: String {
         "stethoscope-off": "\u{f432}",
         "sticker": "\u{eb2f}",
         "sticker-2": "\u{fd3d}",
+        "stopwatch": "\u{ff9b}",
         "storm": "\u{f24c}",
         "storm-off": "\u{f433}",
         "stretching": "\u{f2db}",
@@ -10067,23 +11290,32 @@ public enum TablerIconToken: String {
         "sun-electricity": "\u{fcc2}",
         "sun-filled": "\u{f6a9}",
         "sun-high": "\u{f236}",
+        "sun-high-filled": "\u{10108}",
         "sun-low": "\u{f237}",
+        "sun-low-filled": "\u{10107}",
         "sun-moon": "\u{f4a3}",
         "sun-off": "\u{ed63}",
         "sun-wind": "\u{f238}",
         "sunglasses": "\u{f239}",
         "sunglasses-filled": "\u{fec8}",
         "sunrise": "\u{ef1c}",
+        "sunrise-filled": "\u{10106}",
         "sunset": "\u{ec31}",
         "sunset-2": "\u{f23a}",
+        "sunset-2-filled": "\u{10105}",
+        "sunset-filled": "\u{10104}",
         "superscript": "\u{eba0}",
         "svg": "\u{f25a}",
         "swimming": "\u{ec92}",
         "swipe": "\u{f551}",
         "swipe-down": "\u{fd5e}",
+        "swipe-down-filled": "\u{ff57}",
         "swipe-left": "\u{fd5f}",
+        "swipe-left-filled": "\u{ff56}",
         "swipe-right": "\u{fd60}",
+        "swipe-right-filled": "\u{ff55}",
         "swipe-up": "\u{fd61}",
+        "swipe-up-filled": "\u{ff54}",
         "switch": "\u{eb33}",
         "switch-2": "\u{edbf}",
         "switch-3": "\u{edc0}",
@@ -10095,6 +11327,7 @@ public enum TablerIconToken: String {
         "table": "\u{eba1}",
         "table-alias": "\u{f25b}",
         "table-column": "\u{faff}",
+        "table-dashed": "\u{100ba}",
         "table-down": "\u{fa1c}",
         "table-export": "\u{eef8}",
         "table-filled": "\u{f782}",
@@ -10107,10 +11340,15 @@ public enum TablerIconToken: String {
         "table-row": "\u{fb00}",
         "table-share": "\u{fa20}",
         "table-shortcut": "\u{f25d}",
-        "tag": "\u{eb34}",
+        "table-spark": "\u{ffad}",
+        "tag": "\u{10096}",
+        "tag-filled": "\u{ff02}",
+        "tag-minus": "\u{eb34}",
         "tag-off": "\u{efc0}",
+        "tag-plus": "\u{10097}",
         "tag-starred": "\u{fc99}",
         "tags": "\u{ef86}",
+        "tags-filled": "\u{ff01}",
         "tags-off": "\u{efc1}",
         "tallymark-1": "\u{ec46}",
         "tallymark-2": "\u{ec47}",
@@ -10121,6 +11359,9 @@ public enum TablerIconToken: String {
         "target": "\u{eb35}",
         "target-arrow": "\u{f51a}",
         "target-off": "\u{f1ad}",
+        "tax": "\u{feee}",
+        "tax-euro": "\u{fef0}",
+        "tax-pound": "\u{feef}",
         "teapot": "\u{f552}",
         "telescope": "\u{f07d}",
         "telescope-off": "\u{f1ae}",
@@ -10128,8 +11369,10 @@ public enum TablerIconToken: String {
         "temperature-celsius": "\u{eb36}",
         "temperature-fahrenheit": "\u{eb37}",
         "temperature-minus": "\u{ebed}",
+        "temperature-minus-filled": "\u{10103}",
         "temperature-off": "\u{f1af}",
         "temperature-plus": "\u{ebee}",
+        "temperature-plus-filled": "\u{10102}",
         "temperature-snow": "\u{fda3}",
         "temperature-sun": "\u{fda4}",
         "template": "\u{eb39}",
@@ -10140,6 +11383,7 @@ public enum TablerIconToken: String {
         "terminal-2": "\u{ebef}",
         "test-pipe": "\u{eb3a}",
         "test-pipe-2": "\u{f0a4}",
+        "test-pipe-2-filled": "\u{ff53}",
         "test-pipe-off": "\u{f1b1}",
         "tex": "\u{f4e0}",
         "text-caption": "\u{f4a4}",
@@ -10193,6 +11437,10 @@ public enum TablerIconToken: String {
         "timeline-event-plus": "\u{f664}",
         "timeline-event-text": "\u{f665}",
         "timeline-event-x": "\u{f666}",
+        "timezone": "\u{feed}",
+        "tip-jar": "\u{feea}",
+        "tip-jar-euro": "\u{feec}",
+        "tip-jar-pound": "\u{feeb}",
         "tir": "\u{ebf0}",
         "toggle-left": "\u{eb3e}",
         "toggle-left-filled": "\u{fec0}",
@@ -10236,6 +11484,7 @@ public enum TablerIconToken: String {
         "traffic-lights": "\u{ed39}",
         "traffic-lights-off": "\u{f1b9}",
         "train": "\u{ed96}",
+        "train-filled": "\u{100f5}",
         "transaction-bitcoin": "\u{fd6e}",
         "transaction-dollar": "\u{fd6f}",
         "transaction-euro": "\u{fd70}",
@@ -10291,12 +11540,14 @@ public enum TablerIconToken: String {
         "triangles": "\u{f0a5}",
         "trident": "\u{ecc5}",
         "trolley": "\u{f4cc}",
+        "trolley-filled": "\u{100f4}",
         "trophy": "\u{eb45}",
         "trophy-filled": "\u{f6af}",
         "trophy-off": "\u{f438}",
         "trowel": "\u{f368}",
         "truck": "\u{ebc4}",
         "truck-delivery": "\u{ec4b}",
+        "truck-filled": "\u{100f3}",
         "truck-loading": "\u{f1da}",
         "truck-off": "\u{ef03}",
         "truck-return": "\u{ec4c}",
@@ -10308,7 +11559,11 @@ public enum TablerIconToken: String {
         "u-turn-right": "\u{fea1}",
         "ufo": "\u{f26f}",
         "ufo-off": "\u{f26e}",
+        "uhd": "\u{100aa}",
         "umbrella": "\u{ebf1}",
+        "umbrella-2": "\u{ff0e}",
+        "umbrella-closed": "\u{ff0c}",
+        "umbrella-closed-2": "\u{ff0d}",
         "umbrella-filled": "\u{f6b0}",
         "umbrella-off": "\u{f1bb}",
         "underline": "\u{eba2}",
@@ -10318,6 +11573,7 @@ public enum TablerIconToken: String {
         "urgent": "\u{eb48}",
         "usb": "\u{f00c}",
         "user": "\u{eb4d}",
+        "user-bitcoin": "\u{ff30}",
         "user-bolt": "\u{f9d1}",
         "user-cancel": "\u{f9d2}",
         "user-check": "\u{eb49}",
@@ -10377,6 +11633,7 @@ public enum TablerIconToken: String {
         "versions-filled": "\u{f6b1}",
         "versions-off": "\u{f1c0}",
         "video": "\u{ed22}",
+        "video-filled": "\u{1009b}",
         "video-minus": "\u{ed1f}",
         "video-off": "\u{ed20}",
         "video-plus": "\u{ed21}",
@@ -10387,6 +11644,8 @@ public enum TablerIconToken: String {
         "viewfinder": "\u{eb4e}",
         "viewfinder-off": "\u{f1c2}",
         "viewport-narrow": "\u{ebf3}",
+        "viewport-short": "\u{fee9}",
+        "viewport-tall": "\u{fee8}",
         "viewport-wide": "\u{ebf4}",
         "vinyl": "\u{f00d}",
         "vip": "\u{f3b3}",
@@ -10449,6 +11708,8 @@ public enum TablerIconToken: String {
         "webhook": "\u{f01e}",
         "webhook-off": "\u{f43d}",
         "weight": "\u{f589}",
+        "wheat": "\u{100a8}",
+        "wheat-off": "\u{100a9}",
         "wheel": "\u{fc64}",
         "wheelchair": "\u{f1db}",
         "wheelchair-off": "\u{f43e}",
@@ -10469,6 +11730,7 @@ public enum TablerIconToken: String {
         "window-minimize": "\u{f1f2}",
         "window-off": "\u{f1c9}",
         "windsock": "\u{f06d}",
+        "windsock-filled": "\u{1009a}",
         "wiper": "\u{ecab}",
         "wiper-wash": "\u{ecaa}",
         "woman": "\u{eb53}",
@@ -10506,6 +11768,7 @@ public enum TablerIconToken: String {
         "writing-sign": "\u{ef07}",
         "writing-sign-off": "\u{f1cc}",
         "x": "\u{eb55}",
+        "x-power-y": "\u{10072}",
         "xbox-a": "\u{f2b6}",
         "xbox-a-filled": "\u{fdcb}",
         "xbox-b": "\u{f2b7}",
@@ -10567,6 +11830,7 @@ public enum TablerIconToken: String {
         "zzz-off": "\u{f440}",
         
         // Aliases
+        
         "oneTwoThree": "\u{f554}",
         "threeSixty": "\u{f62f}",
         "code-asterix": "\u{f312}",
@@ -10616,7 +11880,12 @@ public enum TablerIconToken: String {
         "square-8": "\u{eeed}",
         "square-9": "\u{eeee}",
         "message-circle-2": "\u{eaed}",
+        "mood-suprised": "\u{ec04}",
+        "circle-dashed-letter-letter-v": "\u{ff84}",
+        "seeding": "\u{ed51}",
+        "seeding-off": "\u{f19d}",
         "discount-check-filled": "\u{f746}",
         "message-circle-2-filled": "\u{fecf}",
+        "seeding-filled": "\u{10006}",
     ]
 }
